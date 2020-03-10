@@ -5,15 +5,21 @@ include::../config/_feedback.adoc[]
 
 // tag::DE[]
 |===
-| Dauer: XXX Min. | Übungszeit: XXX Min.
+| Dauer: 60 Min. | Übungszeit: keine
 |===
 
 Dieser Abschnitt ist nicht prüfungsrelevant.
 
 === Begriffe und Konzepte
-Innerhalb jeder lizenzierten Schulung muss mindestens ein Beispiel für {curriculum-short} vorgestellt werden.
+Innerhalb jeder akkreditierten Schulung müssen es konrkete Beispiele für unterschiedliche Bereiche von Web-Architekturen vorgestellt, besprochen und bewertet werden:
+
+  * Umgang mit Infrastruktur und insbesondere Reverse-Proxies.
+  * Ein grobes Muster einer Web-Backend-Applikation.
+  * Ein oder mehrere Beispiele für Single-Page-Framework Features wie Data-Binding oder Client-Side-Routing.
+  * Beispiele für unterschiedliche Datenbank-Modelle.
 
 Art und Ausprägung der vorgestellten Beispiele können von der Schulung bzw. den Interessen der Teilnehmer abhängen und werden seitens iSAQB nicht vorgegeben.
+
 // end::DE[]
 
 

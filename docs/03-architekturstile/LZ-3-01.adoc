@@ -1,0 +1,57 @@
+// tag::FEEDBACK[]
+:filename: 03-architekturstile/LZ-3-01.adoc
+include::../config/_feedback.adoc[]
+// end::FEEDBACK[]
+
+// tag::DE[]
+[[LZ-3-1]]
+//==== LZ 3-1: Dies ist das erste Lernziel in Kapitel 3, das mit xyz
+
+- Was sollen die Teilnehmer können?
+  * Die Teilnehmer können erklären, wie sich der REST-Stil vom Stateful-Backend-Architekturstil unterscheidet.
+  * Die Teilnehmer können verschiedene Web-Architektur-Stile unterscheiden und bewusst auswählen, welcher für eine Menge von gegebenen Anforderungen und Rahmenbedingun-gen der sinnvollste ist.
+  *	Die Teilnehmer können für ein auch potentiell ihnen unbekanntes Framework bewerten, wie gut es für die Realisierung von Web-Anwendungen gemäß den Anforderungen geeignet ist.
+  * Die Teilnehmer können verschiedene Architekturstile von Web-Architekturen erläutern und entsprechende Systeme entwerfen:
+    ** REST-konforme Web-Anwendungen
+    ** Stateful-Backend-Anwendungen (beispielsweise Komponenten-Orientrierte Ansätze).
+
+- Was sollen die Teilnehmer verstehen?
+  * Die Teilnehmer verstehen die Einschränkungen, die der Architekturstil REST auf den Ent-wurf eines Systems mit sich bringt:
+    ** Identifizierbare Ressourcen
+    ** Uniforme Schnittstelle
+    ** Zustandslose Kommunikation
+    ** Repräsentationen
+    ** Hypermedia.
+  * Die Teilnehmer verstehen die Einschränkungen, die Stateful-Backend-Architekturen auferlegen:
+    ** Kommunikation läuft immer gegen dieselbe Server-Instanz.
+    ** Bei Komponenten-Orientierten Ansätzen enthalten die Requests in der Regel ein Kommando oder einen Diskriminator, der entscheidet, welche Komponente für die Verarbeitung zuständig ist. In der Regel sind diese Dispatch-Informationen hart kodiert oder im Hauptspeicher (in der Session) abgelegt.
+  * Die Teilnehmer verstehen, dass, gleichgültig welcher Architekturstil gewählt ist, der Kern der Fachlichkeit, also beispielsweise sicherheits- und funktionsrelevante Prüfungen oder Berechnungen, stets im Server realisiert werden muss.
+  * Die Teilnehmer verstehen, wie sich die Reaktionsfreudigkeit von Web-Applikationen über Funktionalität im Client, also über JavaScript im Client (z. B. in Verbindung mit AJAX),  verbessern lässt.  
+  * Die Teilnehmer verstehen die Standard-Features von Single-Page-Frameworks:
+    ** Databinding (Two-Way und One-Way)
+    ** Templating
+    ** Clientseitiges Routing
+    ** Komponenten-Abstraktion
+  * Die Teilnehmer verstehen, dass sich mit WebComponents (CustomElements + Shadow-DOM) stark von der Seite isolierte, eigenständige JavaScript-Komponenten entwickeln lassen, die sich per DOM instanziieren lassen.
+
+- Was sollen die Teilnehmer kennen?
+  * Die  Teilnehmer kennen Mechanismen langlaufende Transaktionen mit entspre-chenden Status-Codes anzunehmen und über geeignete Mechanismen das Ergebnis zu melden, sobald es vorliegt.
+  * Die Teilnehmer kennen die Auswirkungen von mobilen Clients: 
+    ** stark unterschiedliche Bandbreiten
+    ** schwankende teilweise sehr hohe Latenz.
+  * Die Teilnehmer wissen, dass mobile Clients teilweise reduzierte Leistungsfähigkeit im Bezug auf Hauptspeicher und CPU besitzen.
+  * Die Teilnehmer wissen, dass Ressourcen von mobilen Clients gerade im Hinblick auf limitierte Energiekapazitäten der Endgeräte zu schonen sind.
+// end::DE[]
+
+// tag::EN[]
+[[LG-3-1]]
+==== LG 3-1: TBD
+tbd.
+// end::EN[]
+
+// tag::REMARK[]
+[NOTE]
+====
+Die einzelnen Lernziele müssen nicht als einfache Aufzählungen mit Unterpunkten aufgeführt werden, sondern können auch gerne in ganzen Sätzen formuliert werden, welche die einzelnen Punkte (sofern möglich) integrieren.
+====
+// end::REMARK[]

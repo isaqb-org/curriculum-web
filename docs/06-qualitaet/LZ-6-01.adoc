@@ -1,0 +1,51 @@
+// tag::FEEDBACK[]
+:filename: 06-qualitaet/LZ-6-01.adoc
+include::../config/_feedback.adoc[]
+// end::FEEDBACK[]
+
+// tag::DE[]
+[[LZ-6-1]]
+//==== LZ 5-1: Dies ist das erste Lernziel in Kapitel 5, lorem ipsum sit dolor
+
+- Was sollen die Teilnehmer verstehen?
+  * Die Teilnehmer verstehen die Grundlagen der Risikoanalyse und Bedrohungsmodellierung.
+  *	Die Teilnehmer verstehen die Prinzipien für ein sicheres Software-Design:
+    ** Principle of Least Privilege: gib Benutzern und Komponenten nur so viele Rechte, wie sie unbedingt benötigen.
+    ** Defense in Depth: vertraue nicht darauf, dass andere Sicherheitsmaßnahmen funktioniert haben – verwende redundante Prüfungen.
+    ** Secure by Default: Rechte müssen explizit erteilt werden.
+    ** Don’t trust anybody: Benutzereingaben und Daten externer Quellen müssen validiert werden.
+    ** Compartmentalize: Trenne Komponenten, die verschiedene Rechte benötigen voneinander.
+    ** Fail securely: Falls Fehler auftreten, dürfen keine sicherheitsrelevanten Informationen preisgegeben werden.
+  *	Die Teilnehmer verstehen, dass die Anzahl der Zugriffe im Internet sprunghaft über alle erwarteten Maße hinaus steigen kann.
+  *	Die Teilnehmer verstehen, dass Backend-Systeme (wie z.B. Datenbanken oder Enterprise Informationssysteme) leicht unter Last geraten, wenn die Anzahl der Requests steigt, weil häufig ein Request zu einer Menge von Anfragen ans Backend führt.
+  *	Die Teilnehmer verstehen, dass sich mit verschiedenen Persistenzstrategien (z.B. Relational, Aggregat/Dokumenten-orientiert, Spalten-orientiert, Hierarchisch, Objektorientiert, Graphenorientiert) verschiedene Nutzungsszenarien unterschiedlich gut unterstützen lassen.
+  *	Die Teilnehmer verstehen, dass die Qualität sowohl von der Angemessenheit der ausgewählten Technologie als auch von der konkreten Implementierung abhängen.
+  *	Die Teilnehmer verstehen, dass Internationalisierung mehr bedeutet, als Inhalte in verschiedenen Sprachen anzubieten.  Etwa
+    ** Formate für Zahlen oder Datumsangaben oder die Reihenfolge, in der Worte sortiert werden, hängen vom Kulturkreis ab.
+    ** Schriftrichtungen können sich unterscheiden.
+    ** Layouts müssen berücksichtigen, dass Texte in verschiedenen Sprachen unterschiedlich viel Platz beanspruchen.
+    ** Die rechtlichen Rahmenbedingungen in unterschiedlichen Staaten müssen berücksichtigt werden.
+    ** Kulturelle Unterschiede wirken sich beispielsweise auf die Wahl von Farben aus.
+
+- Was sollen die Teilnehmer kennen?
+  * Die Teilnehmer kennen die wesentlichen Kennzahlen, die für den Betrieb einer Web-Anwendung relevant sind:
+    ** Anzahl von Prozessen / Threads
+    ** RAM-Verbrauch
+    ** Durchschnittlicher Ressourcenverbauch pro Request
+    ** Anzahl offener Connections
+    ** Durchschnittliche Antwortzeit
+
+// end::DE[]
+
+// tag::EN[]
+[[LG-5-1]]
+==== LG 5-1: TBD
+tbd.
+// end::EN[]
+
+// tag::REMARK[]
+[NOTE]
+====
+Die einzelnen Lernziele müssen nicht als einfache Aufzählungen mit Unterpunkten aufgeführt werden, sondern können auch gerne in ganzen Sätzen formuliert werden, welche die einzelnen Punkte (sofern möglich) integrieren.
+====
+// end::REMARK[]

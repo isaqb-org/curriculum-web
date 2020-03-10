@@ -8,17 +8,10 @@ include::../config/_feedback.adoc[]
 
 Teilnehmerinnen und Teilnehmer **sollten** folgende Kenntnisse und/oder Erfahrung mitbringen:
 
-- Voraussetzung 1
-- Voraussetzung 2, etc.
+- CPSA-F und alle damit verbundenen Voraussetzungen
+- Erfahrungen mit verteilten Systemen – idealerweise Web-Anwendungen
+- Grundkenntnisse in Web-Technologien HTML, CSS, JavaScript sowie mindestens ein serverseitiges Framework
 
-**Hilfreich** für das Verständnis einiger Konzepte sind darüber hinaus:
-
-- Kenntnisgruppe 1:
-  * Kenntnis 1
-  * Erfahrung 2
-  * Kenntnis 3
-  * Erfahrung 4
-  * Wissen 5
 // end::DE[]
 
 // tag::EN[]

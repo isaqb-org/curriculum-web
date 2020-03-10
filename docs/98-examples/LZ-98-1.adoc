@@ -5,7 +5,7 @@ include::../config/_feedback.adoc[]
 
 // tag::DE[]
 [[LZ-98-1]]
-==== LZ 98-1: Dies ist das letzte Lernziel des Lehrplans
+//==== LZ 98-1: Dies ist das letzte Lernziel des Lehrplans
 - Was sollen die Teilnehmer können?
    * Fähigkeit 1
    * Fähigkeit 2

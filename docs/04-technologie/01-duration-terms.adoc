@@ -1,17 +1,15 @@
 // tag::FEEDBACK[]
-:filename: 01-module-block-1/01-duration-terms.adoc
+:filename: 04-technologie/01-duration-terms.adoc
 include::../config/_feedback.adoc[]
 // end::FEEDBACK[]
 
 // tag::DE[]
 |===
-| Dauer: XXX Min. | Übungszeit: XXX Min.
+| Dauer: 180 Min. | Übungszeit: 60 Min.
 |===
 
 === Begriffe und Konzepte
-* Begriff 1
-* Begriff 2
-* Begriff 3
+* Client, Server, Proxy, Reverse-Proxy, Content Delivery Networks/CDN, Lastverteilung/Load Balancing, CGI
 
 // end::DE[]
 
@@ -25,7 +23,6 @@ include::../config/_feedback.adoc[]
 * Term 2
 * Term 3
 // end::EN[]
-
 
 // tag::REMARK[]
 [NOTE]

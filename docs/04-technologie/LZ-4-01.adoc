@@ -1,0 +1,56 @@
+// tag::FEEDBACK[]
+:filename: 04-technologie/LZ-4-01.adoc
+include::../config/_feedback.adoc[]
+// end::FEEDBACK[]
+
+// tag::DE[]
+[[LZ-4-1]]
+//==== LZ 4-1: Dies ist das erste Lernziel in Kapitel 4, das mit xyz
+
+- Was sollen die Teilnehmer können?
+  * Die Teilnehmer können serverseitige Web-Anwendungen so entwerfen, dass sie die Infrastruktur effektiv einsetzen.
+  *	Die Teilnehmer können das Laufzeitverhalten eines Systems durch den gezielten Einsatz von Reverse Proxies verbessern.
+  * Die Teilnehmer können verschiedene Intermediaries benennen und ihre Auswirkungen auf die Architektur erklären.
+    ** Proxies speichern Responses für den Client, hierfür sieht das HTTP-Protokoll explizite Regeln vor.
+    ** Reverse Proxies sind Proxies auf der Server-Seite und fungieren als Caches für die Web-Applikation.
+    ** Load Balancer verteilen Anfragen auf Server-Seite auf unterschiedliche Server.
+  * Die Teilnehmer kennen verschiedene Skalierungsstrategien (horizontal sowie vertikal) und können die geeignete Skalierungsstrategie auswählen.
+    ** Vertikale Skalierung durch leistungsfähigere Hardware.
+    ** Vertikale Skalierung dadurch, dass verschiedene Komponenten – etwa Web- und Applikationsserver – auf getrennten Infrastruktur-Komponenten verteilt werden.
+    ** Vertikale Skalierung durch Cluster-Lösungen, die simulieren, dass eine Applikation nur auf einem Knoten läuft, obwohl es mehrere Server-Knoten zur Ausführung gibt.
+    ** Horizontale Skalierung dadurch, dass ein Server-System dupliziert und die Last möglichst zufällig und gleichmäßig auf die vorhandenen Server verteilt wird. Dieses Verfahren muss für horizontale Skalierung potentiell unendlich fortsetzbar sein.
+
+- Was sollen die Teilnehmer verstehen?
+  * Die Teilnehmer verstehen, dass Caching die Last auf den Server-Systemen reduzieren kann.
+  * Die Teilnehmer verstehen, wie Daten vieler Web-Anwendungen für wenige Benutzer (Client- oder auch Forward-Proxy) oder vieler Benutzer für wenige Web-Anwendungen (Reverse-Proxy) bereitgestellt werden können.
+  * Die Teilnehmer verstehen, wie Zugriffe auf Ressourcen durch Proxies kontrolliert werden können.
+  * Die Teilnehmer verstehen, wie mittels Reverse-Proxy Authentifizierungsschemata (beispielsweise von Form-based auf Basic-Auth.) umgeschrieben werden können.
+  * Die Teilnehmer sollten verstehen, welche Infrastruktur-Komponenten im Request-/Response-Zyklus Einfluss auf den Datendurchsatz und die Latenzzeit haben.
+  * Die Teilnehmer sollten verstehen, wie Browser-Clients Ressourcen laden und insbesondere HTML-Seiten auswerten und referenzierte Ressourcen anfragen. 
+  * Die Teilnehmer verstehen, wie das Auslagern von Ressourcen in ein Content Delivery Network (CDN) hilft, die eigene Infrastruktur zu entlasten.
+  * Die Teilnehmer verstehen, dass nicht alle Web-Browser die Standards in gleichem Umfang unterstützen.
+  * Die Teilnehmer verstehen, dass sich die verschiedenen Web-Server im Bezug auf den Ressourcenverbrauch teilweise stark unterscheiden
+
+- Was sollen die Teilnehmer kennen?
+  * Die Teilnehmer kennen verschiedene Standard-Mechanismen, mit denen Web-Server um Applikationslogik erweitert werden können (CGI, Servlets, ...).
+  * Die Teilnehmer kennen verschiedene Ansätze zur Lastverteilung einer Web-Applikation (z.B. DNS-basierte Load-Balancer oder Proxies).
+  * Die Teilnehmer kennen mit Graceful Degradation und Progressive Enhancement verschiedene Strategien, die Oberfläche an die Fähigkeiten des Web-Browsers anzupassen.
+  * Die Teilnehmer kennen sowohl für CSS als auch für JavaScript Frameworks, die die Entwicklung erleichtern können.
+  * Die Teilnehmer wissen, dass unter HTML5 diverse Technologiepakete zusammengefasst werden, die neben neuen Strukturen für HTML auch neue APIs für JavaScript enthalten.
+  * Die Teilnehmer kennen die Bedeutung von unobtrusive JavaScript: Darunter werden Prinzipien und Praktiken zusammengefasst, die Inhalte und Verhalten deutlich voneinander trennen.
+  * Die Teilnehmer kennen die Funktionsweise von Web-Firewalls und wissen gegen welche Arten von Angriffen diese schützen.
+
+// end::DE[]
+
+// tag::EN[]
+[[LG-4-1]]
+==== LG 4-1: TBD
+tbd.
+// end::EN[]
+
+// tag::REMARK[]
+[NOTE]
+====
+Die einzelnen Lernziele müssen nicht als einfache Aufzählungen mit Unterpunkten aufgeführt werden, sondern können auch gerne in ganzen Sätzen formuliert werden, welche die einzelnen Punkte (sofern möglich) integrieren.
+====
+// end::REMARK[]

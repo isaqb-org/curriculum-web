@@ -4,7 +4,7 @@
 
 
 // tag::DE[]
-== Lerneinheit 5
+== Entwurf von Web-Architekturen
 // end::DE[]
 
 // tag::EN[]
@@ -17,7 +17,6 @@ include::01-duration-terms.adoc[{include_configuration}]
 === {learning-goals}
 
 include::LZ-5-01.adoc[{include_configuration}]
-include::LZ-5-02.adoc[{include_configuration}]
 
 // references (if any!)
 include::references.adoc[{include_configuration}]

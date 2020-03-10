@@ -13,29 +13,32 @@ include::../config/_feedback.adoc[]
 | Empfohlene Mindestdauer (min)
 
 
-| 1. Thema mit Einleitung
+| 1. Grundlagen
+| 90
+
+| 2. Protokolle und Standards
+| 90
+
+| 3. Architekturstile
 | 180
 
-| 2. Thema über xz
-| 150
+| 4. Technologie und Infrastruktur
+| 240
 
-| 3. Thema mit viel Theorie
-| 120
+| 5. Entwurf von Web-Architekturen
+| 300
 
-| 4. Thema mit xy und Beispiel
+| 6. Qualität in Web-Architekturen
 | 180
 
-| 5. Thema mit abc und d
-| 210
-
-| 6. Thema mit Abschlussbeispiel
-| 120
+| 7. Beispielarchitekturen
+| 60
 
 |
 |
 
 | Summe
-| 960 (16h)
+| 1140 (19h)
 
 |===
 

@@ -1,17 +1,15 @@
 // tag::FEEDBACK[]
-:filename: 02-module-block-2/01-duration-terms.adoc
+:filename: 05-entwurf/01-duration-terms.adoc
 include::../config/_feedback.adoc[]
 // end::FEEDBACK[]
 
 // tag::DE[]
 |===
-| Dauer: XXX Min. | Übungszeit: XXX Min.
+| Dauer: 180 Min. | Übungszeit: 120 Min.
 |===
 
 === Begriffe und Konzepte
-* Begriff 1
-* Begriff 2
-* Begriff 3
+* Datenmodellierung, Funktionale Zerlegung, Repräsentationm, Verteiltes System, CAP-Theorem, ACID, Sicherheit von Web-Applikationen, Authentifizierung, Auto-risierung, Barrierefreiheit/Accessibility, Internationalisierung/Lokalisierung, HTML, CSS, JavaScript, Trennen von Inhalt, Präsentation und Verhalten, Graceful Degradation, Progressive Enhancement, unobtrusive JavaScript.
 
 // end::DE[]
 

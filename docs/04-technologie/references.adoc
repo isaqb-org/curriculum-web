@@ -1,0 +1,33 @@
+// tag::FEEDBACK[]
+:filename: 04-technologie/references.adoc
+include::../config/_feedback.adoc[]
+// end::FEEDBACK[]
+
+// tag::DE[]
+=== {references}
+- [Kopparapu 2002]
+- [ESI]
+- [Waldo+1994] 
+- [Buschmann+1996]
+- [Brewer 2004]
+- [Daswani+2007]
+- [Stoneburner+2004]
+- [OWASP]
+- [HTML5-SSE] 
+- [Websockets] 
+- [WCAG 2008]
+- [BITV 2011]
+- [W3C-Int]
+- [Pritchett-2008]
+
+// end::DE[]
+
+// tag::EN[]
+=== {references}
+- Reference 1
+- Reference 2
+// end::EN[]
+
+
+// tag::REMARK[]
+// end::REMARK[]

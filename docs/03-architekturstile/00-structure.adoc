@@ -1,14 +1,14 @@
-// header file for curriculum section 4: Lerneinheit 2
+// header file for curriculum section 3: Lerneinheit 3
 // (c) iSAQB e.V. (https://isaqb.org)
 // ====================================================
 
 
 // tag::DE[]
-== Lerneinheit 2
+== Architekturstile
 // end::DE[]
 
 // tag::EN[]
-== Lesson 2
+== Lesson 3
 // end::EN[]
 
 include::01-duration-terms.adoc[{include_configuration}]
@@ -16,8 +16,7 @@ include::01-duration-terms.adoc[{include_configuration}]
 
 === {learning-goals}
 
-include::LZ-2-01.adoc[{include_configuration}]
-include::LZ-2-02.adoc[{include_configuration}]
+include::LZ-3-01.adoc[{include_configuration}]
 
 // references (if any!)
-include::references.adoc[{include_configuration}]
+//include::references.adoc[{include_configuration}]

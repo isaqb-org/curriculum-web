@@ -1,5 +1,5 @@
 // tag::FEEDBACK[]
-:filename: 02-module-block-2/references.adoc
+:filename: 03-architekturstile/references.adoc
 include::../config/_feedback.adoc[]
 // end::FEEDBACK[]
 

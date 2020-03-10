@@ -1,17 +1,15 @@
 // tag::FEEDBACK[]
-:filename: 05-module-block-5/01-duration-terms.adoc
+:filename: 01-grundlagen/01-duration-terms.adoc
 include::../config/_feedback.adoc[]
 // end::FEEDBACK[]
 
 // tag::DE[]
 |===
-| Dauer: XXX Min. | Übungszeit: XXX Min.
+| Dauer: 90 Min. | Übungszeit: keine
 |===
 
 === Begriffe und Konzepte
-* Begriff 1
-* Begriff 2
-* Begriff 3
+* Web-Browser, Web-Server, Client, Server, Proxy, Request, Response, Barrierefreiheit, Basic-Auth, Intranet vs. Internet, Redirect, TLS
 
 // end::DE[]
 
@@ -25,6 +23,7 @@ include::../config/_feedback.adoc[]
 * Term 2
 * Term 3
 // end::EN[]
+
 
 // tag::REMARK[]
 [NOTE]
