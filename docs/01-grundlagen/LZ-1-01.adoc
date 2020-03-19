@@ -8,16 +8,18 @@ include::../config/_feedback.adoc[]
 //==== LZ 1-1: Dies ist das erste Lernziel, in Kategorie xy
 In diesem Abschnitt sollen technologieunabhängig Konzepte aus dem Web-Umfeld behandelt werden.
 
-- Was sollen die Teilnehmer können?
-   * Die Teilnehmer können den typischen Request-/Response-Verlauf erläutern, der bei der Eingabe einer Adresse in der Adresszeile des Browsers bzw. beim Absenden eines Formulars abläuft.
-   * Teilnehmer können den Request-/Response-Verlauf auf typische Komponenten im Web-Umfeld abbilden: Client, Server, Proxy, Reverse Proxy, Load-Balancer, DNS-Server, Framework, eigene Applikationslogik (Servlet, PHP-Script, Rails-Controller).
-   * Die Teilnehmer können den Unterschied zwischen GET und POST-Request erläutern.
-   * Die Teilnehmer können schematisch die typische Client-Server-Infrastruktur von Web-Architekturen skizzieren.
-   * Teilnehmer können den allgemeinen Aufbau von HTTP-Requests erläutern: Header (mit Hostname, Content-Type usw.), Content.
-   * Teilnehmer können den allgemeinen Aufbau von HTTP-Responses erläutern: Response mit Statuszeile, Header und Content.
-   * Die Teilnehmer können den Aufbau einer URI erläutern und die Komponenten in der Request-Verarbeitung, die tendenziell dafür zuständig sind, sie zu interpretieren. 
+**Was sollen die Teilnehmer können?**
 
-- Was sollen die Teilnehmer verstehen?
+  * Die Teilnehmer können den typischen Request-/Response-Verlauf erläutern, der bei der Eingabe einer Adresse in der Adresszeile des Browsers bzw. beim Absenden eines Formulars abläuft.
+  * Teilnehmer können den Request-/Response-Verlauf auf typische Komponenten im Web-Umfeld abbilden: Client, Server, Proxy, Reverse Proxy, Load-Balancer, DNS-Server, Framework, eigene Applikationslogik (Servlet, PHP-Script, Rails-Controller).
+  * Die Teilnehmer können den Unterschied zwischen GET und POST-Request erläutern.
+  * Die Teilnehmer können schematisch die typische Client-Server-Infrastruktur von Web-Architekturen skizzieren.
+  * Teilnehmer können den allgemeinen Aufbau von HTTP-Requests erläutern: Header (mit Hostname, Content-Type usw.), Content.
+  * Teilnehmer können den allgemeinen Aufbau von HTTP-Responses erläutern: Response mit Statuszeile, Header und Content.
+  * Die Teilnehmer können den Aufbau einer URI erläutern und die Komponenten in der Request-Verarbeitung, die tendenziell dafür zuständig sind, sie zu interpretieren. 
+
+**Was sollen die Teilnehmer verstehen?**
+
   * Die Teilnehmer verstehen, dass sich hinter dem Oberbegriff Web-Applikation sowohl technisch als auch fachlich grundlegend verschiedene Arten von IT-Systemen verbergen können, die verschiedene Architekturen erfordern
   * Die Teilnehmer verstehen, dass Web-Applikationen nicht auf die Verwendung durch Browser beschränkt sind, sondern können auch durch andere Clients genutzt werden
   * Die Teilnehmer verstehen den Unterschied zwischen inhaltlicher bzw. struktureller und darstellungsspezifischer Auszeichnung von Inhalten im Sinne der Separation of Concerns.
@@ -27,7 +29,8 @@ In diesem Abschnitt sollen technologieunabhängig Konzepte aus dem Web-Umfeld be
   * Die Teilnehmer verstehen, dass Hypermedia dazu dient Ressourcen miteinander in Verbindung zu setzten.
   * Die Teilnehmer verstehen das Konzept von Präprozessoren zur Übersetzung einer Sprache in eine andere bzw. zur Einbettung von Abhängigkeiten oder zur Erkennung toter Code-Blöcke.
 
-- Was sollen die Teilnehmer kennen?
+**Was sollen die Teilnehmer kennen?**
+
   * Die Teilnehmer wissen, dass rechtliche Rahmenbedingungen barrierefreie Oberflächen verlangen können. Z. B. formuliert die „Verordnung zur Schaffung barrierefreier Informationstechnik nach dem Behindertengleichstellungsgesetz“ etwa konkrete Anforderungen, die von allen Web-Seiten der Bundesverwaltung der Bundesrepublik Deutschland umgesetzt werden müssen.
   * Die Teilnehmer kennen einige  der Techniken, die zu barrierefreien Inhalten führen, sorgen gleichzeitig dafür, dass diese Inhalte auch leichter maschinell verarbeitet werden können.
   * Die Teilnehmer kennen verschiedene Charakteristika von Web-Frameworks:

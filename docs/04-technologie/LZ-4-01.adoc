@@ -7,7 +7,8 @@ include::../config/_feedback.adoc[]
 [[LZ-4-1]]
 //==== LZ 4-1: Dies ist das erste Lernziel in Kapitel 4, das mit xyz
 
-- Was sollen die Teilnehmer können?
+**Was sollen die Teilnehmer können?**
+
   * Die Teilnehmer können serverseitige Web-Anwendungen so entwerfen, dass sie die Infrastruktur effektiv einsetzen.
   *	Die Teilnehmer können das Laufzeitverhalten eines Systems durch den gezielten Einsatz von Reverse Proxies verbessern.
   * Die Teilnehmer können verschiedene Intermediaries benennen und ihre Auswirkungen auf die Architektur erklären.
@@ -20,7 +21,8 @@ include::../config/_feedback.adoc[]
     ** Vertikale Skalierung durch Cluster-Lösungen, die simulieren, dass eine Applikation nur auf einem Knoten läuft, obwohl es mehrere Server-Knoten zur Ausführung gibt.
     ** Horizontale Skalierung dadurch, dass ein Server-System dupliziert und die Last möglichst zufällig und gleichmäßig auf die vorhandenen Server verteilt wird. Dieses Verfahren muss für horizontale Skalierung potentiell unendlich fortsetzbar sein.
 
-- Was sollen die Teilnehmer verstehen?
+**Was sollen die Teilnehmer verstehen?**
+
   * Die Teilnehmer verstehen, dass Caching die Last auf den Server-Systemen reduzieren kann.
   * Die Teilnehmer verstehen, wie Daten vieler Web-Anwendungen für wenige Benutzer (Client- oder auch Forward-Proxy) oder vieler Benutzer für wenige Web-Anwendungen (Reverse-Proxy) bereitgestellt werden können.
   * Die Teilnehmer verstehen, wie Zugriffe auf Ressourcen durch Proxies kontrolliert werden können.
@@ -31,7 +33,8 @@ include::../config/_feedback.adoc[]
   * Die Teilnehmer verstehen, dass nicht alle Web-Browser die Standards in gleichem Umfang unterstützen.
   * Die Teilnehmer verstehen, dass sich die verschiedenen Web-Server im Bezug auf den Ressourcenverbrauch teilweise stark unterscheiden
 
-- Was sollen die Teilnehmer kennen?
+**Was sollen die Teilnehmer kennen?**
+
   * Die Teilnehmer kennen verschiedene Standard-Mechanismen, mit denen Web-Server um Applikationslogik erweitert werden können (CGI, Servlets, ...).
   * Die Teilnehmer kennen verschiedene Ansätze zur Lastverteilung einer Web-Applikation (z.B. DNS-basierte Load-Balancer oder Proxies).
   * Die Teilnehmer kennen mit Graceful Degradation und Progressive Enhancement verschiedene Strategien, die Oberfläche an die Fähigkeiten des Web-Browsers anzupassen.

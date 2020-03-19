@@ -7,7 +7,8 @@ include::../config/_feedback.adoc[]
 [[LZ-6-1]]
 //==== LZ 5-1: Dies ist das erste Lernziel in Kapitel 5, lorem ipsum sit dolor
 
-- Was sollen die Teilnehmer verstehen?
+**Was sollen die Teilnehmer verstehen?**
+
   * Die Teilnehmer verstehen die Grundlagen der Risikoanalyse und Bedrohungsmodellierung.
   *	Die Teilnehmer verstehen die Prinzipien für ein sicheres Software-Design:
     ** Principle of Least Privilege: gib Benutzern und Komponenten nur so viele Rechte, wie sie unbedingt benötigen.
@@ -27,7 +28,8 @@ include::../config/_feedback.adoc[]
     ** Die rechtlichen Rahmenbedingungen in unterschiedlichen Staaten müssen berücksichtigt werden.
     ** Kulturelle Unterschiede wirken sich beispielsweise auf die Wahl von Farben aus.
 
-- Was sollen die Teilnehmer kennen?
+**Was sollen die Teilnehmer kennen?**
+
   * Die Teilnehmer kennen die wesentlichen Kennzahlen, die für den Betrieb einer Web-Anwendung relevant sind:
     ** Anzahl von Prozessen / Threads
     ** RAM-Verbrauch

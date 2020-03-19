@@ -7,14 +7,16 @@ include::../config/_feedback.adoc[]
 [[LZ-5-1]]
 //==== LZ 5-1: Dies ist das erste Lernziel in Kapitel 5, lorem ipsum sit dolor
 
-- Was sollen die Teilnehmer können?
+**Was sollen die Teilnehmer können?**
+
   * Die Teilnehmer können die Belange Repräsentation, Formatierung und Interaktion klar im Markup unterscheiden und beim Entwurf von Web-Anwendungen berücksichtigen (Separation of Concerns).
   * Die Teilnehmer können verschiedene Aufgaben der Client-Oberfläche Formaten aus dem Kanon der Web-Standards zuordnen:
     ** HTML liefert die Strukturdaten
     ** CSS legt die Präsentation fest. Selektoren wählen dabei Elemente aus der HTML-Struktur und weisen ihnen Präsentationseigenschaften zu.
     ** JavaScript steuert das Verhalten, verleiht über Event-Handler Interaktivität und ermöglicht asynchrone Serverkommunikation (AJAX).
 
-- Was sollen die Teilnehmer verstehen?
+**Was sollen die Teilnehmer verstehen?**
+
   * Die Teilnehmer verstehen die Notwendigkeit von Regeln, die beim Einsatz von Request-Response-Frameworks sicherstellen, dass nur erwünschte Funktionalitäten in den Views/Templates implementiert werden. 
   * Die Teilnehmer verstehen, dass sich die Reaktionsfähigkeit des Systems durch geeigneten Einsatz von asynchroner Verarbeitung oft verbessern lässt.
   * Die Teilnehmer verstehen die grundsätzliche Aussage des CAP-Theorems und wissen, dass zwischen Skalierbarkeit/Verfügbarkeit/Verteiltheit und Konsistenz/Aktualität der Daten ein Kompromiss gesucht werden muss.
@@ -30,7 +32,8 @@ include::../config/_feedback.adoc[]
   * Die Teilnehmer verstehen, dass sich für lang laufende Prozesse Integrationsmuster wie Messaging für eine lose Kopplung der Web-Applikation an eine Hintergrundverarbeitung anbieten. 
   * Die Teilnehmer verstehen, dass jede Anwendung, die aus öffentlichen Netzen erreichbar ist, angegriffen wird.
 
-- Was sollen die Teilnehmer kennen?
+**Was sollen die Teilnehmer kennen?**
+
   * Die Teilnehmer  kennen die Muster Command-Query-Separation, CQS, und Command-Query-Responsibility-Separation, CQRS, um sowohl funktionale als auch die nicht-funktionale Anforderungen gezielt zu erfüllen.
   * Die Teilnehmer wissen, dass es sich bei der Consistency aus „ACID“ um eine andere Konsistenz handelt als bei der Consistency aus CAP.
   * Die Teilnehmer kennen die Grundmechanismen, mit denen im eigenen Technologieportfolio SQL-Injection, Cross-Site-Scripting (XSS) und Client-Side-Request-Forgery (CSRF) verhindert werden.

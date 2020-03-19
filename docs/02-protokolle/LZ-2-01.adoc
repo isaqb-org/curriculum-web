@@ -7,13 +7,15 @@ include::../config/_feedback.adoc[]
 [[LZ-2-1]]
 //==== LZ 2-1: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 
-- Was sollen die Teilnehmer können?
+**Was sollen die Teilnehmer können?**
+
    * Die Teilnehmer können Software-Systeme so entwerfen, dass sie an den Schnittstellen die im World Wide Web gebräuchlichen Protokolle effektiv und ressourcenschonend einsetzen.
    * Die Teilnehmer können gezielt HTTP-Header verwenden, um der Intrastruktur das Caching zu ermöglichen.
    * Die Teilnehmer können benennen, welche HTTP-Header sich auf Caching beziehen und wie sich diese auswirken (Stichwort Validierung vs. Verfallszeitstempel).
    * Die Teilnehmer können den Unterschied zwischen den Rollen, die HTML, CSS und JavaScript im Browser spielen erklären.
 
-- Was sollen die Teilnehmer verstehen?
+**Was sollen die Teilnehmer verstehen?**
+
   * Die Teilnehmer verstehen, dass die Protokolle und die Architektur des Webs technologieunabhängig sind.
   *	Die Teilnehmer verstehen den Zusammenhang zwischen Server-Adresse und Server-Name und kennen die Auswirkungen für die Erzeugung und Verwendung von URLs, die sowohl System-intern als auch -extern verwendet werden sollten.
   *	Die Teilnehmer verstehen den Zusammenhang zwischen dem Transport-Protokoll (TCP, UDP) und dem Applikationsprotokoll (HTTP/1.1, HTTP/2 und HTTP/3 & QUIC).
@@ -53,7 +55,8 @@ include::../config/_feedback.adoc[]
   * Die Teilnehmer wissen, dass vertrauliche Informationen im Web-Umfeld am besten auf dem Transportweg verschlüsselt übertragen werden sollten. Die Verschlüsselung auf dem Transportweg erfolgt über Transport Level Security (TLS). 
   *	Die Teilnehmer verstehen die Auswirkungen von TLS für das Caching. 
 
-- Was sollen die Teilnehmer kennen?
+**Was sollen die Teilnehmer kennen?**
+
   * Die Teilnehmer kennen die gängigen HTTP-Status-Codes und wissen, welche Ursache un-terstellt und welche Reaktion darauf üblicherweise erwartet wird.
   *	Die Teilnehmer verstehen die Verantwortung und Aufgaben der Protokolle und Komponen-ten im Web-Umfeld:
     ** URIs identifizieren Ressourcen, URLs lokalisieren sie zusätzlich bei einer Authori-ty,
