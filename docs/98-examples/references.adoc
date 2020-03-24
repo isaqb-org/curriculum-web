@@ -1,15 +1,8 @@
 === {references}
 
-// tag::DE[]
-- Quelle Nr. 1
-- Quelle Nr. 2
-// end::DE[]
 
-// tag::EN[]
 - Reference 1
 - Reference 2
-// end::EN[]
-
 
 // tag::REMARK[]
 // end::REMARK[]
