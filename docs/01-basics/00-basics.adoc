@@ -4,8 +4,8 @@
 
 == {basics}
 
-
-//include::01-what-to-expect-of-this-module.adoc[{include_configuration}]
+// TODO: wieder einkommentieren und befüllen
+// include::01-what-to-expect-of-this-module.adoc[{include_configuration}]
 
 include::02-curriculum-structure-and-chronological-breakdown.adoc[{include_configuration}]
 
