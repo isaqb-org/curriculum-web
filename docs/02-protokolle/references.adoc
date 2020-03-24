@@ -1,24 +1,16 @@
 === {references}
 
-// tag::DE[]
-- [RFC3986]
-- [RFC3987]
-- [RFC2616]
-- [Jacobs+2004] 
-- [Fielding+2000] 
-- [HTML-CSS]
-- [ECMA-262] 
-- [WS-I]
-- [Tilkov 2011]
-- [RFC2246] 
-- [RFC6265]
-
-// end::DE[]
-
-// tag::EN[]
-- Reference 1
-- Reference 2
-// end::EN[]
+- <<ecma>>
+- <<fielding>>
+- <<htmlcss>>
+- <<jacobs>>
+- <<rfctls>>
+- <<rfchttp>>
+- <<rfcuri>>
+- <<rfciri>>
+- <<rfchttpstate>>
+- <<tilkov>>
+- <<wsi>>
 
 
 // tag::REMARK[]
