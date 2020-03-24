@@ -1,5 +1,6 @@
-// tag::DE[]
 === {references}
+
+// tag::DE[]
 - [RFC3986]
 - [RFC3987]
 - [RFC2616]
@@ -15,7 +16,6 @@
 // end::DE[]
 
 // tag::EN[]
-=== {references}
 - Reference 1
 - Reference 2
 // end::EN[]

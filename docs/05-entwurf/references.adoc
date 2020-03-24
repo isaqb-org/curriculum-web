@@ -1,6 +1,7 @@
-// tag::DE[]
 === {references}
-- [Waldo+1994] 
+
+// tag::DE[]
+- [Waldo+1994]
 - [Buschmann+1996]
 - [Brewer 2004]
 - [Daswani+2007]
@@ -25,7 +26,6 @@
 // end::DE[]
 
 // tag::EN[]
-=== {references}
 - Reference 1
 - Reference 2
 // end::EN[]

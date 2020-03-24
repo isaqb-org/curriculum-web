@@ -1,5 +1,6 @@
-// tag::DE[]
 === {references}
+
+// tag::DE[]
 - [Kopparapu 2002]
 - [ESI]
 - [Waldo+1994] 
@@ -18,7 +19,6 @@
 // end::DE[]
 
 // tag::EN[]
-=== {references}
 - Reference 1
 - Reference 2
 // end::EN[]
