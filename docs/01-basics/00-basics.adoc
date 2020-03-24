@@ -2,19 +2,10 @@
 // (c) iSAQB e.V. (https://isaqb.org)
 // ====================================================
 
-// tag::DE[]
+== {basics}
 
-== Grundlegendes
-
-// end::DE[]
-
-// tag::EN[]
-
-== Basics
-
-// end::EN[]
-
-//include::01-what-to-expect-of-this-module.adoc[{include_configuration}]
+// TODO: wieder einkommentieren und befüllen
+// include::01-what-to-expect-of-this-module.adoc[{include_configuration}]
 
 include::02-curriculum-structure-and-chronological-breakdown.adoc[{include_configuration}]
 

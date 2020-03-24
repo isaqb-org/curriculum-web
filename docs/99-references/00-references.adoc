@@ -2,11 +2,6 @@
 // (c) iSAQB e.V. (https://isaqb.org)
 // ===============================================
 
-// tag::FEEDBACK[]
-:filename: 99-references/00-references.adoc
-include::../config/_feedback.adoc[]
-// end::FEEDBACK[]
-
 [bibliography]
 == {references}
 
@@ -18,89 +13,107 @@ Dieser Abschnitt enthält Quellenangaben, die ganz oder teilweise im Curriculum 
 This section contains references that are cited in the curriculum.
 // end::EN[]
 
-A +
-[Abbot+2010] Abbott, M. L., M. T. Fisher: The Art of Scalability, Addison-Wesley 2010
+// tag::REMARK[]
+[NOTE]
+====
+Aufbau eines Eintrags-Ankers:
+```
+- [[[label,Text der erscheint]]]
+```
+ACHTUNG: Die Labels dürfen nur Buchstaben beinhalten, keine Zahlen oder Sonderzeichen. Zudem darf
+zwischen Label und Text _NUR_ das Komma, aber kein Leerzeichen stehen.
+
+= = =
+
+Structure of an anchor:
+```
+- [[[label,text that will be shown]]]
+```
+ATTENTION: labels have to be non-numeric. There must be _NO_ space between label, komma and text.
+====
+// end::REMARK[]
 
 
-B +
-[BITV 2011] Verordnung zur Schaffung barrierefreier Informationstechnik nach dem Behindertengleichstellungsgesetz (Barrierefreie-Informationstechnik-Verordnung - BITV 2.0) – http://www.gesetze-im-internet.de/bitv_2_0/BJNR184300011.html
+**A**
 
-[Brewer 2004] Brewer, E.: Towards Robust Distributed Systems. Keynote zur PODC (Symposium on Principles of Distributed Computing) 2000. http://www.cs.berkeley.edu/~brewer/cs262b-2004/PODC-keynote.pdf 
-
-[Buschmann+1996] Buschmann, F, R. Meunier, H. Rohnert, P. Sommerlad, M. Stal: A System of Patterns. Pattern Oriented Software Architecture.  Wiley 1996
+- [[[abbot,Abbot+2010]]] Abbott, M. L., M. T. Fisher: The Art of Scalability, Addison-Wesley 2010
 
 
-C +
-[Crockford+2008] Crockford, Douglas: JavaScript – The good Parts. O’Reilly, 2008
+**B**
+
+- [[[bitv,BITV 2011]]] Verordnung zur Schaffung barrierefreier Informationstechnik nach dem Behindertengleichstellungsgesetz (Barrierefreie-Informationstechnik-Verordnung - BITV 2.0) – http://www.gesetze-im-internet.de/bitv_2_0/BJNR184300011.html
+- [[[brewer,Brewer 2004]]] Brewer, E.: Towards Robust Distributed Systems. Keynote zur PODC (Symposium on Principles of Distributed Computing) 2000. http://www.cs.berkeley.edu/~brewer/cs262b-2004/PODC-keynote.pdf
+- [[[buschmann,Buschmann+1996]]] Buschmann, F, R. Meunier, H. Rohnert, P. Sommerlad, M. Stal: A System of Patterns. Pattern Oriented Software Architecture.  Wiley 1996
 
 
-D +
-[Daswani+2007] Daswani, N., C. Kern, A. Kesavan: Foundations of Security: What Every Programmer Needs to Know. Apress 2007
+**C**
 
-E +
-[ECMA-262] ECMAScript Language Specification –
-http://www.ecma-international.org/publications/standards/Ecma-262-arch.htm
+- [[[crockford,Crockford+2008]]] Crockford, Douglas: JavaScript – The good Parts. O’Reilly, 2008
 
-[Evans 2004] Evans, E.: Domain Driven Design, Addison Wesley 2004
 
-[ESI] ESI Language Specification 1.0.  W3C Note 2001 - http://www.w3.org/TR/esi-lang
+**D**
 
-F +
-[Fielding+2000] Fielding, R., R. Taylor: Principled Design of the Modern Web Architecture.  In Proceedings of the 2000 International Conference on Software Engineering (ICSE 2000), Limerick, Ireland, June 2000 - http://www.ics.uci.edu/~fielding/pubs/webarch_icse2000.pdf
+- [[[daswani,Daswani+2007]]] Daswani, N., C. Kern, A. Kesavan: Foundations of Security: What Every Programmer Needs to Know. Apress 2007
 
-[Fowler 2011] Fowler, M.: CQRS. http://martinfowler.com/bliki/CQRS.html
+**E**
 
-H +
-[Hohpe+2003] Hohpe, G, Woolf, B: Enterprise Integration Patterns, Addison-Wesley 2003
+- [[[ecma,ECMA-262]]] ECMAScript Language Specification – http://www.ecma-international.org/publications/standards/Ecma-262-arch.htm
+- [[[evans,Evans 2004]]] Evans, E.: Domain Driven Design, Addison Wesley 2004
+- [[[esi,ESI]]] ESI Language Specification 1.0.  W3C Note 2001 - http://www.w3.org/TR/esi-lang
 
-[HTML5] Web Hypertext Application Technology Working Group (WHATWG): HTML - Living Standard. http://www.whatwg.org/specs/web-apps/current-work/multipage/
+**F**
 
-[HTML-CSS] W3C Standards für das Webdesign – http://www.w3.org/standards/webdesign/htmlcss
+- [[[fielding,Fielding+2000]]] Fielding, R., R. Taylor: Principled Design of the Modern Web Architecture.  In Proceedings of the 2000 International Conference on Software Engineering (ICSE 2000), Limerick, Ireland, June 2000 - http://www.ics.uci.edu/~fielding/pubs/webarch_icse2000.pdf
+- [[[fowler,Fowler 2011]]] Fowler, M.: CQRS. http://martinfowler.com/bliki/CQRS.html
 
-[HTML5-SSE] Server-Sent Events.
-http://www.whatwg.org/specs/web-apps/current-work/multipage/comms.html#server-sent-events
+**H**
 
-J +
-[Jacobs+2004] Jacobs, I., N. Walsh: Architecture of the World Wide Web, Volume One.  W3C Recommendation 2004, - http://www.w3.org/TR/2004/REC-webarch-20041215/
+- [[[hohpe,Hohpe+2003]]] Hohpe, G, Woolf, B: Enterprise Integration Patterns, Addison-Wesley 2003
+- [[[html,HTML5]]] Web Hypertext Application Technology Working Group (WHATWG): HTML - Living Standard. http://www.whatwg.org/specs/web-apps/current-work/multipage/
+- [[[htmlcss,HTML-CSS]]] W3C Standards für das Webdesign – http://www.w3.org/standards/webdesign/htmlcss
+- [[[htmlsse,HTML5-SSE]]] Server-Sent Events. – http://www.whatwg.org/specs/web-apps/current-work/multipage/comms.html#server-sent-events
 
-K +
-[Kopparapu 2002] Kopparapu, C.: Load Balancing Servers, Firewalls, and Caches. Wiley 2002
+**J**
 
-N +
-[Nottingham 1998] Nottingham, M: Caching Tutorial. http://www.mnot.net/cache_docs/
+- [[[jacobs,Jacobs+2004]]] Jacobs, I., N. Walsh: Architecture of the World Wide Web, Volume One.  W3C Recommendation 2004, - http://www.w3.org/TR/2004/REC-webarch-20041215/
 
-O +
-[Olsson 2007] Olsson, T.: Graceful Degradation & Progressive Enhancement. http://accessites.org/site/2007/02/graceful-degradation-progressive-enhancement/
+**K**
 
-[OWASP] Open Web Application Security Project (OWASP) - https://www.owasp.org/ 
+- [[[kopparapu,Kopparapu 2002]]] Kopparapu, C.: Load Balancing Servers, Firewalls, and Caches. Wiley 2002
 
-P +
-[Prittchett 2002] Pritchett, D.: BASE an ACID alternative. 2008 - http://queue.acm.org/detail.cfm?id=1394128
+**N**
 
-R +
-[RFC2246] Dirks, T., C. Allen: RFC 2246, The TLS Protocol.  http://www.ietf.org/rfc/rfc2246
+- [[[nottingham,Nottingham 1998]]] Nottingham, M: Caching Tutorial. http://www.mnot.net/cache_docs/
 
-[RFC2616] Fielding, R., J. Gettys, J. Mogul, H. Frystyk, L. Masinter, P. Leach, T. Berners-Lee: RFC 2616, Hypertext Transfer Protocol -- HTTP/1.1.  https://tools.ietf.org/html/rfc2616
+**O**
 
-[RFC3986] Berners-Lee, T., R. Fielding, L. Masinter: RFC 3986, Uniform Resource Identifier (URI): Generic Syntax.  http://tools.ietf.org/html/rfc3986
+- [[[olsson,Olsson 2007]]] Olsson, T.: Graceful Degradation & Progressive Enhancement. http://accessites.org/site/2007/02/graceful-degradation-progressive-enhancement/
+- [[[owasp,OWASP]]] Open Web Application Security Project (OWASP) - https://www.owasp.org/
 
-[RFC3987] Duerst, M., M. Suignard: RFC 3987, Internationalized Resource Identifiers.  http://tools.ietf.org/html/rfc3987
+**P**
 
-[RFC6265] Barth, A.: RFC 6265, HTTP State Management Mechanism.  http://tools.ietf.org/html/rfc6265
+- [[[pritchett,Pritchett 2002]]] Pritchett, D.: BASE an ACID alternative. 2008 - http://queue.acm.org/detail.cfm?id=1394128
 
-S +
-[Stoneburner+2004] Stoneburner, G., C. Hayden, A. Feringa: Engineering Principles for Information Technology Security (A Baseline for Achieving Security), Revision A. NIST Special Publication 800-27 Rev A 2004 –  http://csrc.nist.gov/publications/nistpubs/800-27A/SP800-27-RevA.pdf
+**R**
 
-T +
-[Tilkov 2011] Tilkov, S.: REST und HTTP: Einsatz der Architektur des Web für Integrationsszenarien.  Dpunkt 2011
+- [[[rfctls,RFC2246]]] Dirks, T., C. Allen: RFC 2246, The TLS Protocol.  http://www.ietf.org/rfc/rfc2246
+- [[[rfchttp,RFC2616]]] Fielding, R., J. Gettys, J. Mogul, H. Frystyk, L. Masinter, P. Leach, T. Berners-Lee: RFC 2616, Hypertext Transfer Protocol -- HTTP/1.1.  https://tools.ietf.org/html/rfc2616
+- [[[rfcuri,RFC3986]]] Berners-Lee, T., R. Fielding, L. Masinter: RFC 3986, Uniform Resource Identifier (URI): Generic Syntax.  http://tools.ietf.org/html/rfc3986
+- [[[rfciri,RFC3987]]] Duerst, M., M. Suignard: RFC 3987, Internationalized Resource Identifiers.  http://tools.ietf.org/html/rfc3987
+- [[[rfchttpstate,RFC6265]]] Barth, A.: RFC 6265, HTTP State Management Mechanism.  http://tools.ietf.org/html/rfc6265
 
-W +
-[W3C-Int] W3C Internationalization Activity - http://www.w3.org/International/
+**S**
 
-[Waldo+1994] Waldo, J., G. Wyant, A. Wollrath, S. Kendall: A Note on Distributed Computing. Sun Microsystems 1994 –  http://labs.oracle.com/techrep/1994/smli_tr-94-29.pdf
+- [[[stoneburner,Stoneburner+2004]]] Stoneburner, G., C. Hayden, A. Feringa: Engineering Principles for Information Technology Security (A Baseline for Achieving Security), Revision A. NIST Special Publication 800-27 Rev A 2004 –  http://csrc.nist.gov/publications/nistpubs/800-27A/SP800-27-RevA.pdf
 
-[WCAG 2008] Web Content Accessibility Guidelines Working Group: Web Content Accessibility Guidelines.  W3C 2008 – http://www.w3.org/WAI/intro/wcag
+**T**
 
-[Websockets] Web sockets - http://www.whatwg.org/specs/web-apps/current-work/multipage/network.html#network
+- [[[tilkov,Tilkov 2011]]] Tilkov, S.: REST und HTTP: Einsatz der Architektur des Web für Integrationsszenarien.  Dpunkt 2011
 
-[WS-I] WS-I Profiles - http://ws-i.org/deliverables/Default.aspx
+**W**
+
+- [[[wwwc,W3C-Int]]] W3C Internationalization Activity - http://www.w3.org/International/
+- [[[waldo,Waldo+1994]]] Waldo, J., G. Wyant, A. Wollrath, S. Kendall: A Note on Distributed Computing. Sun Microsystems 1994 –  http://labs.oracle.com/techrep/1994/smli_tr-94-29.pdf
+- [[[wcag,WCAG 2008]]] Web Content Accessibility Guidelines Working Group: Web Content Accessibility Guidelines.  W3C 2008 – http://www.w3.org/WAI/intro/wcag
+- [[[websockets,Websockets]]] Web sockets - http://www.whatwg.org/specs/web-apps/current-work/multipage/network.html#network
+- [[[wsi,WS-I]]] WS-I Profiles - http://ws-i.org/deliverables/Default.aspx
