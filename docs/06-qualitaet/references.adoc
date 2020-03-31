@@ -1,16 +1,7 @@
-// tag::FEEDBACK[]
-:filename: 05-qualitaet/references.adoc
-include::../config/_feedback.adoc[]
-// end::FEEDBACK[]
-
-// tag::DE[]
 === {references}
-// end::DE[]
 
-// tag::EN[]
-=== {references}
-// end::EN[]
-
+- Reference 1
+- Reference 2
 
 // tag::REMARK[]
 // end::REMARK[]

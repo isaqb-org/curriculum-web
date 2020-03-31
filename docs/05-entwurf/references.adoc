@@ -1,58 +1,26 @@
-// tag::FEEDBACK[]
-:filename: 05-entwurf/references.adoc
-include::../config/_feedback.adoc[]
-// end::FEEDBACK[]
-
-// tag::DE[]
 === {references}
-- [Waldo+1994] 
-- [Buschmann+1996]
-- [Brewer 2004]
-- [Daswani+2007]
-- [Stoneburner+2004]
-- [OWASP]
-- [HTML5-SSE] 
-- [Websockets] 
-- [WCAG 2008]
-- [BITV 2011]
-- [W3C-Int]
-- [Pritchett-2008]
-- [HTML-CSS]
-- [ECMA-262]
-- [HTML5]
-- [Olsson 2007]
-- [Evans 2004]
-- [Hohpe+2003]
-- [Nottingham 1998]
-- [Fowler 2011]
-- [Abbott-2010]
-// end::DE[]
 
-// tag::EN[]
-=== {references}
-- [Waldo+1994] 
-- [Buschmann+1996]
-- [Brewer 2004]
-- [Daswani+2007]
-- [Stoneburner+2004]
-- [OWASP]
-- [HTML5-SSE] 
-- [Websockets] 
-- [WCAG 2008]
-- [BITV 2011]
-- [W3C-Int]
-- [Pritchett-2008]
-- [HTML-CSS]
-- [ECMA-262]
-- [HTML5]
-- [Olsson 2007]
-- [Evans 2004]
-- [Hohpe+2003]
-- [Nottingham 1998]
-- [Fowler 2011]
-- [Abbott-2010]
-// end::EN[]
-
+- <<abbott>>
+- <<bitv>>
+- <<brewer>>
+- <<buschmann>>
+- <<daswani>>
+- <<ecma>>
+- <<evans>>
+- <<fowler>>
+- <<hohpe>>
+- <<html>>
+- <<htmlcss>>
+- <<htmlsse>>
+- <<nottingham>>
+- <<olsson>>
+- <<owasp>>
+- <<pritchett>>
+- <<stoneburner>>
+- <<waldo>>
+- <<wcag>>
+- <<websockets>>
+- <<wwwc>>
 
 // tag::REMARK[]
 // end::REMARK[]
