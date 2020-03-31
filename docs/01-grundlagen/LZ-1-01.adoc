@@ -42,8 +42,42 @@ In diesem Abschnitt sollen technologieunabhängig Konzepte aus dem Web-Umfeld be
 
 // tag::EN[]
 [[LG-1-1]]
-==== LG 1-1: The is the first learning goal, in category xy
-tbd.
+//==== LG 1-1: The is the first learning goal, in category xy
+In this chapter, technology-independent concepts from the Web environment are discussed.
+
+**What should participants be able to do?**
+
+  *	Participants can explain the typical request/response process that takes place when an address is entered in the address line of the browser or when a form is sent.
+  *	Participants can map the request/response process onto typical components in the web environment: client, server, proxy, reverse proxy, load balancer, DNS server, framework, own application logic (servlet, PHP script, Rails controller).
+  *	Participants can explain the difference between a GET and POST request.
+  *	Participants can make a diagram of the typical client-server infrastructure of web architectures.
+  *	Participants can explain the general structure of HTTP requests: header (with host name, content type, etc.), content.
+  *	Participants can explain the general structure of HTTP responses: response with status line, header and content.
+  *	Participants can explain the structure of a URI and interpret the components in the request process that tend to be responsible for it. 
+  *	The participants can outline how a website with Ajax differs from the classic round-trip scheme without Ajax.
+  *	The participants can explain the advantages of a stateless server regarding its scalability.
+  *	The participants can split Web UIs into frontend components.
+
+**What should participants understand?**
+
+  *	Participants understand that the generic term web app can comprise fundamentally different types of IT systems with respect both to technology and content and that these systems require different architectures.
+  *	Participants understand that web apps are not restricted to use by browsers, but can also be used by other clients.
+  *	Participants understand the difference between structural and presentational characterization of content according to the Separation of Concerns.
+  *	Participants understand the general requirements of the Web Content Accessibility Guidelines (WCAG), which are summarized under the term accessibility.
+  *	Participants understand the flow of Single-Sign-On mechanisms (redirect, login, redirect with token, validation of the token), which is mostly used for web applications.
+  *	Participants understand that a resource is more than just a database entity (e. g., also a process instance or a process step).
+  *	Participants understand that hypermedia is used to connect resources to each other.
+  *	Participants understand the concept of preprocessors for translating one language into another or for embedding dependencies or detecting dead code blocks.
+
+**What should participants know?**
+
+  *	Participants know that legal conditions can require barrier-free user interfaces. For example, the “Regulation on the creation of barrier-free information technology in accordance with the law on equal opportunities for the disabled” defines specific requirements that must be implemented by all websites of the Federal Administration of the Federal Republic of Germany.
+  *	Some of the techniques that lead to barrier-free content also ensure that this content can be processed more easily by machine.
+  *	Participants know different characteristics of web frameworks:
+   **	Component and request-response frameworks often use designs influenced by the MVC pattern.
+   **	Request-response frameworks are structurally mostly build in a relatively similar way: Actions accept the request, execute application logic and finally render the response, usually with templating (HTML) or object serialization (JSON/XML).
+  *	Participants will be familiar with the concept of pattern libraries as a way of documenting front-end components.
+
 // end::EN[]
 
 // tag::REMARK[]

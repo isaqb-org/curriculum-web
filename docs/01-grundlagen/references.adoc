@@ -9,8 +9,7 @@ include::../config/_feedback.adoc[]
 
 // tag::EN[]
 === {references}
-- Reference 1
-- Reference 2
+
 // end::EN[]
 
 

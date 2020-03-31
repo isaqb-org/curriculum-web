@@ -55,8 +55,52 @@ include::../config/_feedback.adoc[]
 
 // tag::EN[]
 [[LG-5-1]]
-==== LG 5-1: TBD
-tbd.
+//==== LG 5-1: TBD
+
+**What should participants be able to do?**
+
+  *	Participants can clearly differentiate the importance of representation, formatting and interaction in markup and take them into account in the design of web apps (separation of concerns).
+  *	Participants can classify different tasks of the client interface formats from the existing web standards:
+    ** HTML provides the structure data
+    ** CSS defines the presentation. Selectors select elements from the HTML structure and assign them presentation characteristics.
+    ** JavaScript controls the behaviour, grants interactivity via event handlers and enables asynchronous server communication (AJAX).
+
+**What should participants understand?**
+
+  *	Participants understand the need for rules that ensure when using request-response frameworks that only desired functionality is implemented in the views/templates.
+  *	Participants understand that the responsiveness of the system can often be improved by appropriate use of asynchronous processing.
+  *	Participants understand the basic significance of the CAP theorem and know that a compromise must be found between scalability/availability/distribution and consistency/currentness.
+  *	Participants understand how network errors in distributed systems can cause inconsistencies or special error states.
+  *	Participants understand how architectures for consistent systems and systems with partition tolerance differ.
+  *	Participants understand how attackers can exploit vulnerabilities using SQL injection, cross-site scripting (XSS) or client side request forgery (CSRF).
+  *	Participants understand the transaction concept ACID – Atomicity, Consistency, Isolation and Durability.
+  *	Participants understand the concept of Eventual Consistency (consistent after some delay).
+  *	Participants understand that the inner architecture of the server side, in addition to the technical aspects, is also affected by
+    ** the philosophy of the framework used, 
+    ** strategies for caching of static and dynamic content and 
+    ** strategies for scaling the application.
+  *	Participants understand that integration patterns such as messaging for a loose coupling of the web apps to background processing are suitable for long-running processes. 
+  *	Participants understand that any application accessible from public networks will be attacked.
+
+**What should participants know?**
+
+  *	Participants know the patterns of Command Query Separation, CQS, and Command Query Responsibility Separation, CQRS, in order to specifically meet both functional and non-functional requirements.
+  *	Participants know that the consistency from "ACID" is a different consistency than the consistency from CAP.
+  *	Participants know the basic mechanisms used to prevent SQL injection, cross site scripting (XSS) and client side request forgery (CSRF) in their own technology portfolio.
+  *	Participants know various strategies for management of session-related data, e.g. in the cookie, in the main memory of the server, in a database, to comply with quality requirements.
+  *	Participants know the difference between internationalization and localization.
+  *	Participants know different strategies with which a client can be informed of the result of an activity that was started asynchronously on the server. For example:
+   **	Polling (client pull)
+   **	HTML5 server sent events
+   **	Web sockets. 
+  *	Participants know that many server side frameworks allow plug-ins, analogous to the pipes and filter pattern, for example servlet filters in Java Servlet API based frameworks or HttpModules in ASP.NET.  
+  *	Participants know at least one server side framework that can be used to implement web apps.
+  *	Participants know different types of server side web frameworks:
+   **	Component frameworks attempt to transfer an event-based programming model from the area of desktop applications.
+   **	Action or request response frameworks represent the HTTP protocol directly.  
+   **	Data-driven frameworks represent database tables in the interface for data input.
+  * Participants know authentication mechanisms such as OpenId Connect or CAS.
+
 // end::EN[]
 
 // tag::REMARK[]

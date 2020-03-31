@@ -8,7 +8,7 @@
 // end::DE[]
 
 // tag::EN[]
-== Lesson 5
+== Quality in Web Architectures
 // end::EN[]
 
 include::01-duration-terms.adoc[{include_configuration}]

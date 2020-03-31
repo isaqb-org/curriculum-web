@@ -7,7 +7,7 @@
 // end::DE[]
 
 // tag::EN[]
-== Lesson 1
+== Fundamentals
 // end::EN[]
 
 include::01-duration-terms.adoc[{include_configuration}]

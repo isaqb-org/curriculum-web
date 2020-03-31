@@ -26,13 +26,31 @@ include::../config/_feedback.adoc[]
 - [Nottingham 1998]
 - [Fowler 2011]
 - [Abbott-2010]
-
 // end::DE[]
 
 // tag::EN[]
 === {references}
-- Reference 1
-- Reference 2
+- [Waldo+1994] 
+- [Buschmann+1996]
+- [Brewer 2004]
+- [Daswani+2007]
+- [Stoneburner+2004]
+- [OWASP]
+- [HTML5-SSE] 
+- [Websockets] 
+- [WCAG 2008]
+- [BITV 2011]
+- [W3C-Int]
+- [Pritchett-2008]
+- [HTML-CSS]
+- [ECMA-262]
+- [HTML5]
+- [Olsson 2007]
+- [Evans 2004]
+- [Hohpe+2003]
+- [Nottingham 1998]
+- [Fowler 2011]
+- [Abbott-2010]
 // end::EN[]
 
 

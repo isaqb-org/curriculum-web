@@ -48,8 +48,46 @@ include::../config/_feedback.adoc[]
 
 // tag::EN[]
 [[LG-3-1]]
-==== LG 3-1: TBD
-tbd.
+//==== LG 3-1: TBD
+
+**What should participants be able to do?**
+
+  *	Participants can explain the difference between the REST style and the stateful backend architecture style.
+  *	Participants can differentiate web architecture styles and choose which style makes the most sense for a quantity of given requirements and conditions.
+  *	Participants can evaluate for a framework, which is also potentially unknown to them, how well it is suited for the realization of web applications according to the requirements.
+  *	Participants can explain different architecture styles of web architectures and design corresponding systems:
+   **	REST-compliant web apps
+   **	Stateful backend apps (e. g., component-oriented approaches).
+
+**What should participants understand?**
+
+  *	Participants understand the constraints that the architecture style REST has on the design of a system:
+   **	Identifiable resources
+   **	Uniform interface
+   **	Stateless communication
+   **	Representations
+   **	Hypermedia.
+  *	Participants understand the limitations of stateful backend architectures:
+   **	Communication takes place always against the same server instance.
+   **	In component-oriented approaches, the requests usually contain a command or a discriminator that decides which component is responsible for processing. Usually this dispatch information is hard-coded or stored in the main memory (in the session).
+  *	Participants understand that no matter which architecture style is chosen, the core of expertise, e. g., security and function-relevant tests or calculations, must always be implemented in the server.
+  *	Participants understand how the response of web apps can be improved via functionality in the client i. e., via JavaScript in the client (e. g., in combination with AJAX)
+  *	Participants understand the standard features of single page frameworks:
+   **	Databinding (two-way and one-way)
+   **	Templating
+   **	Client-side routing
+   **	Component abstraction.
+  *	Participants understand that WebComponents (CustomElements + ShadowDOM) can be used to develop independent JavaScript components that are strongly isolated from the page and can be instantiated via DOM.
+
+**What should participants know?**
+
+  *	Participants know mechanisms to accept long-running transactions with corresponding status codes and to report the result via appropriate mechanisms as soon as it is available.
+  *	Participants know the effects of mobile clients: 
+   **	Widely differing bandwidths
+   **	Fluctuating, partly very high latency.
+  *	Participants know that mobile clients sometimes have reduced performance with respect to main memory and CPU.
+  *	Participants know that resources of mobile clients have to be conserved especially with regard to limited energy capacities of the end devices.
+
 // end::EN[]
 
 // tag::REMARK[]

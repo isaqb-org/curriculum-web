@@ -10,18 +10,15 @@ include::../config/_feedback.adoc[]
 
 === Begriffe und Konzepte
 * Client, Server, Proxy, Reverse-Proxy, Content Delivery Networks/CDN, Lastverteilung/Load Balancing, CGI
-
 // end::DE[]
 
 // tag::EN[]
 |===
-| Lesson duration: XXX min | Exercises: XXX min
+| Lesson duration: 180 min | Exercises: 60 min
 |===
 
 === Terms and concepts
-* Term 1
-* Term 2
-* Term 3
+* Client, Server, Proxy, Reverse proxy, Content Delivery Networks/CDN, Load balancing, CGI, …
 // end::EN[]
 
 // tag::REMARK[]

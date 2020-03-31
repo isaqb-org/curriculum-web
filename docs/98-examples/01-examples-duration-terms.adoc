@@ -11,7 +11,7 @@ include::../config/_feedback.adoc[]
 Dieser Abschnitt ist nicht prüfungsrelevant.
 
 === Begriffe und Konzepte
-Innerhalb jeder akkreditierten Schulung müssen es konrkete Beispiele für unterschiedliche Bereiche von Web-Architekturen vorgestellt, besprochen und bewertet werden:
+Innerhalb jeder akkreditierten Schulung müssen konrkete Beispiele für unterschiedliche Bereiche von Web-Architekturen vorgestellt, besprochen und bewertet werden:
 
   * Umgang mit Infrastruktur und insbesondere Reverse-Proxies.
   * Ein grobes Muster einer Web-Backend-Applikation.
@@ -25,16 +25,21 @@ Art und Ausprägung der vorgestellten Beispiele können von der Schulung bzw. de
 
 // tag::EN[]
 |===
-| Lesson duration: XXX min | Exercises: XXX min
+| Lesson duration: 60 min | Exercises: none
 |===
 
 This section is not examinable.
 
 === Terms and concepts
-In every licensed training session, at least one example for {curriculum-short} must be presented.
+Within each accredited course specific examples of different areas of web architecture must be presented, discussed and evaluated:
+  
+  * Dealing with infrastructure and especially reverse proxies.
+  * A rough pattern of a web backend application.
+  * One or more examples of single page framework features such as data binding or client side routing.
+  *	Examples of different database models.
 
-Type and structure of the examples presented may depend on the training and participants' interests.
-The are not prescribed by iSAQB.
+The type and character of the examples presented can depend on the course and the interests of the participants and are not prescribed by the iSAQB.
+
 // end::EN[]
 
 // tag::REMARK[]

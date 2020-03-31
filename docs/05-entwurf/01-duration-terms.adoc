@@ -9,19 +9,18 @@ include::../config/_feedback.adoc[]
 |===
 
 === Begriffe und Konzepte
-* Datenmodellierung, Funktionale Zerlegung, Repräsentationm, Verteiltes System, CAP-Theorem, ACID, Sicherheit von Web-Applikationen, Authentifizierung, Auto-risierung, Barrierefreiheit/Accessibility, Internationalisierung/Lokalisierung, HTML, CSS, JavaScript, Trennen von Inhalt, Präsentation und Verhalten, Graceful Degradation, Progressive Enhancement, unobtrusive JavaScript.
+* Datenmodellierung, Funktionale Zerlegung, Repräsentationm, Verteiltes System, CAP-Theorem, ACID, Sicherheit von Web-Applikationen, Authentifizierung, Autorisierung, Barrierefreiheit/Accessibility, Internationalisierung/Lokalisierung, HTML, CSS, JavaScript, Trennen von Inhalt, Präsentation und Verhalten, Graceful Degradation, Progressive Enhancement, unobtrusive JavaScript.
 
 // end::DE[]
 
 // tag::EN[]
 |===
-| Lesson duration: XXX min | Exercises: XXX min
+| Lesson duration: 180 min | Exercises: 120 min
 |===
 
 === Terms and concepts
-* Term 1
-* Term 2
-* Term 3
+* Data modelling, Functional decomposition, Representation, Distributed system, CAP theorem, ACID, Security of web apps, Authentification, Authorization, Accessibility, Internationalization/Localization, HTML, CSS, JavaScript, Separation of content, presentation and behaviour, Graceful degradation, Progressive enhancement, Unobtrusive JavaScript.
+
 // end::EN[]
 
 // tag::REMARK[]

@@ -24,8 +24,20 @@ include::../config/_feedback.adoc[]
 
 // tag::EN[]
 === {references}
-- Reference 1
-- Reference 2
+- [Kopparapu 2002]
+- [ESI]
+- [Waldo+1994] 
+- [Buschmann+1996]
+- [Brewer 2004]
+- [Daswani+2007]
+- [Stoneburner+2004]
+- [OWASP]
+- [HTML5-SSE] 
+- [Websockets] 
+- [WCAG 2008]
+- [BITV 2011]
+- [W3C-Int]
+- [Pritchett-2008]
 // end::EN[]
 
 

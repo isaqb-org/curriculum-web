@@ -38,7 +38,7 @@ ifeval::["{language}" == "DE"]
 endif::[]
 
 ifeval::["{language}" == "EN"]
-:curriculum-name: FULL NAME OF MODULE
+:curriculum-name: Web Architectures
 :curriculum-header-title: iSAQB curriculum for Advanced Level: {curriculum-short}
 endif::[]
 

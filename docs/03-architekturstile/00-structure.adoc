@@ -8,7 +8,7 @@
 // end::DE[]
 
 // tag::EN[]
-== Lesson 3
+== Architecture Styles
 // end::EN[]
 
 include::01-duration-terms.adoc[{include_configuration}]

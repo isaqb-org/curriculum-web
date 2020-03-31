@@ -8,7 +8,7 @@
 // end::DE[]
 
 // tag::EN[]
-== Lesson 4
+== Technology and infrastructure
 // end::EN[]
 
 include::01-duration-terms.adoc[{include_configuration}]

@@ -58,29 +58,32 @@ image:01-basics/zeitaufteilung.png[pdfwidth=75%, role="text-center"]
 | Recommended minimum duration (minutes)
 
 
-| 1. Introduction
+| 1. Principles
+| 90
+
+| 2. Protocols and standards 
+| 90
+
+| 3. Architecture styles
 | 180
 
-| 2. xz
-| 150
+| 4. Technology and infrastructure
+| 240
 
-| 3. Lots of theory
-| 120
+| 5. Design of web architectures
+| 300
 
-| 4. xy and example
+| 6. Quality in web architectures 
 | 180
 
-| 5. abc und d
-| 210
-
-| 6. Final example
-| 120
+| 7. Exemplary architectures
+| 60
 
 |
 |
 
 | Sum
-| 960 (16h)
+| 1140 (19h)
 
 |===
 

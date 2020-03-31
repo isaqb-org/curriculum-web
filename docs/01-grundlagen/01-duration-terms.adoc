@@ -15,13 +15,11 @@ include::../config/_feedback.adoc[]
 
 // tag::EN[]
 |===
-| Lesson duration: XXX min | Exercises: XXX min
+| Lesson duration: 90 min | Exercises: none
 |===
 
 === Terms and concepts
-* Term 1
-* Term 2
-* Term 3
+* Web browser, Web server, Client, Server, Proxy, Request, Response, Accessibility, Basic Auth, Intranet vs. Internet, Redirect, TLS, Prepocessor, Hypermedia, Statelessness, Pattern Libraries, Frontend Components, Ajax, Single-Sign-On (SSO), Separation of Concerns, Code on demand
 // end::EN[]
 
 

@@ -15,13 +15,11 @@ include::../config/_feedback.adoc[]
 
 // tag::EN[]
 |===
-| Lesson duration: XXX min | Exercises: XXX min
+| Lesson duration: 120 min | Exercises: 60 min
 |===
 
 === Terms and concepts
-* Term 1
-* Term 2
-* Term 3
+* Representational State Transfer (REST), Stateful Backend Web Apps, Single-page Application, Web Components.
 // end::EN[]
 
 // tag::REMARK[]
