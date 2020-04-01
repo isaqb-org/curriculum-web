@@ -11,7 +11,8 @@ ifdef::env-github[]
 :warning-caption: :warning:
 endif::[]
 
-== Status 
+== Status
+image:https://github.com/isaqb-org/curriculum-web/workflows/CI/badge.svg?branch=master["CI"]
 image:https://img.shields.io/github/last-commit/isaqb-org/curriculum-web/master.svg["Last commit"]
 image:https://img.shields.io/github/contributors/isaqb-org/curriculum-web.svg["Contributors",link="https://github.com/isaqb-org/advanced-template/graphs/contributors"]
 image:https://img.shields.io/github/issues/isaqb-org/curriculum-web.svg["Issues",link="https://github.com/isaqb-org/advanced-template/issues"]
