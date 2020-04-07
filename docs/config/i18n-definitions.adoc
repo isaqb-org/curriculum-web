@@ -10,7 +10,7 @@
 
 // tag::EN[]
 :lang: EN
-:basics: Basics
+:basics: Essentials
 :toc-title: Table of Contents
 :learning-goals: Learning goals
 :lesson: Lesson
