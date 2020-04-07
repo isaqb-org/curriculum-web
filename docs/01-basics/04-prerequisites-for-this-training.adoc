@@ -10,13 +10,13 @@ Teilnehmerinnen und Teilnehmer **sollten** folgende Kenntnisse und/oder Erfahrun
 // end::DE[]
 
 // tag::EN[]
-=== Prerequisites
+=== Requirements
 
-Participants **should** have the following prerequisite knowledge:
+Participants **should** have the following knowledge and/or experience:
 
-- CPSA-F and all related prerequisites
-- Experience with distributed systems – ideally web apps
-- Basic knowledge in the web technologies HTML, CSS, JavaScript and at least one server-side framework
+- CPSA-F and all associated requirements
+- Experience with distributed systems&mdash;ideally web apps
+- Basic knowledge of web technologies HTML, CSS, JavaScript, and at least one server-side framework
 
 // end::EN[]
 
