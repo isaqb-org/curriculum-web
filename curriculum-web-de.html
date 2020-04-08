@@ -1,0 +1,2016 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="Asciidoctor 1.5.8">
+<title>Curriculum fürCertified Professional forSoftware Architecture (CPSA)&#174;Advanced Level: ModulWEBWeb-Architekturen</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700">
+<style>
+/* Asciidoctor default stylesheet | MIT License | http://asciidoctor.org */
+/* Uncomment @import statement below to use as custom stylesheet */
+/*@import "https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700";*/
+article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,summary{display:block}
+audio,canvas,video{display:inline-block}
+audio:not([controls]){display:none;height:0}
+script{display:none!important}
+html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}
+a{background:transparent}
+a:focus{outline:thin dotted}
+a:active,a:hover{outline:0}
+h1{font-size:2em;margin:.67em 0}
+abbr[title]{border-bottom:1px dotted}
+b,strong{font-weight:bold}
+dfn{font-style:italic}
+hr{-moz-box-sizing:content-box;box-sizing:content-box;height:0}
+mark{background:#ff0;color:#000}
+code,kbd,pre,samp{font-family:monospace;font-size:1em}
+pre{white-space:pre-wrap}
+q{quotes:"\201C" "\201D" "\2018" "\2019"}
+small{font-size:80%}
+sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}
+sup{top:-.5em}
+sub{bottom:-.25em}
+img{border:0}
+svg:not(:root){overflow:hidden}
+figure{margin:0}
+fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}
+legend{border:0;padding:0}
+button,input,select,textarea{font-family:inherit;font-size:100%;margin:0}
+button,input{line-height:normal}
+button,select{text-transform:none}
+button,html input[type="button"],input[type="reset"],input[type="submit"]{-webkit-appearance:button;cursor:pointer}
+button[disabled],html input[disabled]{cursor:default}
+input[type="checkbox"],input[type="radio"]{box-sizing:border-box;padding:0}
+button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}
+textarea{overflow:auto;vertical-align:top}
+table{border-collapse:collapse;border-spacing:0}
+*,*::before,*::after{-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box}
+html,body{font-size:100%}
+body{background:#fff;color:rgba(0,0,0,.8);padding:0;margin:0;font-family:"Noto Serif","DejaVu Serif",serif;font-weight:400;font-style:normal;line-height:1;position:relative;cursor:auto;tab-size:4;-moz-osx-font-smoothing:grayscale;-webkit-font-smoothing:antialiased}
+a:hover{cursor:pointer}
+img,object,embed{max-width:100%;height:auto}
+object,embed{height:100%}
+img{-ms-interpolation-mode:bicubic}
+.left{float:left!important}
+.right{float:right!important}
+.text-left{text-align:left!important}
+.text-right{text-align:right!important}
+.text-center{text-align:center!important}
+.text-justify{text-align:justify!important}
+.hide{display:none}
+img,object,svg{display:inline-block;vertical-align:middle}
+textarea{height:auto;min-height:50px}
+select{width:100%}
+.center{margin-left:auto;margin-right:auto}
+.stretch{width:100%}
+.subheader,.admonitionblock td.content>.title,.audioblock>.title,.exampleblock>.title,.imageblock>.title,.listingblock>.title,.literalblock>.title,.stemblock>.title,.openblock>.title,.paragraph>.title,.quoteblock>.title,table.tableblock>.title,.verseblock>.title,.videoblock>.title,.dlist>.title,.olist>.title,.ulist>.title,.qlist>.title,.hdlist>.title{line-height:1.45;color:#7a2518;font-weight:400;margin-top:0;margin-bottom:.25em}
+div,dl,dt,dd,ul,ol,li,h1,h2,h3,#toctitle,.sidebarblock>.content>.title,h4,h5,h6,pre,form,p,blockquote,th,td{margin:0;padding:0;direction:ltr}
+a{color:#2156a5;text-decoration:underline;line-height:inherit}
+a:hover,a:focus{color:#1d4b8f}
+a img{border:none}
+p{font-family:inherit;font-weight:400;font-size:1em;line-height:1.6;margin-bottom:1.25em;text-rendering:optimizeLegibility}
+p aside{font-size:.875em;line-height:1.35;font-style:italic}
+h1,h2,h3,#toctitle,.sidebarblock>.content>.title,h4,h5,h6{font-family:"Open Sans","DejaVu Sans",sans-serif;font-weight:300;font-style:normal;color:#ba3925;text-rendering:optimizeLegibility;margin-top:1em;margin-bottom:.5em;line-height:1.0125em}
+h1 small,h2 small,h3 small,#toctitle small,.sidebarblock>.content>.title small,h4 small,h5 small,h6 small{font-size:60%;color:#e99b8f;line-height:0}
+h1{font-size:2.125em}
+h2{font-size:1.6875em}
+h3,#toctitle,.sidebarblock>.content>.title{font-size:1.375em}
+h4,h5{font-size:1.125em}
+h6{font-size:1em}
+hr{border:solid #dddddf;border-width:1px 0 0;clear:both;margin:1.25em 0 1.1875em;height:0}
+em,i{font-style:italic;line-height:inherit}
+strong,b{font-weight:bold;line-height:inherit}
+small{font-size:60%;line-height:inherit}
+code{font-family:"Droid Sans Mono","DejaVu Sans Mono",monospace;font-weight:400;color:rgba(0,0,0,.9)}
+ul,ol,dl{font-size:1em;line-height:1.6;margin-bottom:1.25em;list-style-position:outside;font-family:inherit}
+ul,ol{margin-left:1.5em}
+ul li ul,ul li ol{margin-left:1.25em;margin-bottom:0;font-size:1em}
+ul.square li ul,ul.circle li ul,ul.disc li ul{list-style:inherit}
+ul.square{list-style-type:square}
+ul.circle{list-style-type:circle}
+ul.disc{list-style-type:disc}
+ol li ul,ol li ol{margin-left:1.25em;margin-bottom:0}
+dl dt{margin-bottom:.3125em;font-weight:bold}
+dl dd{margin-bottom:1.25em}
+abbr,acronym{text-transform:uppercase;font-size:90%;color:rgba(0,0,0,.8);border-bottom:1px dotted #ddd;cursor:help}
+abbr{text-transform:none}
+blockquote{margin:0 0 1.25em;padding:.5625em 1.25em 0 1.1875em;border-left:1px solid #ddd}
+blockquote cite{display:block;font-size:.9375em;color:rgba(0,0,0,.6)}
+blockquote cite::before{content:"\2014 \0020"}
+blockquote cite a,blockquote cite a:visited{color:rgba(0,0,0,.6)}
+blockquote,blockquote p{line-height:1.6;color:rgba(0,0,0,.85)}
+@media screen and (min-width:768px){h1,h2,h3,#toctitle,.sidebarblock>.content>.title,h4,h5,h6{line-height:1.2}
+h1{font-size:2.75em}
+h2{font-size:2.3125em}
+h3,#toctitle,.sidebarblock>.content>.title{font-size:1.6875em}
+h4{font-size:1.4375em}}
+table{background:#fff;margin-bottom:1.25em;border:solid 1px #dedede}
+table thead,table tfoot{background:#f7f8f7}
+table thead tr th,table thead tr td,table tfoot tr th,table tfoot tr td{padding:.5em .625em .625em;font-size:inherit;color:rgba(0,0,0,.8);text-align:left}
+table tr th,table tr td{padding:.5625em .625em;font-size:inherit;color:rgba(0,0,0,.8)}
+table tr.even,table tr.alt,table tr:nth-of-type(even){background:#f8f8f7}
+table thead tr th,table tfoot tr th,table tbody tr td,table tr td,table tfoot tr td{display:table-cell;line-height:1.6}
+h1,h2,h3,#toctitle,.sidebarblock>.content>.title,h4,h5,h6{line-height:1.2;word-spacing:-.05em}
+h1 strong,h2 strong,h3 strong,#toctitle strong,.sidebarblock>.content>.title strong,h4 strong,h5 strong,h6 strong{font-weight:400}
+.clearfix::before,.clearfix::after,.float-group::before,.float-group::after{content:" ";display:table}
+.clearfix::after,.float-group::after{clear:both}
+*:not(pre)>code{font-size:.9375em;font-style:normal!important;letter-spacing:0;padding:.1em .5ex;word-spacing:-.15em;background-color:#f7f7f8;-webkit-border-radius:4px;border-radius:4px;line-height:1.45;text-rendering:optimizeSpeed;word-wrap:break-word}
+*:not(pre)>code.nobreak{word-wrap:normal}
+*:not(pre)>code.nowrap{white-space:nowrap}
+pre,pre>code{line-height:1.45;color:rgba(0,0,0,.9);font-family:"Droid Sans Mono","DejaVu Sans Mono",monospace;font-weight:400;text-rendering:optimizeSpeed}
+em em{font-style:normal}
+strong strong{font-weight:400}
+.keyseq{color:rgba(51,51,51,.8)}
+kbd{font-family:"Droid Sans Mono","DejaVu Sans Mono",monospace;display:inline-block;color:rgba(0,0,0,.8);font-size:.65em;line-height:1.45;background-color:#f7f7f7;border:1px solid #ccc;-webkit-border-radius:3px;border-radius:3px;-webkit-box-shadow:0 1px 0 rgba(0,0,0,.2),0 0 0 .1em white inset;box-shadow:0 1px 0 rgba(0,0,0,.2),0 0 0 .1em #fff inset;margin:0 .15em;padding:.2em .5em;vertical-align:middle;position:relative;top:-.1em;white-space:nowrap}
+.keyseq kbd:first-child{margin-left:0}
+.keyseq kbd:last-child{margin-right:0}
+.menuseq,.menuref{color:#000}
+.menuseq b:not(.caret),.menuref{font-weight:inherit}
+.menuseq{word-spacing:-.02em}
+.menuseq b.caret{font-size:1.25em;line-height:.8}
+.menuseq i.caret{font-weight:bold;text-align:center;width:.45em}
+b.button::before,b.button::after{position:relative;top:-1px;font-weight:400}
+b.button::before{content:"[";padding:0 3px 0 2px}
+b.button::after{content:"]";padding:0 2px 0 3px}
+p a>code:hover{color:rgba(0,0,0,.9)}
+#header,#content,#footnotes,#footer{width:100%;margin-left:auto;margin-right:auto;margin-top:0;margin-bottom:0;max-width:62.5em;*zoom:1;position:relative;padding-left:.9375em;padding-right:.9375em}
+#header::before,#header::after,#content::before,#content::after,#footnotes::before,#footnotes::after,#footer::before,#footer::after{content:" ";display:table}
+#header::after,#content::after,#footnotes::after,#footer::after{clear:both}
+#content{margin-top:1.25em}
+#content::before{content:none}
+#header>h1:first-child{color:rgba(0,0,0,.85);margin-top:2.25rem;margin-bottom:0}
+#header>h1:first-child+#toc{margin-top:8px;border-top:1px solid #dddddf}
+#header>h1:only-child,body.toc2 #header>h1:nth-last-child(2){border-bottom:1px solid #dddddf;padding-bottom:8px}
+#header .details{border-bottom:1px solid #dddddf;line-height:1.45;padding-top:.25em;padding-bottom:.25em;padding-left:.25em;color:rgba(0,0,0,.6);display:-ms-flexbox;display:-webkit-flex;display:flex;-ms-flex-flow:row wrap;-webkit-flex-flow:row wrap;flex-flow:row wrap}
+#header .details span:first-child{margin-left:-.125em}
+#header .details span.email a{color:rgba(0,0,0,.85)}
+#header .details br{display:none}
+#header .details br+span::before{content:"\00a0\2013\00a0"}
+#header .details br+span.author::before{content:"\00a0\22c5\00a0";color:rgba(0,0,0,.85)}
+#header .details br+span#revremark::before{content:"\00a0|\00a0"}
+#header #revnumber{text-transform:capitalize}
+#header #revnumber::after{content:"\00a0"}
+#content>h1:first-child:not([class]){color:rgba(0,0,0,.85);border-bottom:1px solid #dddddf;padding-bottom:8px;margin-top:0;padding-top:1rem;margin-bottom:1.25rem}
+#toc{border-bottom:1px solid #e7e7e9;padding-bottom:.5em}
+#toc>ul{margin-left:.125em}
+#toc ul.sectlevel0>li>a{font-style:italic}
+#toc ul.sectlevel0 ul.sectlevel1{margin:.5em 0}
+#toc ul{font-family:"Open Sans","DejaVu Sans",sans-serif;list-style-type:none}
+#toc li{line-height:1.3334;margin-top:.3334em}
+#toc a{text-decoration:none}
+#toc a:active{text-decoration:underline}
+#toctitle{color:#7a2518;font-size:1.2em}
+@media screen and (min-width:768px){#toctitle{font-size:1.375em}
+body.toc2{padding-left:15em;padding-right:0}
+#toc.toc2{margin-top:0!important;background-color:#f8f8f7;position:fixed;width:15em;left:0;top:0;border-right:1px solid #e7e7e9;border-top-width:0!important;border-bottom-width:0!important;z-index:1000;padding:1.25em 1em;height:100%;overflow:auto}
+#toc.toc2 #toctitle{margin-top:0;margin-bottom:.8rem;font-size:1.2em}
+#toc.toc2>ul{font-size:.9em;margin-bottom:0}
+#toc.toc2 ul ul{margin-left:0;padding-left:1em}
+#toc.toc2 ul.sectlevel0 ul.sectlevel1{padding-left:0;margin-top:.5em;margin-bottom:.5em}
+body.toc2.toc-right{padding-left:0;padding-right:15em}
+body.toc2.toc-right #toc.toc2{border-right-width:0;border-left:1px solid #e7e7e9;left:auto;right:0}}
+@media screen and (min-width:1280px){body.toc2{padding-left:20em;padding-right:0}
+#toc.toc2{width:20em}
+#toc.toc2 #toctitle{font-size:1.375em}
+#toc.toc2>ul{font-size:.95em}
+#toc.toc2 ul ul{padding-left:1.25em}
+body.toc2.toc-right{padding-left:0;padding-right:20em}}
+#content #toc{border-style:solid;border-width:1px;border-color:#e0e0dc;margin-bottom:1.25em;padding:1.25em;background:#f8f8f7;-webkit-border-radius:4px;border-radius:4px}
+#content #toc>:first-child{margin-top:0}
+#content #toc>:last-child{margin-bottom:0}
+#footer{max-width:100%;background-color:rgba(0,0,0,.8);padding:1.25em}
+#footer-text{color:rgba(255,255,255,.8);line-height:1.44}
+#content{margin-bottom:.625em}
+.sect1{padding-bottom:.625em}
+@media screen and (min-width:768px){#content{margin-bottom:1.25em}
+.sect1{padding-bottom:1.25em}}
+.sect1:last-child{padding-bottom:0}
+.sect1+.sect1{border-top:1px solid #e7e7e9}
+#content h1>a.anchor,h2>a.anchor,h3>a.anchor,#toctitle>a.anchor,.sidebarblock>.content>.title>a.anchor,h4>a.anchor,h5>a.anchor,h6>a.anchor{position:absolute;z-index:1001;width:1.5ex;margin-left:-1.5ex;display:block;text-decoration:none!important;visibility:hidden;text-align:center;font-weight:400}
+#content h1>a.anchor::before,h2>a.anchor::before,h3>a.anchor::before,#toctitle>a.anchor::before,.sidebarblock>.content>.title>a.anchor::before,h4>a.anchor::before,h5>a.anchor::before,h6>a.anchor::before{content:"\00A7";font-size:.85em;display:block;padding-top:.1em}
+#content h1:hover>a.anchor,#content h1>a.anchor:hover,h2:hover>a.anchor,h2>a.anchor:hover,h3:hover>a.anchor,#toctitle:hover>a.anchor,.sidebarblock>.content>.title:hover>a.anchor,h3>a.anchor:hover,#toctitle>a.anchor:hover,.sidebarblock>.content>.title>a.anchor:hover,h4:hover>a.anchor,h4>a.anchor:hover,h5:hover>a.anchor,h5>a.anchor:hover,h6:hover>a.anchor,h6>a.anchor:hover{visibility:visible}
+#content h1>a.link,h2>a.link,h3>a.link,#toctitle>a.link,.sidebarblock>.content>.title>a.link,h4>a.link,h5>a.link,h6>a.link{color:#ba3925;text-decoration:none}
+#content h1>a.link:hover,h2>a.link:hover,h3>a.link:hover,#toctitle>a.link:hover,.sidebarblock>.content>.title>a.link:hover,h4>a.link:hover,h5>a.link:hover,h6>a.link:hover{color:#a53221}
+.audioblock,.imageblock,.literalblock,.listingblock,.stemblock,.videoblock{margin-bottom:1.25em}
+.admonitionblock td.content>.title,.audioblock>.title,.exampleblock>.title,.imageblock>.title,.listingblock>.title,.literalblock>.title,.stemblock>.title,.openblock>.title,.paragraph>.title,.quoteblock>.title,table.tableblock>.title,.verseblock>.title,.videoblock>.title,.dlist>.title,.olist>.title,.ulist>.title,.qlist>.title,.hdlist>.title{text-rendering:optimizeLegibility;text-align:left;font-family:"Noto Serif","DejaVu Serif",serif;font-size:1rem;font-style:italic}
+table.tableblock.fit-content>caption.title{white-space:nowrap;width:0}
+.paragraph.lead>p,#preamble>.sectionbody>[class="paragraph"]:first-of-type p{font-size:1.21875em;line-height:1.6;color:rgba(0,0,0,.85)}
+table.tableblock #preamble>.sectionbody>[class="paragraph"]:first-of-type p{font-size:inherit}
+.admonitionblock>table{border-collapse:separate;border:0;background:none;width:100%}
+.admonitionblock>table td.icon{text-align:center;width:80px}
+.admonitionblock>table td.icon img{max-width:none}
+.admonitionblock>table td.icon .title{font-weight:bold;font-family:"Open Sans","DejaVu Sans",sans-serif;text-transform:uppercase}
+.admonitionblock>table td.content{padding-left:1.125em;padding-right:1.25em;border-left:1px solid #dddddf;color:rgba(0,0,0,.6)}
+.admonitionblock>table td.content>:last-child>:last-child{margin-bottom:0}
+.exampleblock>.content{border-style:solid;border-width:1px;border-color:#e6e6e6;margin-bottom:1.25em;padding:1.25em;background:#fff;-webkit-border-radius:4px;border-radius:4px}
+.exampleblock>.content>:first-child{margin-top:0}
+.exampleblock>.content>:last-child{margin-bottom:0}
+.sidebarblock{border-style:solid;border-width:1px;border-color:#e0e0dc;margin-bottom:1.25em;padding:1.25em;background:#f8f8f7;-webkit-border-radius:4px;border-radius:4px}
+.sidebarblock>:first-child{margin-top:0}
+.sidebarblock>:last-child{margin-bottom:0}
+.sidebarblock>.content>.title{color:#7a2518;margin-top:0;text-align:center}
+.exampleblock>.content>:last-child>:last-child,.exampleblock>.content .olist>ol>li:last-child>:last-child,.exampleblock>.content .ulist>ul>li:last-child>:last-child,.exampleblock>.content .qlist>ol>li:last-child>:last-child,.sidebarblock>.content>:last-child>:last-child,.sidebarblock>.content .olist>ol>li:last-child>:last-child,.sidebarblock>.content .ulist>ul>li:last-child>:last-child,.sidebarblock>.content .qlist>ol>li:last-child>:last-child{margin-bottom:0}
+.literalblock pre,.listingblock pre:not(.highlight),.listingblock pre[class="highlight"],.listingblock pre[class^="highlight "],.listingblock pre.CodeRay,.listingblock pre.prettyprint{background:#f7f7f8}
+.sidebarblock .literalblock pre,.sidebarblock .listingblock pre:not(.highlight),.sidebarblock .listingblock pre[class="highlight"],.sidebarblock .listingblock pre[class^="highlight "],.sidebarblock .listingblock pre.CodeRay,.sidebarblock .listingblock pre.prettyprint{background:#f2f1f1}
+.literalblock pre,.literalblock pre[class],.listingblock pre,.listingblock pre[class]{-webkit-border-radius:4px;border-radius:4px;word-wrap:break-word;overflow-x:auto;padding:1em;font-size:.8125em}
+@media screen and (min-width:768px){.literalblock pre,.literalblock pre[class],.listingblock pre,.listingblock pre[class]{font-size:.90625em}}
+@media screen and (min-width:1280px){.literalblock pre,.literalblock pre[class],.listingblock pre,.listingblock pre[class]{font-size:1em}}
+.literalblock pre.nowrap,.literalblock pre.nowrap pre,.listingblock pre.nowrap,.listingblock pre.nowrap pre{white-space:pre;word-wrap:normal}
+.literalblock.output pre{color:#f7f7f8;background-color:rgba(0,0,0,.9)}
+.listingblock pre.highlightjs{padding:0}
+.listingblock pre.highlightjs>code{padding:1em;-webkit-border-radius:4px;border-radius:4px}
+.listingblock pre.prettyprint{border-width:0}
+.listingblock>.content{position:relative}
+.listingblock code[data-lang]::before{display:none;content:attr(data-lang);position:absolute;font-size:.75em;top:.425rem;right:.5rem;line-height:1;text-transform:uppercase;color:#999}
+.listingblock:hover code[data-lang]::before{display:block}
+.listingblock.terminal pre .command::before{content:attr(data-prompt);padding-right:.5em;color:#999}
+.listingblock.terminal pre .command:not([data-prompt])::before{content:"$"}
+table.pyhltable{border-collapse:separate;border:0;margin-bottom:0;background:none}
+table.pyhltable td{vertical-align:top;padding-top:0;padding-bottom:0;line-height:1.45}
+table.pyhltable td.code{padding-left:.75em;padding-right:0}
+pre.pygments .lineno,table.pyhltable td:not(.code){color:#999;padding-left:0;padding-right:.5em;border-right:1px solid #dddddf}
+pre.pygments .lineno{display:inline-block;margin-right:.25em}
+table.pyhltable .linenodiv{background:none!important;padding-right:0!important}
+.quoteblock{margin:0 1em 1.25em 1.5em;display:table}
+.quoteblock>.title{margin-left:-1.5em;margin-bottom:.75em}
+.quoteblock blockquote,.quoteblock p{color:rgba(0,0,0,.85);font-size:1.15rem;line-height:1.75;word-spacing:.1em;letter-spacing:0;font-style:italic;text-align:justify}
+.quoteblock blockquote{margin:0;padding:0;border:0}
+.quoteblock blockquote::before{content:"\201c";float:left;font-size:2.75em;font-weight:bold;line-height:.6em;margin-left:-.6em;color:#7a2518;text-shadow:0 1px 2px rgba(0,0,0,.1)}
+.quoteblock blockquote>.paragraph:last-child p{margin-bottom:0}
+.quoteblock .attribution{margin-top:.75em;margin-right:.5ex;text-align:right}
+.verseblock{margin:0 1em 1.25em}
+.verseblock pre{font-family:"Open Sans","DejaVu Sans",sans;font-size:1.15rem;color:rgba(0,0,0,.85);font-weight:300;text-rendering:optimizeLegibility}
+.verseblock pre strong{font-weight:400}
+.verseblock .attribution{margin-top:1.25rem;margin-left:.5ex}
+.quoteblock .attribution,.verseblock .attribution{font-size:.9375em;line-height:1.45;font-style:italic}
+.quoteblock .attribution br,.verseblock .attribution br{display:none}
+.quoteblock .attribution cite,.verseblock .attribution cite{display:block;letter-spacing:-.025em;color:rgba(0,0,0,.6)}
+.quoteblock.abstract blockquote::before,.quoteblock.excerpt blockquote::before,.quoteblock .quoteblock blockquote::before{display:none}
+.quoteblock.abstract blockquote,.quoteblock.abstract p,.quoteblock.excerpt blockquote,.quoteblock.excerpt p,.quoteblock .quoteblock blockquote,.quoteblock .quoteblock p{line-height:1.6;word-spacing:0}
+.quoteblock.abstract{margin:0 1em 1.25em;display:block}
+.quoteblock.abstract>.title{margin:0 0 .375em;font-size:1.15em;text-align:center}
+.quoteblock.excerpt,.quoteblock .quoteblock{margin:0 0 1.25em;padding:0 0 .25em 1em;border-left:.25em solid #dddddf}
+.quoteblock.excerpt blockquote,.quoteblock.excerpt p,.quoteblock .quoteblock blockquote,.quoteblock .quoteblock p{color:inherit;font-size:1.0625rem}
+.quoteblock.excerpt .attribution,.quoteblock .quoteblock .attribution{color:inherit;text-align:left;margin-right:0}
+table.tableblock{max-width:100%;border-collapse:separate}
+p.tableblock:last-child{margin-bottom:0}
+td.tableblock>.content{margin-bottom:-1.25em}
+table.tableblock,th.tableblock,td.tableblock{border:0 solid #dedede}
+table.grid-all>thead>tr>.tableblock,table.grid-all>tbody>tr>.tableblock{border-width:0 1px 1px 0}
+table.grid-all>tfoot>tr>.tableblock{border-width:1px 1px 0 0}
+table.grid-cols>*>tr>.tableblock{border-width:0 1px 0 0}
+table.grid-rows>thead>tr>.tableblock,table.grid-rows>tbody>tr>.tableblock{border-width:0 0 1px}
+table.grid-rows>tfoot>tr>.tableblock{border-width:1px 0 0}
+table.grid-all>*>tr>.tableblock:last-child,table.grid-cols>*>tr>.tableblock:last-child{border-right-width:0}
+table.grid-all>tbody>tr:last-child>.tableblock,table.grid-all>thead:last-child>tr>.tableblock,table.grid-rows>tbody>tr:last-child>.tableblock,table.grid-rows>thead:last-child>tr>.tableblock{border-bottom-width:0}
+table.frame-all{border-width:1px}
+table.frame-sides{border-width:0 1px}
+table.frame-topbot,table.frame-ends{border-width:1px 0}
+table.stripes-all tr,table.stripes-odd tr:nth-of-type(odd){background:#f8f8f7}
+table.stripes-none tr,table.stripes-odd tr:nth-of-type(even){background:none}
+th.halign-left,td.halign-left{text-align:left}
+th.halign-right,td.halign-right{text-align:right}
+th.halign-center,td.halign-center{text-align:center}
+th.valign-top,td.valign-top{vertical-align:top}
+th.valign-bottom,td.valign-bottom{vertical-align:bottom}
+th.valign-middle,td.valign-middle{vertical-align:middle}
+table thead th,table tfoot th{font-weight:bold}
+tbody tr th{display:table-cell;line-height:1.6;background:#f7f8f7}
+tbody tr th,tbody tr th p,tfoot tr th,tfoot tr th p{color:rgba(0,0,0,.8);font-weight:bold}
+p.tableblock>code:only-child{background:none;padding:0}
+p.tableblock{font-size:1em}
+td>div.verse{white-space:pre}
+ol{margin-left:1.75em}
+ul li ol{margin-left:1.5em}
+dl dd{margin-left:1.125em}
+dl dd:last-child,dl dd:last-child>:last-child{margin-bottom:0}
+ol>li p,ul>li p,ul dd,ol dd,.olist .olist,.ulist .ulist,.ulist .olist,.olist .ulist{margin-bottom:.625em}
+ul.checklist,ul.none,ol.none,ul.no-bullet,ol.no-bullet,ol.unnumbered,ul.unstyled,ol.unstyled{list-style-type:none}
+ul.no-bullet,ol.no-bullet,ol.unnumbered{margin-left:.625em}
+ul.unstyled,ol.unstyled{margin-left:0}
+ul.checklist{margin-left:.625em}
+ul.checklist li>p:first-child>.fa-square-o:first-child,ul.checklist li>p:first-child>.fa-check-square-o:first-child{width:1.25em;font-size:.8em;position:relative;bottom:.125em}
+ul.checklist li>p:first-child>input[type="checkbox"]:first-child{margin-right:.25em}
+ul.inline{display:-ms-flexbox;display:-webkit-box;display:flex;-ms-flex-flow:row wrap;-webkit-flex-flow:row wrap;flex-flow:row wrap;list-style:none;margin:0 0 .625em -1.25em}
+ul.inline>li{margin-left:1.25em}
+.unstyled dl dt{font-weight:400;font-style:normal}
+ol.arabic{list-style-type:decimal}
+ol.decimal{list-style-type:decimal-leading-zero}
+ol.loweralpha{list-style-type:lower-alpha}
+ol.upperalpha{list-style-type:upper-alpha}
+ol.lowerroman{list-style-type:lower-roman}
+ol.upperroman{list-style-type:upper-roman}
+ol.lowergreek{list-style-type:lower-greek}
+.hdlist>table,.colist>table{border:0;background:none}
+.hdlist>table>tbody>tr,.colist>table>tbody>tr{background:none}
+td.hdlist1,td.hdlist2{vertical-align:top;padding:0 .625em}
+td.hdlist1{font-weight:bold;padding-bottom:1.25em}
+.literalblock+.colist,.listingblock+.colist{margin-top:-.5em}
+.colist td:not([class]):first-child{padding:.4em .75em 0;line-height:1;vertical-align:top}
+.colist td:not([class]):first-child img{max-width:none}
+.colist td:not([class]):last-child{padding:.25em 0}
+.thumb,.th{line-height:0;display:inline-block;border:solid 4px #fff;-webkit-box-shadow:0 0 0 1px #ddd;box-shadow:0 0 0 1px #ddd}
+.imageblock.left{margin:.25em .625em 1.25em 0}
+.imageblock.right{margin:.25em 0 1.25em .625em}
+.imageblock>.title{margin-bottom:0}
+.imageblock.thumb,.imageblock.th{border-width:6px}
+.imageblock.thumb>.title,.imageblock.th>.title{padding:0 .125em}
+.image.left,.image.right{margin-top:.25em;margin-bottom:.25em;display:inline-block;line-height:0}
+.image.left{margin-right:.625em}
+.image.right{margin-left:.625em}
+a.image{text-decoration:none;display:inline-block}
+a.image object{pointer-events:none}
+sup.footnote,sup.footnoteref{font-size:.875em;position:static;vertical-align:super}
+sup.footnote a,sup.footnoteref a{text-decoration:none}
+sup.footnote a:active,sup.footnoteref a:active{text-decoration:underline}
+#footnotes{padding-top:.75em;padding-bottom:.75em;margin-bottom:.625em}
+#footnotes hr{width:20%;min-width:6.25em;margin:-.25em 0 .75em;border-width:1px 0 0}
+#footnotes .footnote{padding:0 .375em 0 .225em;line-height:1.3334;font-size:.875em;margin-left:1.2em;margin-bottom:.2em}
+#footnotes .footnote a:first-of-type{font-weight:bold;text-decoration:none;margin-left:-1.05em}
+#footnotes .footnote:last-of-type{margin-bottom:0}
+#content #footnotes{margin-top:-.625em;margin-bottom:0;padding:.75em 0}
+.gist .file-data>table{border:0;background:#fff;width:100%;margin-bottom:0}
+.gist .file-data>table td.line-data{width:99%}
+div.unbreakable{page-break-inside:avoid}
+.big{font-size:larger}
+.small{font-size:smaller}
+.underline{text-decoration:underline}
+.overline{text-decoration:overline}
+.line-through{text-decoration:line-through}
+.aqua{color:#00bfbf}
+.aqua-background{background-color:#00fafa}
+.black{color:#000}
+.black-background{background-color:#000}
+.blue{color:#0000bf}
+.blue-background{background-color:#0000fa}
+.fuchsia{color:#bf00bf}
+.fuchsia-background{background-color:#fa00fa}
+.gray{color:#606060}
+.gray-background{background-color:#7d7d7d}
+.green{color:#006000}
+.green-background{background-color:#007d00}
+.lime{color:#00bf00}
+.lime-background{background-color:#00fa00}
+.maroon{color:#600000}
+.maroon-background{background-color:#7d0000}
+.navy{color:#000060}
+.navy-background{background-color:#00007d}
+.olive{color:#606000}
+.olive-background{background-color:#7d7d00}
+.purple{color:#600060}
+.purple-background{background-color:#7d007d}
+.red{color:#bf0000}
+.red-background{background-color:#fa0000}
+.silver{color:#909090}
+.silver-background{background-color:#bcbcbc}
+.teal{color:#006060}
+.teal-background{background-color:#007d7d}
+.white{color:#bfbfbf}
+.white-background{background-color:#fafafa}
+.yellow{color:#bfbf00}
+.yellow-background{background-color:#fafa00}
+span.icon>.fa{cursor:default}
+a span.icon>.fa{cursor:inherit}
+.admonitionblock td.icon [class^="fa icon-"]{font-size:2.5em;text-shadow:1px 1px 2px rgba(0,0,0,.5);cursor:default}
+.admonitionblock td.icon .icon-note::before{content:"\f05a";color:#19407c}
+.admonitionblock td.icon .icon-tip::before{content:"\f0eb";text-shadow:1px 1px 2px rgba(155,155,0,.8);color:#111}
+.admonitionblock td.icon .icon-warning::before{content:"\f071";color:#bf6900}
+.admonitionblock td.icon .icon-caution::before{content:"\f06d";color:#bf3400}
+.admonitionblock td.icon .icon-important::before{content:"\f06a";color:#bf0000}
+.conum[data-value]{display:inline-block;color:#fff!important;background-color:rgba(0,0,0,.8);-webkit-border-radius:100px;border-radius:100px;text-align:center;font-size:.75em;width:1.67em;height:1.67em;line-height:1.67em;font-family:"Open Sans","DejaVu Sans",sans-serif;font-style:normal;font-weight:bold}
+.conum[data-value] *{color:#fff!important}
+.conum[data-value]+b{display:none}
+.conum[data-value]::after{content:attr(data-value)}
+pre .conum[data-value]{position:relative;top:-.125em}
+b.conum *{color:inherit!important}
+.conum:not([data-value]):empty{display:none}
+dt,th.tableblock,td.content,div.footnote{text-rendering:optimizeLegibility}
+h1,h2,p,td.content,span.alt{letter-spacing:-.01em}
+p strong,td.content strong,div.footnote strong{letter-spacing:-.005em}
+p,blockquote,dt,td.content,span.alt{font-size:1.0625rem}
+p{margin-bottom:1.25rem}
+.sidebarblock p,.sidebarblock dt,.sidebarblock td.content,p.tableblock{font-size:1em}
+.exampleblock>.content{background-color:#fffef7;border-color:#e0e0dc;-webkit-box-shadow:0 1px 4px #e0e0dc;box-shadow:0 1px 4px #e0e0dc}
+.print-only{display:none!important}
+@page{margin:1.25cm .75cm}
+@media print{*{-webkit-box-shadow:none!important;box-shadow:none!important;text-shadow:none!important}
+html{font-size:80%}
+a{color:inherit!important;text-decoration:underline!important}
+a.bare,a[href^="#"],a[href^="mailto:"]{text-decoration:none!important}
+a[href^="http:"]:not(.bare)::after,a[href^="https:"]:not(.bare)::after{content:"(" attr(href) ")";display:inline-block;font-size:.875em;padding-left:.25em}
+abbr[title]::after{content:" (" attr(title) ")"}
+pre,blockquote,tr,img,object,svg{page-break-inside:avoid}
+thead{display:table-header-group}
+svg{max-width:100%}
+p,blockquote,dt,td.content{font-size:1em;orphans:3;widows:3}
+h2,h3,#toctitle,.sidebarblock>.content>.title{page-break-after:avoid}
+#toc,.sidebarblock,.exampleblock>.content{background:none!important}
+#toc{border-bottom:1px solid #dddddf!important;padding-bottom:0!important}
+body.book #header{text-align:center}
+body.book #header>h1:first-child{border:0!important;margin:2.5em 0 1em}
+body.book #header .details{border:0!important;display:block;padding:0!important}
+body.book #header .details span:first-child{margin-left:0!important}
+body.book #header .details br{display:block}
+body.book #header .details br+span::before{content:none!important}
+body.book #toc{border:0!important;text-align:left!important;padding:0!important;margin:0!important}
+body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-break-before:always}
+.listingblock code[data-lang]::before{display:block}
+#footer{padding:0 .9375em}
+.hide-on-print{display:none!important}
+.print-only{display:block!important}
+.hide-for-print{display:none!important}
+.show-for-print{display:inherit!important}}
+@media print,amzn-kf8{#header>h1:first-child{margin-top:1.25rem}
+.sect1{padding:0!important}
+.sect1+.sect1{border:0}
+#footer{background:none}
+#footer-text{color:rgba(0,0,0,.6);font-size:.9em}}
+@media amzn-kf8{#header,#content,#footnotes,#footer{padding:0}}
+</style>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body class="book toc2 toc-left">
+<div id="header">
+<h1>Curriculum für<br><br>Certified Professional for<br>Software Architecture (CPSA)<sup>&#174;</sup><br><em>Advanced Level</em>: <br> Modul<br>WEB<br><br>Web-Architekturen</h1>
+<div class="details">
+<span id="revnumber">version 2015.2-DE,</span>
+<span id="revdate">8. April 2020</span>
+</div>
+<div id="toc" class="toc2">
+<div id="toctitle">Table of Contents</div>
+<ul class="sectlevel1">
+<li><a href="#_einführung_allgemeines_zum_isaqb_advanced_level">Einführung: Allgemeines zum iSAQB Advanced Level</a>
+<ul class="sectlevel2">
+<li><a href="#_was_vermittelt_ein_advanced_level_modul">Was vermittelt ein Advanced Level Modul?</a></li>
+<li><a href="#_was_können_absolventen_des_advanced_level_cpsa_a">Was können Absolventen des Advanced Level (CPSA-A)?</a></li>
+<li><a href="#_voraussetzungen_zur_cpsa_a_zertifizierung">Voraussetzungen zur CPSA-A-Zertifizierung</a></li>
+</ul>
+</li>
+<li><a href="#_grundlegendes">Grundlegendes</a>
+<ul class="sectlevel2">
+<li><a href="#_struktur_des_lehrplans_und_empfohlene_zeitliche_aufteilung">Struktur des Lehrplans und empfohlene zeitliche Aufteilung</a></li>
+<li><a href="#_dauer_didaktik_und_weitere_details">Dauer, Didaktik und weitere Details</a></li>
+<li><a href="#_voraussetzungen">Voraussetzungen</a></li>
+<li><a href="#_gliederung_des_lehrplans">Gliederung des Lehrplans</a></li>
+<li><a href="#_ergänzende_informationen_begriffe_übersetzungen">Ergänzende Informationen, Begriffe, Übersetzungen</a></li>
+</ul>
+</li>
+<li><a href="#_grundlagen">1. Grundlagen</a>
+<ul class="sectlevel2">
+<li><a href="#_begriffe_und_konzepte">1.1. Begriffe und Konzepte</a></li>
+<li><a href="#_lernziele">1.2. Lernziele</a></li>
+</ul>
+</li>
+<li><a href="#_protokolle_und_standards">2. Protokolle und Standards</a>
+<ul class="sectlevel2">
+<li><a href="#_begriffe_und_konzepte_2">2.1. Begriffe und Konzepte</a></li>
+<li><a href="#_lernziele_2">2.2. Lernziele</a></li>
+<li><a href="#_referenzen">2.3. Referenzen</a></li>
+</ul>
+</li>
+<li><a href="#_architekturstile">3. Architekturstile</a>
+<ul class="sectlevel2">
+<li><a href="#_begriffe_und_konzepte_3">3.1. Begriffe und Konzepte</a></li>
+<li><a href="#_lernziele_3">3.2. Lernziele</a></li>
+</ul>
+</li>
+<li><a href="#_technologie_und_infrastruktur">4. Technologie und Infrastruktur</a>
+<ul class="sectlevel2">
+<li><a href="#_begriffe_und_konzepte_4">4.1. Begriffe und Konzepte</a></li>
+<li><a href="#_lernziele_4">4.2. Lernziele</a></li>
+<li><a href="#_referenzen_2">4.3. Referenzen</a></li>
+</ul>
+</li>
+<li><a href="#_entwurf_von_web_architekturen">5. Entwurf von Web-Architekturen</a>
+<ul class="sectlevel2">
+<li><a href="#_begriffe_und_konzepte_5">5.1. Begriffe und Konzepte</a></li>
+<li><a href="#_lernziele_5">5.2. Lernziele</a></li>
+<li><a href="#_referenzen_3">5.3. Referenzen</a></li>
+</ul>
+</li>
+<li><a href="#_qualität_in_web_architekturen">6. Qualität in Web-Architekturen</a>
+<ul class="sectlevel2">
+<li><a href="#_begriffe_und_konzepte_6">6.1. Begriffe und Konzepte</a></li>
+<li><a href="#_lernziele_6">6.2. Lernziele</a></li>
+</ul>
+</li>
+<li><a href="#_beispiele">7. Beispiele</a>
+<ul class="sectlevel2">
+<li><a href="#_begriffe_und_konzepte_7">7.1. Begriffe und Konzepte</a></li>
+</ul>
+</li>
+<li><a href="#_referenzen_4">Referenzen</a></li>
+</ul>
+</div>
+</div>
+<div id="content">
+<div id="preamble">
+<div class="sectionbody">
+<div style="page-break-after: always;"></div>
+<div class="paragraph">
+<p><strong>&#169; (Copyright), International Software Architecture Qualification Board e. V.
+(iSAQB<sup>&#174;</sup> e. V.) 2019</strong></p>
+</div>
+<div class="paragraph">
+<p>Die Nutzung des Lehrplans ist nur unter den nachfolgenden Voraussetzungen erlaubt:</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Sie möchten das Zertifikat zum CPSA Certified Professional for Software Architecture Advanced Level<sup>&#174;</sup> erwerben.
+Für den Erwerb des Zertifikats ist es gestattet, die Text-Dokumente und/oder Lehrpläne zu nutzen, indem eine Arbeitskopie für den eigenen Rechner erstellt wird. Soll eine darüber hinausgehende Nutzung der Dokumente und/oder Lehrpläne erfolgen, zum Beispiel zur Weiterverbreitung an Dritte, Werbung etc., bitte unter <a href="mailto:info@isaqb.org">info@isaqb.org</a> nachfragen.
+Es müsste dann ein eigener Lizenzvertrag geschlossen werden.</p>
+</li>
+<li>
+<p>Sind Sie Trainer oder Trainingsprovider, ist die Nutzung der Dokumente und/oder Lehrpläne nach Erwerb einer Nutzungslizenz möglich. Hierzu bitte unter <a href="mailto:info@isaqb.org">info@isaqb.org</a> nachfragen.
+Lizenzverträge, die alles umfassend regeln, sind vorhanden.</p>
+</li>
+<li>
+<p>Falls Sie weder unter die Kategorie 1. noch unter die Kategorie 2. fallen, aber dennoch die Dokumente und/oder Lehrpläne nutzen möchten, nehmen Sie bitte ebenfalls Kontakt unter <a href="mailto:info@isaqb.org">info@isaqb.org</a> zum iSAQB e. V. auf.
+Sie werden dort über die Möglichkeit des Erwerbs entsprechender Lizenzen im Rahmen der vorhandenen Lizenzverträge informiert und können die gewünschten Nutzungsgenehmigungen erhalten.</p>
+</li>
+</ol>
+</div>
+<div class="sidebarblock">
+<div class="content">
+<div class="title">Wichtiger Hinweis</div>
+<div class="paragraph">
+<p><strong>Grundsätzlich weisen wir darauf hin, dass dieser Lehrplan urheberrechtlich geschützt ist.
+Alle Rechte an diesen Copyrights stehen ausschließlich dem International Software Architecture Qualification Board e. V. (iSAQB<sup>&#174;</sup> e. V.) zu.</strong></p>
+</div>
+</div>
+</div>
+<div class="paragraph">
+<p>Die Abkürzung "e. V." ist Teil des offiziellen Namens des iSAQB und steht für "eingetragener Verein", der seinen Status als juristische Person nach deutschem Recht beschreibt.
+Der Einfachheit halber wird iSAQB e. V. im Folgenden ohne die Verwendung dieser Abkürzung als iSAQB bezeichnet.</p>
+</div>
+<div style="page-break-after: always;"></div>
+<!-- toc disabled -->
+<div style="page-break-after: always;"></div>
+<div style="page-break-after: always;"></div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_einführung_allgemeines_zum_isaqb_advanced_level">Einführung: Allgemeines zum iSAQB Advanced Level</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="_was_vermittelt_ein_advanced_level_modul">Was vermittelt ein Advanced Level Modul?</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>Der iSAQB Advanced Level bietet eine modulare Ausbildung in drei Kompetenzbereichen mit flexibel gestaltbaren Ausbildungswegen. Er berücksichtigt individuelle Neigungen und Schwerpunkte.</p>
+</li>
+<li>
+<p>Die Zertifizierung erfolgt als Hausarbeit. Die Bewertung und mündliche Prüfung wird durch vom iSAQB benannte Experten vorgenommen.</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_was_können_absolventen_des_advanced_level_cpsa_a">Was können Absolventen des Advanced Level (CPSA-A)?</h3>
+<div class="paragraph">
+<p>CPSA-A-Absolventen können:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>eigenständig und methodisch fundiert mittlere bis große IT-Systeme entwerfen</p>
+</li>
+<li>
+<p>in IT-Systemen mittlerer bis hoher Kritikalität technische und inhaltliche Verantwortung übernehmen</p>
+</li>
+<li>
+<p>Maßnahmen zur Erreichung von Qualitätsanforderungen konzeptionieren, entwerfen und dokumentieren sowie Entwicklungsteams bei der Umsetzung dieser Maßnahmen begleiten</p>
+</li>
+<li>
+<p>architekturrelevante Kommunikation in mittleren bis großen Entwicklungsteams steuern und durchführen</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_voraussetzungen_zur_cpsa_a_zertifizierung">Voraussetzungen zur CPSA-A-Zertifizierung</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>erfolgreiche Ausbildung und Zertifizierung zum Certified Professional for Software Architecture, Foundation Level<sup>&#174;</sup> (CPSA-F)</p>
+</li>
+<li>
+<p>mindestens drei Jahre Vollzeit-Berufserfahrung in der IT-Branche; dabei Mitarbeit an Entwurf und Entwicklung von mindestens zwei unterschiedlichen IT-Systemen</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Ausnahmen sind auf Antrag zulässig (etwa: Mitarbeit in Open-Source-Projekten)</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Aus- und Weiterbildung im Rahmen von iSAQB-Advanced-Level-Schulungen im Umfang von mindestens 70 Credit Points aus mindestens drei unterschiedlichen Kompetenzbereichen</p>
+<div class="ulist">
+<ul>
+<li>
+<p>bestehende Zertifizierungen (etwa Sun/Oracle Java-Architect, Microsoft CSA) können auf Antrag angerechnet werden</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>erfolgreiche Bearbeitung der CPSA-A-Zertifizierungsprüfung</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p><br>
+<br></p>
+</div>
+<div class="paragraph text-center">
+<p><span class="image"><img src="images/00-preamble/cpsa-a-logo.png" alt="Certified Professional for Software Architecture<sup>&#174;</sup> Advanced Level (CPSA-A)"></span></p>
+</div>
+<div style="page-break-after: always;"></div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_grundlegendes">Grundlegendes</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="_struktur_des_lehrplans_und_empfohlene_zeitliche_aufteilung">Struktur des Lehrplans und empfohlene zeitliche Aufteilung</h3>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 50%;">
+<col style="width: 50%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Inhalt</th>
+<th class="tableblock halign-right valign-top">Empfohlene Mindestdauer (min)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1. Grundlagen</p></td>
+<td class="tableblock halign-right valign-top"><p class="tableblock">90</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">2. Protokolle und Standards</p></td>
+<td class="tableblock halign-right valign-top"><p class="tableblock">90</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">3. Architekturstile</p></td>
+<td class="tableblock halign-right valign-top"><p class="tableblock">180</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">4. Technologie und Infrastruktur</p></td>
+<td class="tableblock halign-right valign-top"><p class="tableblock">240</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">5. Entwurf von Web-Architekturen</p></td>
+<td class="tableblock halign-right valign-top"><p class="tableblock">300</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">6. Qualität in Web-Architekturen</p></td>
+<td class="tableblock halign-right valign-top"><p class="tableblock">180</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">7. Beispielarchitekturen</p></td>
+<td class="tableblock halign-right valign-top"><p class="tableblock">60</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-right valign-top"></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Summe</p></td>
+<td class="tableblock halign-right valign-top"><p class="tableblock">1140 (19h)</p></td>
+</tr>
+</tbody>
+</table>
+<div class="paragraph text-center">
+<div class="title">Zeitliche Aufteilung der Themengebiete</div>
+<p><span class="image text-center"><img src="images/01-basics/zeitaufteilung.png" alt="zeitaufteilung"></span></p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_dauer_didaktik_und_weitere_details">Dauer, Didaktik und weitere Details</h3>
+<div class="paragraph">
+<p>Die unten genannten Zeiten sind Empfehlungen. Die Dauer einer Schulung zum Modul WEB
+sollte mindestens 3 Tage betragen, kann aber länger sein.
+Anbieter können sich durch Dauer, Didaktik, Art und Aufbau der Übungen sowie der detaillierten Kursgliederung voneinander unterscheiden.
+Insbesondere die Art der Beispiele und Übungen lässt der Lehrplan komplett offen.</p>
+</div>
+<div class="paragraph">
+<p>Lizenzierte Schulungen zu WEB tragen zur Zulassung zur abschließenden Advanced-Level-Zertifizierungsprüfung folgende Credit Points) bei:</p>
+</div>
+<table class="tableblock frame-none grid-rows stripes-none stretch">
+<colgroup>
+<col style="width: 50%;">
+<col style="width: 50%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Methodische Kompetenz:</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">0 Punkte</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Technische Kompetenz:</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">30 Punkte</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Kommunikative Kompetenz:</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">0 Punkte</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="sect2">
+<h3 id="_voraussetzungen">Voraussetzungen</h3>
+<div class="paragraph">
+<p>Teilnehmerinnen und Teilnehmer <strong>sollten</strong> folgende Kenntnisse und/oder Erfahrung mitbringen:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>CPSA-F und alle damit verbundenen Voraussetzungen</p>
+</li>
+<li>
+<p>Erfahrungen mit verteilten Systemen – idealerweise Web-Anwendungen</p>
+</li>
+<li>
+<p>Grundkenntnisse in Web-Technologien HTML, CSS, JavaScript sowie mindestens ein serverseitiges Framework</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_gliederung_des_lehrplans">Gliederung des Lehrplans</h3>
+<div class="paragraph">
+<p>Die einzelnen Abschnitte des Lehrplans sind gemäß folgender Gliederung beschrieben:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>Begriffe/Konzepte</strong>: Wesentliche Kernbegriffe dieses Themas.</p>
+</li>
+<li>
+<p><strong>Unterrichts-/Übungszeit</strong>: Legt die Unterrichts- und Übungszeit fest, die für dieses Thema bzw. dessen Übung in einer akkreditierten Schulung mindestens aufgewendet werden muss.</p>
+</li>
+<li>
+<p><strong>Lernziele</strong>: Beschreibt die zu vermittelnden Inhalte inklusive ihrer Kernbegriffe und -konzepte.</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Dieser Abschnitt skizziert damit auch die zu erwerbenden Kenntnisse in entsprechenden Schulungen.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_ergänzende_informationen_begriffe_übersetzungen">Ergänzende Informationen, Begriffe, Übersetzungen</h3>
+<div class="paragraph">
+<p>Soweit für das Verständnis des Lehrplans erforderlich, haben wir Fachbegriffe ins <a href="https://github.com/isaqb-org/glossary">iSAQB-Glossar</a> aufgenommen, definiert und bei Bedarf durch die Übersetzungen der Originalliteratur ergänzt.</p>
+</div>
+<div style="page-break-after: always;"></div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_grundlagen">1. Grundlagen</h2>
+<div class="sectionbody">
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 50%;">
+<col style="width: 50%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Dauer: 90 Min.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Übungszeit: keine</p></td>
+</tr>
+</tbody>
+</table>
+<div class="sect2">
+<h3 id="_begriffe_und_konzepte">1.1. Begriffe und Konzepte</h3>
+<div class="paragraph">
+<p>Web-Browser, Web-Server, Client, Server, Proxy, Request, Response, Barrierefreiheit, Basic-Auth, Intranet vs. Internet, Redirect, TLS, Prepocessor, Hypermedia, Statelessness, Pattern Libraries, Frontend Components</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_lernziele">1.2. Lernziele</h3>
+<div id="LZ-1-1" class="paragraph">
+<p>In diesem Abschnitt sollen technologieunabhängig Konzepte aus dem Web-Umfeld behandelt werden.</p>
+</div>
+<div class="paragraph">
+<p><strong>Was sollen die Teilnehmer können?</strong></p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Die Teilnehmer können den typischen Request-/Response-Verlauf erläutern, der bei der Eingabe einer Adresse in der Adresszeile des Browsers bzw. beim Absenden eines Formulars abläuft.</p>
+</li>
+<li>
+<p>Teilnehmer können den Request-/Response-Verlauf auf typische Komponenten im Web-Umfeld abbilden: Client, Server, Proxy, Reverse Proxy, Load-Balancer, DNS-Server, Framework, eigene Applikationslogik (Servlet, PHP-Script, Rails-Controller).</p>
+</li>
+<li>
+<p>Die Teilnehmer können den Unterschied zwischen GET und POST-Request erläutern.</p>
+</li>
+<li>
+<p>Die Teilnehmer können schematisch die typische Client-Server-Infrastruktur von Web-Architekturen skizzieren.</p>
+</li>
+<li>
+<p>Teilnehmer können den allgemeinen Aufbau von HTTP-Requests erläutern: Header (mit Hostname, Content-Type usw.), Content.</p>
+</li>
+<li>
+<p>Teilnehmer können den allgemeinen Aufbau von HTTP-Responses erläutern: Response mit Statuszeile, Header und Content.</p>
+</li>
+<li>
+<p>Die Teilnehmer können den Aufbau einer URI erläutern und die Komponenten in der Request-Verarbeitung, die tendenziell dafür zuständig sind, sie zu interpretieren.</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p><strong>Was sollen die Teilnehmer verstehen?</strong></p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Die Teilnehmer verstehen, dass sich hinter dem Oberbegriff Web-Applikation sowohl technisch als auch fachlich grundlegend verschiedene Arten von IT-Systemen verbergen können, die verschiedene Architekturen erfordern</p>
+</li>
+<li>
+<p>Die Teilnehmer verstehen, dass Web-Applikationen nicht auf die Verwendung durch Browser beschränkt sind, sondern können auch durch andere Clients genutzt werden</p>
+</li>
+<li>
+<p>Die Teilnehmer verstehen den Unterschied zwischen inhaltlicher bzw. struktureller und darstellungsspezifischer Auszeichnung von Inhalten im Sinne der Separation of Concerns.</p>
+</li>
+<li>
+<p>Die  Teilnehmer verstehen die allgemeinen Anforderungen der Web Content Accessibility Guidelines (WCAG), die unter dem Begriff Barrierefreiheit zusammengefasst sind.</p>
+</li>
+<li>
+<p>Die  Teilnehmer verstehen den meist für Web-Anwendungen angewandten Flow bei Single Sign On Mechanismen (Redirect, Login, Redirect mit Token, Validierung des Tokens).</p>
+</li>
+<li>
+<p>Die Teilnehmer verstehen, dass eine Ressource mehr als eine Datenbank-Entität ist (also z.B. auch eine Prozess-Instanz oder ein Prozessschritt).</p>
+</li>
+<li>
+<p>Die Teilnehmer verstehen, dass Hypermedia dazu dient Ressourcen miteinander in Verbindung zu setzten.</p>
+</li>
+<li>
+<p>Die Teilnehmer verstehen das Konzept von Präprozessoren zur Übersetzung einer Sprache in eine andere bzw. zur Einbettung von Abhängigkeiten oder zur Erkennung toter Code-Blöcke.</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p><strong>Was sollen die Teilnehmer kennen?</strong></p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Die Teilnehmer wissen, dass rechtliche Rahmenbedingungen barrierefreie Oberflächen verlangen können. Z. B. formuliert die „Verordnung zur Schaffung barrierefreier Informationstechnik nach dem Behindertengleichstellungsgesetz“ etwa konkrete Anforderungen, die von allen Web-Seiten der Bundesverwaltung der Bundesrepublik Deutschland umgesetzt werden müssen.</p>
+</li>
+<li>
+<p>Die Teilnehmer kennen einige  der Techniken, die zu barrierefreien Inhalten führen, sorgen gleichzeitig dafür, dass diese Inhalte auch leichter maschinell verarbeitet werden können.</p>
+</li>
+<li>
+<p>Die Teilnehmer kennen verschiedene Charakteristika von Web-Frameworks:</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Komponenten- sowie Request-Response-Frameworks nutzen häufig vom MVC-Muster beeinflusste Designs</p>
+</li>
+<li>
+<p>Request-Response-Frameworks sind strukturell meist relativ gleich aufgebaut: Actions nehmen den Request entgegen, führen Applikationslogik aus und rendern zum Schluss die Response meist mit Templating (HTML) oder Objekt-Serialisierung (JSON/XML)</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Die Teilnehmer kennen mit dem Konzept von Pattern-Libraries eine Möglichkeit Frontend-Komponenten zu dokumentieren.</p>
+</li>
+</ul>
+</div>
+<div style="page-break-after: always;"></div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_protokolle_und_standards">2. Protokolle und Standards</h2>
+<div class="sectionbody">
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 50%;">
+<col style="width: 50%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Dauer: 90 Min.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Übungszeit: keine</p></td>
+</tr>
+</tbody>
+</table>
+<div class="sect2">
+<h3 id="_begriffe_und_konzepte_2">2.1. Begriffe und Konzepte</h3>
+<div class="paragraph">
+<p>URI, URL, URN, HTTP/1.1, HTTP/2, HTTP/3, HTTP-Verben (GET, PUT, POST, DELETE), HTTP-Header, Intermediaries, Caching, Content-Types, Content-Negotiation, TLS, PKI, HTML, DOM, Web-Sockets, Server-Sent Events, CustomElements, Shadow DOM, OAuth 2, OpenID Connect., CORS, Content Security Policy</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_lernziele_2">2.2. Lernziele</h3>
+<div id="LZ-2-1" class="paragraph">
+<p><strong>Was sollen die Teilnehmer können?</strong></p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Die Teilnehmer können Software-Systeme so entwerfen, dass sie an den Schnittstellen die im World Wide Web gebräuchlichen Protokolle effektiv und ressourcenschonend einsetzen.</p>
+</li>
+<li>
+<p>Die Teilnehmer können gezielt HTTP-Header verwenden, um der Intrastruktur das Caching zu ermöglichen.</p>
+</li>
+<li>
+<p>Die Teilnehmer können benennen, welche HTTP-Header sich auf Caching beziehen und wie sich diese auswirken (Stichwort Validierung vs. Verfallszeitstempel).</p>
+</li>
+<li>
+<p>Die Teilnehmer können den Unterschied zwischen den Rollen, die HTML, CSS und JavaScript im Browser spielen erklären.</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p><strong>Was sollen die Teilnehmer verstehen?</strong></p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Die Teilnehmer verstehen, dass die Protokolle und die Architektur des Webs technologieunabhängig sind.</p>
+</li>
+<li>
+<p>Die Teilnehmer verstehen den Zusammenhang zwischen Server-Adresse und Server-Name und kennen die Auswirkungen für die Erzeugung und Verwendung von URLs, die sowohl System-intern als auch -extern verwendet werden sollten.</p>
+</li>
+<li>
+<p>Die Teilnehmer verstehen den Zusammenhang zwischen dem Transport-Protokoll (TCP, UDP) und dem Applikationsprotokoll (HTTP/1.1, HTTP/2 und HTTP/3 &amp; QUIC).</p>
+</li>
+<li>
+<p>Die Teilnehmer verstehen, wie eine Namensauflösung per DNS-Lookup funktioniert.</p>
+</li>
+<li>
+<p>Die Teilnehmer verstehen, welche Auswirkungen die Cache-Control-Header auf Intermediaries haben.</p>
+</li>
+<li>
+<p>Die Teilnehmer verstehen die wesentlichen Eigenschaften des HTTP-Protokolls und können diese erklären.</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Das HTTP-Protokoll ist ein zustandsloses Request-Response Applikationsprotokoll.</p>
+</li>
+<li>
+<p>HTTP /1.1 ist ein textbasiertes serielles Applikationsprotokoll</p>
+</li>
+<li>
+<p>HTTP/2 multiplexed viele Requests/Responses gleichzeitig über eine TCP-Verbindung.</p>
+</li>
+<li>
+<p>HTTP/3 tauscht TCP gegen UDP und ergänzt die fehlende zuverlässige Verbindung in Form vom QUIC auf der Applikationsprotokollebene.</p>
+</li>
+<li>
+<p>Die Teilnehmer wissen, dass HTTP/3, HTTP/2 und HTTP/1.1 weitestgehend dieselbe Semantik auf Grundlage unterschiedlicher Leitungsprotokolle implementie-ren.</p>
+</li>
+<li>
+<p>Das HTTP-Protokoll sieht dazwischengeschaltete Verarbeitungsprozesse (Inter-mediaries)  ausdrücklich vor.</p>
+</li>
+<li>
+<p>Der Client identifiziert gegenüber dem Server eine Ressource über einen URI mit dem Schema http oder https. HTTP-Verben legen dabei die Art des Zugriffs fest, die Verben besitzen Semantik.</p>
+</li>
+<li>
+<p>Der Server antwortet mit standardisierten Status-Codes.</p>
+</li>
+<li>
+<p>HTTP-Header werden für weitere Dienste, Metadaten oder Erweiterungen genutzt.</p>
+</li>
+<li>
+<p>Diverse HTTP-Header legen gemeinsam fest, ob Responses gecachet werden dür-fen.</p>
+</li>
+<li>
+<p>Verschiedene Repräsentationen der gleichen Ressource werden über Medientypen (Content-Types) identifiziert und können zwischen Client und Server über Con-tent-Negotiation ausgehandelt werden.</p>
+</li>
+<li>
+<p>Kompression der Response-Daten kann (und sollte) ebenfalls über einen analogen Mechanismus ausgehandelt werden.</p>
+</li>
+<li>
+<p>Das HTTP-Protokoll bietet Raum für unterschiedliche Verfahren zur Authentifizie-rung des Clients gegenüber dem Server (z.B. Basic-Authentifizierung).</p>
+</li>
+<li>
+<p>Cookies erweitern das Protokoll um einen Mechanismus zur Annotierung der Browser-Sitzung mit beliebigen Informationen.</p>
+</li>
+<li>
+<p>Auf Cookies aufbauend kann das an sich zustandslose Protokoll mittels Serverseiti-gen Sessions statusbehaftet verwendet werden.</p>
+</li>
+<li>
+<p>Teilnehmer verstehen die interne Struktur von HTTP-Requests und -Responses.</p>
+</li>
+<li>
+<p>Die Teilnehmer verstehen, dass das Protokoll TLS auf der Transport-Ebene ver-schlüsselt, bei der eine symmetrische Verschlüsselung erfolgt.</p>
+</li>
+<li>
+<p>Der Schlüssel wird asymmetrisch z.B. mit Zertifikaten für den Server und den Cli-ent ausgehandelt.</p>
+</li>
+<li>
+<p>Zertifikate des Clients können zur Authentifizierung genutzt werden.</p>
+</li>
+<li>
+<p>Zertifikate werden mittels Public-Key Infrastrukturen (PKI) gemanaget.</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Die Teilnehmer verstehen, dass es für unterschiedliche Anforderungen unter-schiedliche Authentifizierungsmechanismen gibt.</p>
+</li>
+<li>
+<p>Die Teilnehmer verstehen, dass man Struktur der Informationen von deren Darstellung trennen sollte.</p>
+</li>
+<li>
+<p>Die Teilnehmer verstehen, wie ein Redirect verarbeitet wird.</p>
+</li>
+<li>
+<p>Die Teilnehmer verstehen den Begriff Idempotenz.</p>
+</li>
+<li>
+<p>Die Teilnehmer verstehen die Eigenschaft Safety. Sie wissen, dass ein HTTP-GET safe ist und daher die Response des Servers auf ein GET prinzipiell gecachet werden darf.</p>
+</li>
+<li>
+<p>Die Teilnehmer verstehen, warum ein Browser beim „Erneut Laden“ bei HTTP-POST eine separate Bestätigung verlangt.</p>
+</li>
+<li>
+<p>Die Teilnehmer verstehen, wie Web-Anwendungen realisiert sein müssen, um solche Rück-fragen des Browsers weitgeh end zu vermeiden.</p>
+</li>
+<li>
+<p>Die Teilnehmer verstehen, was HTTPS bedeutet und wie es funktioniert.</p>
+</li>
+<li>
+<p>Die Teilnehmer verstehen, welche Auswirkung es hat, eine TLS-Verbindung zu terminieren.</p>
+</li>
+<li>
+<p>Die Teilnehmer wissen, dass bei HTTP Basic-Authentication Benutzername und Passwort im Klartext übertragen werden.</p>
+</li>
+<li>
+<p>Die Teilnehmer wissen, dass vertrauliche Informationen im Web-Umfeld am besten auf dem Transportweg verschlüsselt übertragen werden sollten. Die Verschlüsselung auf dem Transportweg erfolgt über Transport Level Security (TLS).</p>
+</li>
+<li>
+<p>Die Teilnehmer verstehen die Auswirkungen von TLS für das Caching.</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p><strong>Was sollen die Teilnehmer kennen?</strong></p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Die Teilnehmer kennen die gängigen HTTP-Status-Codes und wissen, welche Ursache un-terstellt und welche Reaktion darauf üblicherweise erwartet wird.</p>
+</li>
+<li>
+<p>Die Teilnehmer verstehen die Verantwortung und Aufgaben der Protokolle und Komponen-ten im Web-Umfeld:</p>
+<div class="ulist">
+<ul>
+<li>
+<p>URIs identifizieren Ressourcen, URLs lokalisieren sie zusätzlich bei einer Authori-ty,</p>
+</li>
+<li>
+<p>DNS-Server unterstützen bei der Auflösung des Authority-Teils des URI,</p>
+</li>
+<li>
+<p>Das HTTP-Protokoll ist ein generisches Protokoll zum Zugriff auf Ressourcen und stellt Lösungen für einige nicht-fachliche Anforderungen zur Verfügung,</p>
+</li>
+<li>
+<p>Für verschiedene Arten von Daten stehen standardisierte Formate zur Verfügung,</p>
+</li>
+<li>
+<p>HTTP sieht vor, dass Clients und Server das verwendete Format miteinander aus-handeln, wenn mehrere Alternativen existieren.</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Die Teilnehmer kennen das Browser-intern verwendete Document Object Model wissen, dass es durch JavaScript und CSS verändert werden kann.</p>
+</li>
+<li>
+<p>Die Teilnehmer kennen verschiedene Datenformate für die Repräsentation von Informati-onen (HTML, XML, JSON, …).</p>
+</li>
+<li>
+<p>Die Teilnehmer wissen, wie Cookies zwischen Client und Server ausgetauscht und verwaltet werden.</p>
+</li>
+<li>
+<p>Die Teilnehmer kennen das XML Http Request-Object (kurz XHR) sowie die HTML5-fetch API als Grundlage von AJAX-basierten Anwendungen.</p>
+</li>
+<li>
+<p>Die Teilnehmer kennen die Möglichkeiten, die sich durch Server-Side-Events ergeben.</p>
+</li>
+<li>
+<p>Die Teilnehmer kennen Mechanismen, die die Verwendung der Browser-Buttons Back und Forward erlauben, ohne unerwünschte Nebeneffekte auszulösen.</p>
+</li>
+<li>
+<p>Die Teilnehmer kennen die relevanten Standardisierungsgremien wie IETF, IANA, W3C und deren Aufgabenbereiche im Bezug auf Web-Architektur.</p>
+</li>
+<li>
+<p>Die Teilnehmer kennen WebSockets.</p>
+</li>
+<li>
+<p>Die Teilnehmer kennen OAuth 2 als ein System zur Zugangsdelegation an Dritte.</p>
+</li>
+<li>
+<p>Die Teilnehmer kennen OpenID Connect als ein auf OAuth 2 basierendes System für Single Sign on</p>
+</li>
+<li>
+<p>Die Teilnehmer kennen CORS als Mechanismus zum Umgang mit Cross-Domain Restriktionen</p>
+</li>
+<li>
+<p>Die Teilnehmer kennen die Content Security Policy als Mechanismus, um Cross-Site-Scripting zu erschweren</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_referenzen">2.3. Referenzen</h3>
+<div class="paragraph">
+<p><a href="#ecma">[ECMA-262]</a>, <a href="#fielding">[Fielding+2000]</a>, <a href="#htmlcss">[HTML-CSS]</a>, <a href="#jacobs">[Jacobs+2004]</a>, <a href="#rfctls">[RFC2246]</a>, <a href="#rfchttp">[RFC2616]</a>, <a href="#rfcuri">[RFC3986]</a>, <a href="#rfciri">[RFC3987]</a>,
+<a href="#rfchttpstate">[RFC6265]</a>, <a href="#tilkov">[Tilkov 2011]</a>, <a href="#wsi">[WS-I]</a></p>
+</div>
+<div style="page-break-after: always;"></div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_architekturstile">3. Architekturstile</h2>
+<div class="sectionbody">
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 50%;">
+<col style="width: 50%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Dauer: 120 Min.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Übungszeit: 60 Min.</p></td>
+</tr>
+</tbody>
+</table>
+<div class="sect2">
+<h3 id="_begriffe_und_konzepte_3">3.1. Begriffe und Konzepte</h3>
+<div class="paragraph">
+<p>Representational State Transfer (REST), Stateful-BackEnd-Web-Apps, Single-Page-Applikation, Web-Components</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_lernziele_3">3.2. Lernziele</h3>
+<div id="LZ-3-1" class="paragraph">
+<p><strong>Was sollen die Teilnehmer können?</strong></p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Die Teilnehmer können erklären, wie sich der REST-Stil vom Stateful-Backend-Architekturstil unterscheidet.</p>
+</li>
+<li>
+<p>Die Teilnehmer können verschiedene Web-Architektur-Stile unterscheiden und bewusst auswählen, welcher für eine Menge von gegebenen Anforderungen und Rahmenbedingun-gen der sinnvollste ist.</p>
+</li>
+<li>
+<p>Die Teilnehmer können für ein auch potentiell ihnen unbekanntes Framework bewerten, wie gut es für die Realisierung von Web-Anwendungen gemäß den Anforderungen geeignet ist.</p>
+</li>
+<li>
+<p>Die Teilnehmer können verschiedene Architekturstile von Web-Architekturen erläutern und entsprechende Systeme entwerfen:</p>
+<div class="ulist">
+<ul>
+<li>
+<p>REST-konforme Web-Anwendungen</p>
+</li>
+<li>
+<p>Stateful-Backend-Anwendungen (beispielsweise Komponenten-Orientrierte Ansätze).</p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p><strong>Was sollen die Teilnehmer verstehen?</strong></p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Die Teilnehmer verstehen die Einschränkungen, die der Architekturstil REST auf den Ent-wurf eines Systems mit sich bringt:</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Identifizierbare Ressourcen</p>
+</li>
+<li>
+<p>Uniforme Schnittstelle</p>
+</li>
+<li>
+<p>Zustandslose Kommunikation</p>
+</li>
+<li>
+<p>Repräsentationen</p>
+</li>
+<li>
+<p>Hypermedia.</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Die Teilnehmer verstehen die Einschränkungen, die Stateful-Backend-Architekturen auferlegen:</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Kommunikation läuft immer gegen dieselbe Server-Instanz.</p>
+</li>
+<li>
+<p>Bei Komponenten-Orientierten Ansätzen enthalten die Requests in der Regel ein Kommando oder einen Diskriminator, der entscheidet, welche Komponente für die Verarbeitung zuständig ist. In der Regel sind diese Dispatch-Informationen hart kodiert oder im Hauptspeicher (in der Session) abgelegt.</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Die Teilnehmer verstehen, dass, gleichgültig welcher Architekturstil gewählt ist, der Kern der Fachlichkeit, also beispielsweise sicherheits- und funktionsrelevante Prüfungen oder Berechnungen, stets im Server realisiert werden muss.</p>
+</li>
+<li>
+<p>Die Teilnehmer verstehen, wie sich die Reaktionsfreudigkeit von Web-Applikationen über Funktionalität im Client, also über JavaScript im Client (z. B. in Verbindung mit AJAX),  verbessern lässt.</p>
+</li>
+<li>
+<p>Die Teilnehmer verstehen die Standard-Features von Single-Page-Frameworks:</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Databinding (Two-Way und One-Way)</p>
+</li>
+<li>
+<p>Templating</p>
+</li>
+<li>
+<p>Clientseitiges Routing</p>
+</li>
+<li>
+<p>Komponenten-Abstraktion</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Die Teilnehmer verstehen, dass sich mit WebComponents (CustomElements + Shadow-DOM) stark von der Seite isolierte, eigenständige JavaScript-Komponenten entwickeln lassen, die sich per DOM instanziieren lassen.</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p><strong>Was sollen die Teilnehmer kennen?</strong></p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Die  Teilnehmer kennen Mechanismen langlaufende Transaktionen mit entspre-chenden Status-Codes anzunehmen und über geeignete Mechanismen das Ergebnis zu melden, sobald es vorliegt.</p>
+</li>
+<li>
+<p>Die Teilnehmer kennen die Auswirkungen von mobilen Clients:</p>
+<div class="ulist">
+<ul>
+<li>
+<p>stark unterschiedliche Bandbreiten</p>
+</li>
+<li>
+<p>schwankende teilweise sehr hohe Latenz.</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Die Teilnehmer wissen, dass mobile Clients teilweise reduzierte Leistungsfähigkeit im Bezug auf Hauptspeicher und CPU besitzen.</p>
+</li>
+<li>
+<p>Die Teilnehmer wissen, dass Ressourcen von mobilen Clients gerade im Hinblick auf limitierte Energiekapazitäten der Endgeräte zu schonen sind.</p>
+</li>
+</ul>
+</div>
+<div style="page-break-after: always;"></div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_technologie_und_infrastruktur">4. Technologie und Infrastruktur</h2>
+<div class="sectionbody">
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 50%;">
+<col style="width: 50%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Dauer: 180 Min.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Übungszeit: 60 Min.</p></td>
+</tr>
+</tbody>
+</table>
+<div class="sect2">
+<h3 id="_begriffe_und_konzepte_4">4.1. Begriffe und Konzepte</h3>
+<div class="paragraph">
+<p>Client, Server, Proxy, Reverse-Proxy, Content Delivery Networks/CDN, Lastverteilung/Load Balancing, CGI</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_lernziele_4">4.2. Lernziele</h3>
+<div id="LZ-4-1" class="paragraph">
+<p><strong>Was sollen die Teilnehmer können?</strong></p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Die Teilnehmer können serverseitige Web-Anwendungen so entwerfen, dass sie die Infrastruktur effektiv einsetzen.</p>
+</li>
+<li>
+<p>Die Teilnehmer können das Laufzeitverhalten eines Systems durch den gezielten Einsatz von Reverse Proxies verbessern.</p>
+</li>
+<li>
+<p>Die Teilnehmer können verschiedene Intermediaries benennen und ihre Auswirkungen auf die Architektur erklären.</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Proxies speichern Responses für den Client, hierfür sieht das HTTP-Protokoll explizite Regeln vor.</p>
+</li>
+<li>
+<p>Reverse Proxies sind Proxies auf der Server-Seite und fungieren als Caches für die Web-Applikation.</p>
+</li>
+<li>
+<p>Load Balancer verteilen Anfragen auf Server-Seite auf unterschiedliche Server.</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Die Teilnehmer kennen verschiedene Skalierungsstrategien (horizontal sowie vertikal) und können die geeignete Skalierungsstrategie auswählen.</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Vertikale Skalierung durch leistungsfähigere Hardware.</p>
+</li>
+<li>
+<p>Vertikale Skalierung dadurch, dass verschiedene Komponenten – etwa Web- und Applikationsserver – auf getrennten Infrastruktur-Komponenten verteilt werden.</p>
+</li>
+<li>
+<p>Vertikale Skalierung durch Cluster-Lösungen, die simulieren, dass eine Applikation nur auf einem Knoten läuft, obwohl es mehrere Server-Knoten zur Ausführung gibt.</p>
+</li>
+<li>
+<p>Horizontale Skalierung dadurch, dass ein Server-System dupliziert und die Last möglichst zufällig und gleichmäßig auf die vorhandenen Server verteilt wird. Dieses Verfahren muss für horizontale Skalierung potentiell unendlich fortsetzbar sein.</p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p><strong>Was sollen die Teilnehmer verstehen?</strong></p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Die Teilnehmer verstehen, dass Caching die Last auf den Server-Systemen reduzieren kann.</p>
+</li>
+<li>
+<p>Die Teilnehmer verstehen, wie Daten vieler Web-Anwendungen für wenige Benutzer (Client- oder auch Forward-Proxy) oder vieler Benutzer für wenige Web-Anwendungen (Reverse-Proxy) bereitgestellt werden können.</p>
+</li>
+<li>
+<p>Die Teilnehmer verstehen, wie Zugriffe auf Ressourcen durch Proxies kontrolliert werden können.</p>
+</li>
+<li>
+<p>Die Teilnehmer verstehen, wie mittels Reverse-Proxy Authentifizierungsschemata (beispielsweise von Form-based auf Basic-Auth.) umgeschrieben werden können.</p>
+</li>
+<li>
+<p>Die Teilnehmer sollten verstehen, welche Infrastruktur-Komponenten im Request-/Response-Zyklus Einfluss auf den Datendurchsatz und die Latenzzeit haben.</p>
+</li>
+<li>
+<p>Die Teilnehmer sollten verstehen, wie Browser-Clients Ressourcen laden und insbesondere HTML-Seiten auswerten und referenzierte Ressourcen anfragen.</p>
+</li>
+<li>
+<p>Die Teilnehmer verstehen, wie das Auslagern von Ressourcen in ein Content Delivery Network (CDN) hilft, die eigene Infrastruktur zu entlasten.</p>
+</li>
+<li>
+<p>Die Teilnehmer verstehen, dass nicht alle Web-Browser die Standards in gleichem Umfang unterstützen.</p>
+</li>
+<li>
+<p>Die Teilnehmer verstehen, dass sich die verschiedenen Web-Server im Bezug auf den Ressourcenverbrauch teilweise stark unterscheiden</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p><strong>Was sollen die Teilnehmer kennen?</strong></p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Die Teilnehmer kennen verschiedene Standard-Mechanismen, mit denen Web-Server um Applikationslogik erweitert werden können (CGI, Servlets, &#8230;&#8203;).</p>
+</li>
+<li>
+<p>Die Teilnehmer kennen verschiedene Ansätze zur Lastverteilung einer Web-Applikation (z.B. DNS-basierte Load-Balancer oder Proxies).</p>
+</li>
+<li>
+<p>Die Teilnehmer kennen mit Graceful Degradation und Progressive Enhancement verschiedene Strategien, die Oberfläche an die Fähigkeiten des Web-Browsers anzupassen.</p>
+</li>
+<li>
+<p>Die Teilnehmer kennen sowohl für CSS als auch für JavaScript Frameworks, die die Entwicklung erleichtern können.</p>
+</li>
+<li>
+<p>Die Teilnehmer wissen, dass unter HTML5 diverse Technologiepakete zusammengefasst werden, die neben neuen Strukturen für HTML auch neue APIs für JavaScript enthalten.</p>
+</li>
+<li>
+<p>Die Teilnehmer kennen die Bedeutung von unobtrusive JavaScript: Darunter werden Prinzipien und Praktiken zusammengefasst, die Inhalte und Verhalten deutlich voneinander trennen.</p>
+</li>
+<li>
+<p>Die Teilnehmer kennen die Funktionsweise von Web-Firewalls und wissen gegen welche Arten von Angriffen diese schützen.</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_referenzen_2">4.3. Referenzen</h3>
+<div class="paragraph">
+<p><a href="#bitv">[BITV 2011]</a>, <a href="#brewer">[Brewer 2004]</a>, <a href="#buschmann">[Buschmann+1996]</a>, <a href="#daswani">[Daswani+2007]</a>, <a href="#esi">[ESI]</a>, <a href="#htmlsse">[HTML5-SSE]</a>, <a href="#kopparapu">[Kopparapu 2002]</a>, <a href="#owasp">[OWASP]</a>,
+<a href="#pritchett">[Pritchett 2002]</a>, <a href="#stoneburner">[Stoneburner+2004]</a>, <a href="#waldo">[Waldo+1994]</a>, <a href="#wcag">[WCAG 2008]</a>, <a href="#websockets">[Websockets]</a>, <a href="#wwwc">[W3C-Int]</a></p>
+</div>
+<div style="page-break-after: always;"></div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_entwurf_von_web_architekturen">5. Entwurf von Web-Architekturen</h2>
+<div class="sectionbody">
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 50%;">
+<col style="width: 50%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Dauer: 180 Min.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Übungszeit: 120 Min.</p></td>
+</tr>
+</tbody>
+</table>
+<div class="sect2">
+<h3 id="_begriffe_und_konzepte_5">5.1. Begriffe und Konzepte</h3>
+<div class="paragraph">
+<p>Datenmodellierung, Funktionale Zerlegung, Repräsentationm, Verteiltes System, CAP-Theorem, ACID,
+Sicherheit von Web-Applikationen, Authentifizierung, Autorisierung, Barrierefreiheit/Accessibility,
+Internationalisierung/Lokalisierung, HTML, CSS, JavaScript, Trennen von Inhalt, Präsentation und Verhalten,
+Graceful Degradation, Progressive Enhancement, unobtrusive JavaScript.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_lernziele_5">5.2. Lernziele</h3>
+<div id="LZ-5-1" class="paragraph">
+<p><strong>Was sollen die Teilnehmer können?</strong></p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Die Teilnehmer können die Belange Repräsentation, Formatierung und Interaktion klar im Markup unterscheiden und beim Entwurf von Web-Anwendungen berücksichtigen (Separation of Concerns).</p>
+</li>
+<li>
+<p>Die Teilnehmer können verschiedene Aufgaben der Client-Oberfläche Formaten aus dem Kanon der Web-Standards zuordnen:</p>
+<div class="ulist">
+<ul>
+<li>
+<p>HTML liefert die Strukturdaten</p>
+</li>
+<li>
+<p>CSS legt die Präsentation fest. Selektoren wählen dabei Elemente aus der HTML-Struktur und weisen ihnen Präsentationseigenschaften zu.</p>
+</li>
+<li>
+<p>JavaScript steuert das Verhalten, verleiht über Event-Handler Interaktivität und ermöglicht asynchrone Serverkommunikation (AJAX).</p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p><strong>Was sollen die Teilnehmer verstehen?</strong></p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Die Teilnehmer verstehen die Notwendigkeit von Regeln, die beim Einsatz von Request-Response-Frameworks sicherstellen, dass nur erwünschte Funktionalitäten in den Views/Templates implementiert werden.</p>
+</li>
+<li>
+<p>Die Teilnehmer verstehen, dass sich die Reaktionsfähigkeit des Systems durch geeigneten Einsatz von asynchroner Verarbeitung oft verbessern lässt.</p>
+</li>
+<li>
+<p>Die Teilnehmer verstehen die grundsätzliche Aussage des CAP-Theorems und wissen, dass zwischen Skalierbarkeit/Verfügbarkeit/Verteiltheit und Konsistenz/Aktualität der Daten ein Kompromiss gesucht werden muss.</p>
+</li>
+<li>
+<p>Die Teilnehmer verstehen, wie Netzwerk-Fehler in verteilten Systemen Inkonsistenzen oder besondere Fehlerzustände hervorrufen können.</p>
+</li>
+<li>
+<p>Die Teilnehmer verstehen, wie sich Architekturen für konsistente Systeme und Systeme mit Partitionstoleranz unterscheiden.</p>
+</li>
+<li>
+<p>Die Teilnehmer verstehen, wie Angreifer Sicherheitslücken mit Hilfe von SQL-Injection, per Cross-Site-Scripting (XSS) oder per Client-Side-Request-Forgery (CSRF) ausnutzen können.</p>
+</li>
+<li>
+<p>Die Teilnehmer verstehen das Transaktionskonzept ACID – Atomicity, Consistency, Isolation und Durability.</p>
+</li>
+<li>
+<p>Die Teilnehmer verstehen das Konzept der Eventual Consistency (konsistent nach einiger Verzögerung).</p>
+</li>
+<li>
+<p>Die Teilnehmer verstehen, dass die innere Architektur der Server-Seite zusätzlich zu den fachlichen Aspekten auch durch</p>
+<div class="ulist">
+<ul>
+<li>
+<p>die Philosophie des verwendeten Frameworks,</p>
+</li>
+<li>
+<p>Strategien zum Caching von statischen und dynamischen Inhalten sowie</p>
+</li>
+<li>
+<p>Strategien zur Skalierung der Applikation getrieben wird.</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Die Teilnehmer verstehen, dass sich für lang laufende Prozesse Integrationsmuster wie Messaging für eine lose Kopplung der Web-Applikation an eine Hintergrundverarbeitung anbieten.</p>
+</li>
+<li>
+<p>Die Teilnehmer verstehen, dass jede Anwendung, die aus öffentlichen Netzen erreichbar ist, angegriffen wird.</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p><strong>Was sollen die Teilnehmer kennen?</strong></p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Die Teilnehmer  kennen die Muster Command-Query-Separation, CQS, und Command-Query-Responsibility-Separation, CQRS, um sowohl funktionale als auch die nicht-funktionale Anforderungen gezielt zu erfüllen.</p>
+</li>
+<li>
+<p>Die Teilnehmer wissen, dass es sich bei der Consistency aus „ACID“ um eine andere Konsistenz handelt als bei der Consistency aus CAP.</p>
+</li>
+<li>
+<p>Die Teilnehmer kennen die Grundmechanismen, mit denen im eigenen Technologieportfolio SQL-Injection, Cross-Site-Scripting (XSS) und Client-Side-Request-Forgery (CSRF) verhindert werden.</p>
+</li>
+<li>
+<p>Die Teilnehmer kennen für gestellte Qualitätsanforderungen verschiedene Strategien zur Verwaltung von sitzungsbezogenen Daten, z. B. im Cookie, im Hauptspeicher des Servers, in einer Datenbank.</p>
+</li>
+<li>
+<p>Die Teilnehmer kennen den Unterschied zwischen Internationalisierung und Lokalisierung.</p>
+</li>
+<li>
+<p>Die Teilnehmer kennen verschiedene Strategien mit denen ein Client über das Ergebnis einer Aktivität informiert werden kann, die asynchron auf dem Server gestartet wurde. Z.B.:</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Polling (Client Pull)</p>
+</li>
+<li>
+<p>HTML5 Server Sent Events</p>
+</li>
+<li>
+<p>Websockets.</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Die Teilnehmer wissen, dass viele serverseitige Frameworks Plug-Ins, analog zum Pipes-And-Filter Muster erlauben, beispielsweise ServletFilter in Java Servlet API basierten Frameworks oder HttpModules in ASP.NET.</p>
+</li>
+<li>
+<p>Die Teilnehmer kennen zumindest ein serverseitiges Framework, mit dem sich Web-Anwendungen realisieren lassen.</p>
+</li>
+<li>
+<p>Die Teilnehmer kennen unterschiedliche Arten von serverseitigen Web-Frameworks:</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Komponenten-Frameworks versuchen ein Event-basiertes Programmier-Modell aus dem Bereich der Desktop-Applikationen zu übertragen.</p>
+</li>
+<li>
+<p>Action- oder Request-Response-Frameworks bilden das HTTP-Protokoll unmittelbar ab.</p>
+</li>
+<li>
+<p>Daten-getriebene Frameworks bilden zur Datenerfassung Datenbank-Tabellen in der Oberfläche ab.</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Die Teilnehmer kennen Authentifizierungsmechanismen wie OpenID Connect oder CAS.</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_referenzen_3">5.3. Referenzen</h3>
+<div class="paragraph">
+<p><a href="#abbott">[abbott]</a>, <a href="#bitv">[BITV 2011]</a>, <a href="#brewer">[Brewer 2004]</a>, <a href="#buschmann">[Buschmann+1996]</a>, <a href="#daswani">[Daswani+2007]</a>, <a href="#ecma">[ECMA-262]</a>, <a href="#evans">[Evans 2004]</a>, <a href="#fowler">[Fowler 2011]</a>,
+<a href="#hohpe">[Hohpe+2003]</a>, <a href="#html">[HTML5]</a>, <a href="#htmlcss">[HTML-CSS]</a>, <a href="#htmlsse">[HTML5-SSE]</a>, <a href="#nottingham">[Nottingham 1998]</a>, <a href="#olsson">[Olsson 2007]</a>, <a href="#owasp">[OWASP]</a>, <a href="#pritchett">[Pritchett 2002]</a>,
+<a href="#stoneburner">[Stoneburner+2004]</a>, <a href="#waldo">[Waldo+1994]</a>, <a href="#wcag">[WCAG 2008]</a>, <a href="#websockets">[Websockets]</a>, <a href="#wwwc">[W3C-Int]</a></p>
+</div>
+<div style="page-break-after: always;"></div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_qualität_in_web_architekturen">6. Qualität in Web-Architekturen</h2>
+<div class="sectionbody">
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 50%;">
+<col style="width: 50%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Dauer: 120 Min.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Übungszeit: 60 Min.</p></td>
+</tr>
+</tbody>
+</table>
+<div class="sect2">
+<h3 id="_begriffe_und_konzepte_6">6.1. Begriffe und Konzepte</h3>
+<div class="paragraph">
+<p>Sicherheit, Skalierbarkeit, Web-Scale, Verfügbarkeit, Bedienbarkeit, Barrierefreiheit</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_lernziele_6">6.2. Lernziele</h3>
+<div id="LZ-6-1" class="paragraph">
+<p><strong>Was sollen die Teilnehmer verstehen?</strong></p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Die Teilnehmer verstehen die Grundlagen der Risikoanalyse und Bedrohungsmodellierung.</p>
+</li>
+<li>
+<p>Die Teilnehmer verstehen die Prinzipien für ein sicheres Software-Design:</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Principle of Least Privilege: gib Benutzern und Komponenten nur so viele Rechte, wie sie unbedingt benötigen.</p>
+</li>
+<li>
+<p>Defense in Depth: vertraue nicht darauf, dass andere Sicherheitsmaßnahmen funktioniert haben – verwende redundante Prüfungen.</p>
+</li>
+<li>
+<p>Secure by Default: Rechte müssen explizit erteilt werden.</p>
+</li>
+<li>
+<p>Don’t trust anybody: Benutzereingaben und Daten externer Quellen müssen validiert werden.</p>
+</li>
+<li>
+<p>Compartmentalize: Trenne Komponenten, die verschiedene Rechte benötigen voneinander.</p>
+</li>
+<li>
+<p>Fail securely: Falls Fehler auftreten, dürfen keine sicherheitsrelevanten Informationen preisgegeben werden.</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Die Teilnehmer verstehen, dass die Anzahl der Zugriffe im Internet sprunghaft über alle erwarteten Maße hinaus steigen kann.</p>
+</li>
+<li>
+<p>Die Teilnehmer verstehen, dass Backend-Systeme (wie z.B. Datenbanken oder Enterprise Informationssysteme) leicht unter Last geraten, wenn die Anzahl der Requests steigt, weil häufig ein Request zu einer Menge von Anfragen ans Backend führt.</p>
+</li>
+<li>
+<p>Die Teilnehmer verstehen, dass sich mit verschiedenen Persistenzstrategien (z.B. Relational, Aggregat/Dokumenten-orientiert, Spalten-orientiert, Hierarchisch, Objektorientiert, Graphenorientiert) verschiedene Nutzungsszenarien unterschiedlich gut unterstützen lassen.</p>
+</li>
+<li>
+<p>Die Teilnehmer verstehen, dass die Qualität sowohl von der Angemessenheit der ausgewählten Technologie als auch von der konkreten Implementierung abhängen.</p>
+</li>
+<li>
+<p>Die Teilnehmer verstehen, dass Internationalisierung mehr bedeutet, als Inhalte in verschiedenen Sprachen anzubieten.  Etwa</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Formate für Zahlen oder Datumsangaben oder die Reihenfolge, in der Worte sortiert werden, hängen vom Kulturkreis ab.</p>
+</li>
+<li>
+<p>Schriftrichtungen können sich unterscheiden.</p>
+</li>
+<li>
+<p>Layouts müssen berücksichtigen, dass Texte in verschiedenen Sprachen unterschiedlich viel Platz beanspruchen.</p>
+</li>
+<li>
+<p>Die rechtlichen Rahmenbedingungen in unterschiedlichen Staaten müssen berücksichtigt werden.</p>
+</li>
+<li>
+<p>Kulturelle Unterschiede wirken sich beispielsweise auf die Wahl von Farben aus.</p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p><strong>Was sollen die Teilnehmer kennen?</strong></p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Die Teilnehmer kennen die wesentlichen Kennzahlen, die für den Betrieb einer Web-Anwendung relevant sind:</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Anzahl von Prozessen / Threads</p>
+</li>
+<li>
+<p>RAM-Verbrauch</p>
+</li>
+<li>
+<p>Durchschnittlicher Ressourcenverbauch pro Request</p>
+</li>
+<li>
+<p>Anzahl offener Connections</p>
+</li>
+<li>
+<p>Durchschnittliche Antwortzeit</p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+<div style="page-break-after: always;"></div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_beispiele">7. Beispiele</h2>
+<div class="sectionbody">
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 50%;">
+<col style="width: 50%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Dauer: 60 Min.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Übungszeit: keine</p></td>
+</tr>
+</tbody>
+</table>
+<div class="sect2">
+<h3 id="_begriffe_und_konzepte_7">7.1. Begriffe und Konzepte</h3>
+<div class="paragraph">
+<p>Innerhalb jeder akkreditierten Schulung müssen konrkete Beispiele für unterschiedliche Bereiche von Web-Architekturen vorgestellt, besprochen und bewertet werden:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Umgang mit Infrastruktur und insbesondere Reverse-Proxies.</p>
+</li>
+<li>
+<p>Ein grobes Muster einer Web-Backend-Applikation.</p>
+</li>
+<li>
+<p>Ein oder mehrere Beispiele für Single-Page-Framework Features wie Data-Binding oder Client-Side-Routing.</p>
+</li>
+<li>
+<p>Beispiele für unterschiedliche Datenbank-Modelle.</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Art und Ausprägung der vorgestellten Beispiele können von der Schulung bzw. den Interessen der Teilnehmer abhängen und werden seitens iSAQB nicht vorgegeben.</p>
+</div>
+<div style="page-break-after: always;"></div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_referenzen_4">Referenzen</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Dieser Abschnitt enthält Quellenangaben, die ganz oder teilweise im Curriculum referenziert werden.</p>
+</div>
+<div class="paragraph">
+<p><strong>A</strong></p>
+</div>
+<div class="ulist bibliography">
+<ul class="bibliography">
+<li>
+<p><a id="abbot"></a>[Abbot+2010] Abbott, M. L., M. T. Fisher: The Art of Scalability, Addison-Wesley 2010</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p><strong>B</strong></p>
+</div>
+<div class="ulist bibliography">
+<ul class="bibliography">
+<li>
+<p><a id="bitv"></a>[BITV 2011] Verordnung zur Schaffung barrierefreier Informationstechnik nach dem Behindertengleichstellungsgesetz (Barrierefreie-Informationstechnik-Verordnung - BITV 2.0) – <a href="http://www.gesetze-im-internet.de/bitv_2_0/BJNR184300011.html" class="bare">http://www.gesetze-im-internet.de/bitv_2_0/BJNR184300011.html</a></p>
+</li>
+<li>
+<p><a id="brewer"></a>[Brewer 2004] Brewer, E.: Towards Robust Distributed Systems. Keynote zur PODC (Symposium on Principles of Distributed Computing) 2000. <a href="http://www.cs.berkeley.edu/~brewer/cs262b-2004/PODC-keynote.pdf" class="bare">http://www.cs.berkeley.edu/~brewer/cs262b-2004/PODC-keynote.pdf</a></p>
+</li>
+<li>
+<p><a id="buschmann"></a>[Buschmann+1996] Buschmann, F, R. Meunier, H. Rohnert, P. Sommerlad, M. Stal: A System of Patterns. Pattern Oriented Software Architecture.  Wiley 1996</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p><strong>C</strong></p>
+</div>
+<div class="ulist bibliography">
+<ul class="bibliography">
+<li>
+<p><a id="crockford"></a>[Crockford+2008] Crockford, Douglas: JavaScript – The good Parts. O’Reilly, 2008</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p><strong>D</strong></p>
+</div>
+<div class="ulist bibliography">
+<ul class="bibliography">
+<li>
+<p><a id="daswani"></a>[Daswani+2007] Daswani, N., C. Kern, A. Kesavan: Foundations of Security: What Every Programmer Needs to Know. Apress 2007</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p><strong>E</strong></p>
+</div>
+<div class="ulist bibliography">
+<ul class="bibliography">
+<li>
+<p><a id="ecma"></a>[ECMA-262] ECMAScript Language Specification – <a href="http://www.ecma-international.org/publications/standards/Ecma-262-arch.htm" class="bare">http://www.ecma-international.org/publications/standards/Ecma-262-arch.htm</a></p>
+</li>
+<li>
+<p><a id="evans"></a>[Evans 2004] Evans, E.: Domain Driven Design, Addison Wesley 2004</p>
+</li>
+<li>
+<p><a id="esi"></a>[ESI] ESI Language Specification 1.0.  W3C Note 2001 - <a href="http://www.w3.org/TR/esi-lang" class="bare">http://www.w3.org/TR/esi-lang</a></p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p><strong>F</strong></p>
+</div>
+<div class="ulist bibliography">
+<ul class="bibliography">
+<li>
+<p><a id="fielding"></a>[Fielding+2000] Fielding, R., R. Taylor: Principled Design of the Modern Web Architecture.  In Proceedings of the 2000 International Conference on Software Engineering (ICSE 2000), Limerick, Ireland, June 2000 - <a href="http://www.ics.uci.edu/~fielding/pubs/webarch_icse2000.pdf" class="bare">http://www.ics.uci.edu/~fielding/pubs/webarch_icse2000.pdf</a></p>
+</li>
+<li>
+<p><a id="fowler"></a>[Fowler 2011] Fowler, M.: CQRS. <a href="http://martinfowler.com/bliki/CQRS.html" class="bare">http://martinfowler.com/bliki/CQRS.html</a></p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p><strong>H</strong></p>
+</div>
+<div class="ulist bibliography">
+<ul class="bibliography">
+<li>
+<p><a id="hohpe"></a>[Hohpe+2003] Hohpe, G, Woolf, B: Enterprise Integration Patterns, Addison-Wesley 2003</p>
+</li>
+<li>
+<p><a id="html"></a>[HTML5] Web Hypertext Application Technology Working Group (WHATWG): HTML - Living Standard. <a href="http://www.whatwg.org/specs/web-apps/current-work/multipage/" class="bare">http://www.whatwg.org/specs/web-apps/current-work/multipage/</a></p>
+</li>
+<li>
+<p><a id="htmlcss"></a>[HTML-CSS] W3C Standards für das Webdesign – <a href="http://www.w3.org/standards/webdesign/htmlcss" class="bare">http://www.w3.org/standards/webdesign/htmlcss</a></p>
+</li>
+<li>
+<p><a id="htmlsse"></a>[HTML5-SSE] Server-Sent Events. – <a href="http://www.whatwg.org/specs/web-apps/current-work/multipage/comms.html#server-sent-events" class="bare">http://www.whatwg.org/specs/web-apps/current-work/multipage/comms.html#server-sent-events</a></p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p><strong>J</strong></p>
+</div>
+<div class="ulist bibliography">
+<ul class="bibliography">
+<li>
+<p><a id="jacobs"></a>[Jacobs+2004] Jacobs, I., N. Walsh: Architecture of the World Wide Web, Volume One.  W3C Recommendation 2004, - <a href="http://www.w3.org/TR/2004/REC-webarch-20041215/" class="bare">http://www.w3.org/TR/2004/REC-webarch-20041215/</a></p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p><strong>K</strong></p>
+</div>
+<div class="ulist bibliography">
+<ul class="bibliography">
+<li>
+<p><a id="kopparapu"></a>[Kopparapu 2002] Kopparapu, C.: Load Balancing Servers, Firewalls, and Caches. Wiley 2002</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p><strong>N</strong></p>
+</div>
+<div class="ulist bibliography">
+<ul class="bibliography">
+<li>
+<p><a id="nottingham"></a>[Nottingham 1998] Nottingham, M: Caching Tutorial. <a href="http://www.mnot.net/cache_docs/" class="bare">http://www.mnot.net/cache_docs/</a></p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p><strong>O</strong></p>
+</div>
+<div class="ulist bibliography">
+<ul class="bibliography">
+<li>
+<p><a id="olsson"></a>[Olsson 2007] Olsson, T.: Graceful Degradation &amp; Progressive Enhancement. <a href="http://accessites.org/site/2007/02/graceful-degradation-progressive-enhancement/" class="bare">http://accessites.org/site/2007/02/graceful-degradation-progressive-enhancement/</a></p>
+</li>
+<li>
+<p><a id="owasp"></a>[OWASP] Open Web Application Security Project (OWASP) - <a href="https://www.owasp.org/" class="bare">https://www.owasp.org/</a></p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p><strong>P</strong></p>
+</div>
+<div class="ulist bibliography">
+<ul class="bibliography">
+<li>
+<p><a id="pritchett"></a>[Pritchett 2002] Pritchett, D.: BASE an ACID alternative. 2008 - <a href="http://queue.acm.org/detail.cfm?id=1394128" class="bare">http://queue.acm.org/detail.cfm?id=1394128</a></p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p><strong>R</strong></p>
+</div>
+<div class="ulist bibliography">
+<ul class="bibliography">
+<li>
+<p><a id="rfctls"></a>[RFC2246] Dirks, T., C. Allen: RFC 2246, The TLS Protocol.  <a href="http://www.ietf.org/rfc/rfc2246" class="bare">http://www.ietf.org/rfc/rfc2246</a></p>
+</li>
+<li>
+<p><a id="rfchttp"></a>[RFC2616] Fielding, R., J. Gettys, J. Mogul, H. Frystyk, L. Masinter, P. Leach, T. Berners-Lee: RFC 2616, Hypertext Transfer Protocol&#8201;&#8212;&#8201;HTTP/1.1.  <a href="https://tools.ietf.org/html/rfc2616" class="bare">https://tools.ietf.org/html/rfc2616</a></p>
+</li>
+<li>
+<p><a id="rfcuri"></a>[RFC3986] Berners-Lee, T., R. Fielding, L. Masinter: RFC 3986, Uniform Resource Identifier (URI): Generic Syntax.  <a href="http://tools.ietf.org/html/rfc3986" class="bare">http://tools.ietf.org/html/rfc3986</a></p>
+</li>
+<li>
+<p><a id="rfciri"></a>[RFC3987] Duerst, M., M. Suignard: RFC 3987, Internationalized Resource Identifiers.  <a href="http://tools.ietf.org/html/rfc3987" class="bare">http://tools.ietf.org/html/rfc3987</a></p>
+</li>
+<li>
+<p><a id="rfchttpstate"></a>[RFC6265] Barth, A.: RFC 6265, HTTP State Management Mechanism.  <a href="http://tools.ietf.org/html/rfc6265" class="bare">http://tools.ietf.org/html/rfc6265</a></p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p><strong>S</strong></p>
+</div>
+<div class="ulist bibliography">
+<ul class="bibliography">
+<li>
+<p><a id="stoneburner"></a>[Stoneburner+2004] Stoneburner, G., C. Hayden, A. Feringa: Engineering Principles for Information Technology Security (A Baseline for Achieving Security), Revision A. NIST Special Publication 800-27 Rev A 2004 –  <a href="http://csrc.nist.gov/publications/nistpubs/800-27A/SP800-27-RevA.pdf" class="bare">http://csrc.nist.gov/publications/nistpubs/800-27A/SP800-27-RevA.pdf</a></p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p><strong>T</strong></p>
+</div>
+<div class="ulist bibliography">
+<ul class="bibliography">
+<li>
+<p><a id="tilkov"></a>[Tilkov 2011] Tilkov, S.: REST und HTTP: Einsatz der Architektur des Web für Integrationsszenarien.  Dpunkt 2011</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p><strong>W</strong></p>
+</div>
+<div class="ulist bibliography">
+<ul class="bibliography">
+<li>
+<p><a id="wwwc"></a>[W3C-Int] W3C Internationalization Activity - <a href="http://www.w3.org/International/" class="bare">http://www.w3.org/International/</a></p>
+</li>
+<li>
+<p><a id="waldo"></a>[Waldo+1994] Waldo, J., G. Wyant, A. Wollrath, S. Kendall: A Note on Distributed Computing. Sun Microsystems 1994 –  <a href="http://labs.oracle.com/techrep/1994/smli_tr-94-29.pdf" class="bare">http://labs.oracle.com/techrep/1994/smli_tr-94-29.pdf</a></p>
+</li>
+<li>
+<p><a id="wcag"></a>[WCAG 2008] Web Content Accessibility Guidelines Working Group: Web Content Accessibility Guidelines.  W3C 2008 – <a href="http://www.w3.org/WAI/intro/wcag" class="bare">http://www.w3.org/WAI/intro/wcag</a></p>
+</li>
+<li>
+<p><a id="websockets"></a>[Websockets] Web sockets - <a href="http://www.whatwg.org/specs/web-apps/current-work/multipage/network.html#network" class="bare">http://www.whatwg.org/specs/web-apps/current-work/multipage/network.html#network</a></p>
+</li>
+<li>
+<p><a id="wsi"></a>[WS-I] WS-I Profiles - <a href="http://ws-i.org/deliverables/Default.aspx" class="bare">http://ws-i.org/deliverables/Default.aspx</a></p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div id="footer">
+<div id="footer-text">
+Version 2015.2-DE<br>
+Last updated 2020-04-08 09:50:26 UTC
+</div>
+</div>
+</body>
+</html>
