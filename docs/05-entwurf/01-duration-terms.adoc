@@ -13,7 +13,7 @@
 | Duration: 180 min | Practice time: 120 min
 |===
 
-=== Terms and concepts
+=== Terms and Principles
 * Data modelling, Functional decomposition, Representation, Distributed system, CAP theorem, ACID, Security of web apps, Authentification, Authorization, Accessibility, Internationalization/Localization, HTML, CSS, JavaScript, Separation of content, presentation and behaviour, Graceful degradation, Progressive enhancement, Unobtrusive JavaScript.
 
 // end::EN[]

@@ -13,8 +13,8 @@
 | Duration: 90 min | Practice time: none
 |===
 
-=== Terms and concepts
 * URI, URL, URN, HTTP/1.1, HTTP/2, HTTP/3, HTTP verbs (GET, PUT, POST, DELETE), HTTP headers, Intermediaries, Caching, Content types, Content negotiation, TLS, PKI, HTML, DOM, Web sockets, Server-sent events, CustomElements, Shadow DOM, OAuth 2, OpenID Connect., CORS, Content Security Policy.
+=== Terms and Principles
 // end::EN[]
 
 // tag::REMARK[]

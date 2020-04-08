@@ -12,7 +12,7 @@
 | Duration: 180 min | Practice time: 60 min
 |===
 
-=== Terms and concepts
+=== Terms and Principles
 * Client, Server, Proxy, Reverse proxy, Content Delivery Networks/CDN, Load balancing, CGI, …
 // end::EN[]
 

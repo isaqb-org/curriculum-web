@@ -13,7 +13,7 @@
 | Duration: 120 min | Practice time: 60 min
 |===
 
-=== Terms and concepts
+=== Terms and Principles
 * Security, Scalability, Web scale, Availability, Operability, Accessibility
 
 // end::EN[]

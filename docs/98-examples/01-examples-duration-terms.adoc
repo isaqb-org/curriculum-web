@@ -25,7 +25,7 @@ Art und Ausprägung der vorgestellten Beispiele können von der Schulung bzw. de
 
 This section is not examinable.
 
-=== Terms and concepts
+=== Terms and Principles
 Within each accredited course specific examples of different areas of web architecture must be presented, discussed and evaluated:
   
   * Dealing with infrastructure and especially reverse proxies.
