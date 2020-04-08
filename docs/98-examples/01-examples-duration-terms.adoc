@@ -20,7 +20,7 @@ Art und Ausprägung der vorgestellten Beispiele können von der Schulung bzw. de
 
 // tag::EN[]
 |===
-| Lesson duration: 60 min | Exercises: none
+| Duration: 60 min | Practice time: none
 |===
 
 This section is not examinable.

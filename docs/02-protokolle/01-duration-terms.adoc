@@ -10,7 +10,7 @@
 
 // tag::EN[]
 |===
-| Lesson duration: 90 min | Exercises: none
+| Duration: 90 min | Practice time: none
 |===
 
 === Terms and concepts
