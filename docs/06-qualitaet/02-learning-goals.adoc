@@ -37,7 +37,7 @@
 // end::DE[]
 
 // tag::EN[]
-[[LG-5-1]]
+[[LG-6-1]]
 //==== LG 5-1: TBD
 
 **What should participants be able to do?**
