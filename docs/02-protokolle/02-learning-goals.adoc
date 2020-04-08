@@ -14,11 +14,11 @@
 **Was sollen die Teilnehmer verstehen?**
 
   * Die Teilnehmer verstehen, dass die Protokolle und die Architektur des Webs technologieunabhängig sind.
-  *	Die Teilnehmer verstehen den Zusammenhang zwischen Server-Adresse und Server-Name und kennen die Auswirkungen für die Erzeugung und Verwendung von URLs, die sowohl System-intern als auch -extern verwendet werden sollten.
-  *	Die Teilnehmer verstehen den Zusammenhang zwischen dem Transport-Protokoll (TCP, UDP) und dem Applikationsprotokoll (HTTP/1.1, HTTP/2 und HTTP/3 & QUIC).
-  *	Die Teilnehmer verstehen, wie eine Namensauflösung per DNS-Lookup funktioniert.
-  *	Die Teilnehmer verstehen, welche Auswirkungen die Cache-Control-Header auf Intermediaries haben.
-  *	Die Teilnehmer verstehen die wesentlichen Eigenschaften des HTTP-Protokolls und können diese erklären.
+  * Die Teilnehmer verstehen den Zusammenhang zwischen Server-Adresse und Server-Name und kennen die Auswirkungen für die Erzeugung und Verwendung von URLs, die sowohl System-intern als auch -extern verwendet werden sollten.
+  * Die Teilnehmer verstehen den Zusammenhang zwischen dem Transport-Protokoll (TCP, UDP) und dem Applikationsprotokoll (HTTP/1.1, HTTP/2 und HTTP/3 & QUIC).
+  * Die Teilnehmer verstehen, wie eine Namensauflösung per DNS-Lookup funktioniert.
+  * Die Teilnehmer verstehen, welche Auswirkungen die Cache-Control-Header auf Intermediaries haben.
+  * Die Teilnehmer verstehen die wesentlichen Eigenschaften des HTTP-Protokolls und können diese erklären.
     ** Das HTTP-Protokoll ist ein zustandsloses Request-Response Applikationsprotokoll.
     ** HTTP /1.1 ist ein textbasiertes serielles Applikationsprotokoll 
     ** HTTP/2 multiplexed viele Requests/Responses gleichzeitig über eine TCP-Verbindung.
@@ -39,40 +39,40 @@
     ** Der Schlüssel wird asymmetrisch z.B. mit Zertifikaten für den Server und den Cli-ent ausgehandelt.
     ** Zertifikate des Clients können zur Authentifizierung genutzt werden.
     ** Zertifikate werden mittels Public-Key Infrastrukturen (PKI) gemanaget.
-  *	Die Teilnehmer verstehen, dass es für unterschiedliche Anforderungen unter-schiedliche Authentifizierungsmechanismen gibt.
+  * Die Teilnehmer verstehen, dass es für unterschiedliche Anforderungen unter-schiedliche Authentifizierungsmechanismen gibt.
   * Die Teilnehmer verstehen, dass man Struktur der Informationen von deren Darstellung trennen sollte.
-  *	Die Teilnehmer verstehen, wie ein Redirect verarbeitet wird. 
-  *	Die Teilnehmer verstehen den Begriff Idempotenz.
-  *	Die Teilnehmer verstehen die Eigenschaft Safety. Sie wissen, dass ein HTTP-GET safe ist und daher die Response des Servers auf ein GET prinzipiell gecachet werden darf.
+  * Die Teilnehmer verstehen, wie ein Redirect verarbeitet wird.
+  * Die Teilnehmer verstehen den Begriff Idempotenz.
+  * Die Teilnehmer verstehen die Eigenschaft Safety. Sie wissen, dass ein HTTP-GET safe ist und daher die Response des Servers auf ein GET prinzipiell gecachet werden darf.
   * Die Teilnehmer verstehen, warum ein Browser beim „Erneut Laden“ bei HTTP-POST eine separate Bestätigung verlangt.
-  *	Die Teilnehmer verstehen, wie Web-Anwendungen realisiert sein müssen, um solche Rück-fragen des Browsers weitgeh end zu vermeiden.
-  *	Die Teilnehmer verstehen, was HTTPS bedeutet und wie es funktioniert.
+  * Die Teilnehmer verstehen, wie Web-Anwendungen realisiert sein müssen, um solche Rück-fragen des Browsers weitgeh end zu vermeiden.
+  * Die Teilnehmer verstehen, was HTTPS bedeutet und wie es funktioniert.
   * Die Teilnehmer verstehen, welche Auswirkung es hat, eine TLS-Verbindung zu terminieren.
   * Die Teilnehmer wissen, dass bei HTTP Basic-Authentication Benutzername und Passwort im Klartext übertragen werden.
   * Die Teilnehmer wissen, dass vertrauliche Informationen im Web-Umfeld am besten auf dem Transportweg verschlüsselt übertragen werden sollten. Die Verschlüsselung auf dem Transportweg erfolgt über Transport Level Security (TLS). 
-  *	Die Teilnehmer verstehen die Auswirkungen von TLS für das Caching. 
+  * Die Teilnehmer verstehen die Auswirkungen von TLS für das Caching.
 
 **Was sollen die Teilnehmer kennen?**
 
   * Die Teilnehmer kennen die gängigen HTTP-Status-Codes und wissen, welche Ursache un-terstellt und welche Reaktion darauf üblicherweise erwartet wird.
-  *	Die Teilnehmer verstehen die Verantwortung und Aufgaben der Protokolle und Komponen-ten im Web-Umfeld:
+  * Die Teilnehmer verstehen die Verantwortung und Aufgaben der Protokolle und Komponen-ten im Web-Umfeld:
     ** URIs identifizieren Ressourcen, URLs lokalisieren sie zusätzlich bei einer Authori-ty,
     ** DNS-Server unterstützen bei der Auflösung des Authority-Teils des URI,
     ** Das HTTP-Protokoll ist ein generisches Protokoll zum Zugriff auf Ressourcen und stellt Lösungen für einige nicht-fachliche Anforderungen zur Verfügung,
     ** Für verschiedene Arten von Daten stehen standardisierte Formate zur Verfügung,
     ** HTTP sieht vor, dass Clients und Server das verwendete Format miteinander aus-handeln, wenn mehrere Alternativen existieren.
-  *	Die Teilnehmer kennen das Browser-intern verwendete Document Object Model wissen, dass es durch JavaScript und CSS verändert werden kann.
-  *	Die Teilnehmer kennen verschiedene Datenformate für die Repräsentation von Informati-onen (HTML, XML, JSON, …).
-  *	Die Teilnehmer wissen, wie Cookies zwischen Client und Server ausgetauscht und verwaltet werden.
-  *	Die Teilnehmer kennen das XML Http Request-Object (kurz XHR) sowie die HTML5-fetch API als Grundlage von AJAX-basierten Anwendungen.
-  *	Die Teilnehmer kennen die Möglichkeiten, die sich durch Server-Side-Events ergeben.
-  *	Die Teilnehmer kennen Mechanismen, die die Verwendung der Browser-Buttons Back und Forward erlauben, ohne unerwünschte Nebeneffekte auszulösen.
+  * Die Teilnehmer kennen das Browser-intern verwendete Document Object Model wissen, dass es durch JavaScript und CSS verändert werden kann.
+  * Die Teilnehmer kennen verschiedene Datenformate für die Repräsentation von Informati-onen (HTML, XML, JSON, …).
+  * Die Teilnehmer wissen, wie Cookies zwischen Client und Server ausgetauscht und verwaltet werden.
+  * Die Teilnehmer kennen das XML Http Request-Object (kurz XHR) sowie die HTML5-fetch API als Grundlage von AJAX-basierten Anwendungen.
+  * Die Teilnehmer kennen die Möglichkeiten, die sich durch Server-Side-Events ergeben.
+  * Die Teilnehmer kennen Mechanismen, die die Verwendung der Browser-Buttons Back und Forward erlauben, ohne unerwünschte Nebeneffekte auszulösen.
   * Die Teilnehmer kennen die relevanten Standardisierungsgremien wie IETF, IANA, W3C und deren Aufgabenbereiche im Bezug auf Web-Architektur.
   * Die Teilnehmer kennen WebSockets.
-  *	Die Teilnehmer kennen OAuth 2 als ein System zur Zugangsdelegation an Dritte.
-  *	Die Teilnehmer kennen OpenID Connect als ein auf OAuth 2 basierendes System für Single Sign on 
-  *	Die Teilnehmer kennen CORS als Mechanismus zum Umgang mit Cross-Domain Restriktionen
-  *	Die Teilnehmer kennen die Content Security Policy als Mechanismus, um Cross-Site-Scripting zu erschweren
+  * Die Teilnehmer kennen OAuth 2 als ein System zur Zugangsdelegation an Dritte.
+  * Die Teilnehmer kennen OpenID Connect als ein auf OAuth 2 basierendes System für Single Sign on
+  * Die Teilnehmer kennen CORS als Mechanismus zum Umgang mit Cross-Domain Restriktionen
+  * Die Teilnehmer kennen die Content Security Policy als Mechanismus, um Cross-Site-Scripting zu erschweren
 
 
 // end::DE[]

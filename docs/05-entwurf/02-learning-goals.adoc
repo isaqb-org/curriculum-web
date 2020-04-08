@@ -6,47 +6,47 @@
 
 **Was sollen die Teilnehmer können?**
 
-  * Die Teilnehmer können die Belange Repräsentation, Formatierung und Interaktion klar im Markup unterscheiden und beim Entwurf von Web-Anwendungen berücksichtigen (Separation of Concerns).
-  * Die Teilnehmer können verschiedene Aufgaben der Client-Oberfläche Formaten aus dem Kanon der Web-Standards zuordnen:
-    ** HTML liefert die Strukturdaten
-    ** CSS legt die Präsentation fest. Selektoren wählen dabei Elemente aus der HTML-Struktur und weisen ihnen Präsentationseigenschaften zu.
-    ** JavaScript steuert das Verhalten, verleiht über Event-Handler Interaktivität und ermöglicht asynchrone Serverkommunikation (AJAX).
+* Die Teilnehmer können die Belange Repräsentation, Formatierung und Interaktion klar im Markup unterscheiden und beim Entwurf von Web-Anwendungen berücksichtigen (Separation of Concerns).
+* Die Teilnehmer können verschiedene Aufgaben der Client-Oberfläche Formaten aus dem Kanon der Web-Standards zuordnen:
+** HTML liefert die Strukturdaten
+** CSS legt die Präsentation fest. Selektoren wählen dabei Elemente aus der HTML-Struktur und weisen ihnen Präsentationseigenschaften zu.
+** JavaScript steuert das Verhalten, verleiht über Event-Handler Interaktivität und ermöglicht asynchrone Serverkommunikation (AJAX).
 
 **Was sollen die Teilnehmer verstehen?**
 
-  * Die Teilnehmer verstehen die Notwendigkeit von Regeln, die beim Einsatz von Request-Response-Frameworks sicherstellen, dass nur erwünschte Funktionalitäten in den Views/Templates implementiert werden. 
-  * Die Teilnehmer verstehen, dass sich die Reaktionsfähigkeit des Systems durch geeigneten Einsatz von asynchroner Verarbeitung oft verbessern lässt.
-  * Die Teilnehmer verstehen die grundsätzliche Aussage des CAP-Theorems und wissen, dass zwischen Skalierbarkeit/Verfügbarkeit/Verteiltheit und Konsistenz/Aktualität der Daten ein Kompromiss gesucht werden muss.
-  * Die Teilnehmer verstehen, wie Netzwerk-Fehler in verteilten Systemen Inkonsistenzen oder besondere Fehlerzustände hervorrufen können.
-  * Die Teilnehmer verstehen, wie sich Architekturen für konsistente Systeme und Systeme mit Partitionstoleranz unterscheiden.
-  * Die Teilnehmer verstehen, wie Angreifer Sicherheitslücken mit Hilfe von SQL-Injection, per Cross-Site-Scripting (XSS) oder per Client-Side-Request-Forgery (CSRF) ausnutzen können.
-  * Die Teilnehmer verstehen das Transaktionskonzept ACID – Atomicity, Consistency, Isolation und Durability.
-  * Die Teilnehmer verstehen das Konzept der Eventual Consistency (konsistent nach einiger Verzögerung).
-  * Die Teilnehmer verstehen, dass die innere Architektur der Server-Seite zusätzlich zu den fachlichen Aspekten auch durch
-    ** die Philosophie des verwendeten Frameworks, 
-    ** Strategien zum Caching von statischen und dynamischen Inhalten sowie 
-    ** Strategien zur Skalierung der Applikation getrieben wird.
-  * Die Teilnehmer verstehen, dass sich für lang laufende Prozesse Integrationsmuster wie Messaging für eine lose Kopplung der Web-Applikation an eine Hintergrundverarbeitung anbieten. 
-  * Die Teilnehmer verstehen, dass jede Anwendung, die aus öffentlichen Netzen erreichbar ist, angegriffen wird.
+* Die Teilnehmer verstehen die Notwendigkeit von Regeln, die beim Einsatz von Request-Response-Frameworks sicherstellen, dass nur erwünschte Funktionalitäten in den Views/Templates implementiert werden.
+* Die Teilnehmer verstehen, dass sich die Reaktionsfähigkeit des Systems durch geeigneten Einsatz von asynchroner Verarbeitung oft verbessern lässt.
+* Die Teilnehmer verstehen die grundsätzliche Aussage des CAP-Theorems und wissen, dass zwischen Skalierbarkeit/Verfügbarkeit/Verteiltheit und Konsistenz/Aktualität der Daten ein Kompromiss gesucht werden muss.
+* Die Teilnehmer verstehen, wie Netzwerk-Fehler in verteilten Systemen Inkonsistenzen oder besondere Fehlerzustände hervorrufen können.
+* Die Teilnehmer verstehen, wie sich Architekturen für konsistente Systeme und Systeme mit Partitionstoleranz unterscheiden.
+* Die Teilnehmer verstehen, wie Angreifer Sicherheitslücken mit Hilfe von SQL-Injection, per Cross-Site-Scripting (XSS) oder per Client-Side-Request-Forgery (CSRF) ausnutzen können.
+* Die Teilnehmer verstehen das Transaktionskonzept ACID – Atomicity, Consistency, Isolation und Durability.
+* Die Teilnehmer verstehen das Konzept der Eventual Consistency (konsistent nach einiger Verzögerung).
+* Die Teilnehmer verstehen, dass die innere Architektur der Server-Seite zusätzlich zu den fachlichen Aspekten auch durch
+** die Philosophie des verwendeten Frameworks,
+** Strategien zum Caching von statischen und dynamischen Inhalten sowie
+** Strategien zur Skalierung der Applikation getrieben wird.
+* Die Teilnehmer verstehen, dass sich für lang laufende Prozesse Integrationsmuster wie Messaging für eine lose Kopplung der Web-Applikation an eine Hintergrundverarbeitung anbieten.
+* Die Teilnehmer verstehen, dass jede Anwendung, die aus öffentlichen Netzen erreichbar ist, angegriffen wird.
 
 **Was sollen die Teilnehmer kennen?**
 
-  * Die Teilnehmer  kennen die Muster Command-Query-Separation, CQS, und Command-Query-Responsibility-Separation, CQRS, um sowohl funktionale als auch die nicht-funktionale Anforderungen gezielt zu erfüllen.
-  * Die Teilnehmer wissen, dass es sich bei der Consistency aus „ACID“ um eine andere Konsistenz handelt als bei der Consistency aus CAP.
-  * Die Teilnehmer kennen die Grundmechanismen, mit denen im eigenen Technologieportfolio SQL-Injection, Cross-Site-Scripting (XSS) und Client-Side-Request-Forgery (CSRF) verhindert werden.
-  * Die Teilnehmer kennen für gestellte Qualitätsanforderungen verschiedene Strategien zur Verwaltung von sitzungsbezogenen Daten, z. B. im Cookie, im Hauptspeicher des Servers, in einer Datenbank.
-  * Die Teilnehmer kennen den Unterschied zwischen Internationalisierung und Lokalisierung.
-  * Die Teilnehmer kennen verschiedene Strategien mit denen ein Client über das Ergebnis einer Aktivität informiert werden kann, die asynchron auf dem Server gestartet wurde. Z.B.:
-    ** Polling (Client Pull)
-    ** HTML5 Server Sent Events
-    ** Websockets.
-  * Die Teilnehmer wissen, dass viele serverseitige Frameworks Plug-Ins, analog zum Pipes-And-Filter Muster erlauben, beispielsweise ServletFilter in Java Servlet API basierten Frameworks oder HttpModules in ASP.NET.  
-  * Die Teilnehmer kennen zumindest ein serverseitiges Framework, mit dem sich Web-Anwendungen realisieren lassen.
-  * Die Teilnehmer kennen unterschiedliche Arten von serverseitigen Web-Frameworks:
-    ** Komponenten-Frameworks versuchen ein Event-basiertes Programmier-Modell aus dem Bereich der Desktop-Applikationen zu übertragen.
-    ** Action- oder Request-Response-Frameworks bilden das HTTP-Protokoll unmittelbar ab.  
-    ** Daten-getriebene Frameworks bilden zur Datenerfassung Datenbank-Tabellen in der Oberfläche ab.
-  * Die Teilnehmer kennen Authentifizierungsmechanismen wie OpenID Connect oder CAS.
+* Die Teilnehmer  kennen die Muster Command-Query-Separation, CQS, und Command-Query-Responsibility-Separation, CQRS, um sowohl funktionale als auch die nicht-funktionale Anforderungen gezielt zu erfüllen.
+* Die Teilnehmer wissen, dass es sich bei der Consistency aus „ACID“ um eine andere Konsistenz handelt als bei der Consistency aus CAP.
+* Die Teilnehmer kennen die Grundmechanismen, mit denen im eigenen Technologieportfolio SQL-Injection, Cross-Site-Scripting (XSS) und Client-Side-Request-Forgery (CSRF) verhindert werden.
+* Die Teilnehmer kennen für gestellte Qualitätsanforderungen verschiedene Strategien zur Verwaltung von sitzungsbezogenen Daten, z. B. im Cookie, im Hauptspeicher des Servers, in einer Datenbank.
+* Die Teilnehmer kennen den Unterschied zwischen Internationalisierung und Lokalisierung.
+* Die Teilnehmer kennen verschiedene Strategien mit denen ein Client über das Ergebnis einer Aktivität informiert werden kann, die asynchron auf dem Server gestartet wurde. Z.B.:
+** Polling (Client Pull)
+** HTML5 Server Sent Events
+** Websockets.
+* Die Teilnehmer wissen, dass viele serverseitige Frameworks Plug-Ins, analog zum Pipes-And-Filter Muster erlauben, beispielsweise ServletFilter in Java Servlet API basierten Frameworks oder HttpModules in ASP.NET.
+* Die Teilnehmer kennen zumindest ein serverseitiges Framework, mit dem sich Web-Anwendungen realisieren lassen.
+* Die Teilnehmer kennen unterschiedliche Arten von serverseitigen Web-Frameworks:
+** Komponenten-Frameworks versuchen ein Event-basiertes Programmier-Modell aus dem Bereich der Desktop-Applikationen zu übertragen.
+** Action- oder Request-Response-Frameworks bilden das HTTP-Protokoll unmittelbar ab.
+** Daten-getriebene Frameworks bilden zur Datenerfassung Datenbank-Tabellen in der Oberfläche ab.
+* Die Teilnehmer kennen Authentifizierungsmechanismen wie OpenID Connect oder CAS.
 
 // end::DE[]
 
