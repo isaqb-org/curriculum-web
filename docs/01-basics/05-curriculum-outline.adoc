@@ -7,12 +7,7 @@ Die einzelnen Abschnitte des Lehrplans sind gemäß folgender Gliederung beschri
 - **Unterrichts-/Übungszeit**: Legt die Unterrichts- und Übungszeit fest, die für dieses Thema bzw. dessen Übung in einer akkreditierten Schulung mindestens aufgewendet werden muss.
 - **Lernziele**: Beschreibt die zu vermittelnden Inhalte inklusive ihrer Kernbegriffe und -konzepte.
 
-Dieser Abschnitt skizziert damit auch die zu erwerbenden Kenntnisse in entsprechenden Schulungen. Die Lernziele werden differenziert in folgende Kategorien bzw. Unterkapitel:
-
-- Was sollen die Teilnehmer **können**? Diese Inhalte sollen die Teilnehmer nach der Schulung selbständig anwenden können. Innerhalb der Schulung werden diese Inhalte durch Übungen oder Demonstrationen abgedeckt und sind Bestandteil der Modulprüfung {curriculum-short} und/oder der Abschlussprüfung des iSAQB Advanced Levels.
-- Was sollen die Teilnehmer **verstehen**? Diese Inhalte können in der Modulprüfung {curriculum-short} geprüft werden.
-- Was sollen die Teilnehmer **kennen**? Diese Inhalte (Begriffe, Konzepte, Methoden, Praktiken oder Ähnliches) können das Verständnis unterstützen oder das Thema motivieren. Diese Inhalte sind nicht Bestandteil der Prüfungen und werden in Schulungen thematisiert, aber nicht notwendigerweise ausführlich unterrichtet.
-
+Dieser Abschnitt skizziert damit auch die zu erwerbenden Kenntnisse in entsprechenden Schulungen.
 // end::DE[]
 
 // tag::EN[]
@@ -25,11 +20,6 @@ The individual sections of the curriculum are described according to the followi
 - **Learning goals**: Describes the content to be conveyed including its core terms and principles.
 
 This section therefore also outlines the skills to be acquired in corresponding training courses.
-The learning goals are differentiated into the following categories or sub-chapters:
-
-- What should the participants **be able** to do? The participants should be able to apply these contents independently after the training course. These contents are covered with exercises or demonstrations during the training course and are part of the {curriulum-short} module exam and/or the final exam of the iSAQB Advanced Level.
-- What should the participants **understand**? These contents can be assessed in the {curriulum-short} module exam.
-- What should the participants **know**? These contents (terms, principles, methods, practices or similar) can support the understanding or motivate the topic. These contents are not part of the exams and are discussed in training courses, but are not necessarily taught in detail.
 // end::EN[]
 
 // tag::REMARK[]
