@@ -5,8 +5,8 @@
 /Author (- Web Architectures \(WEB\) Curriculum -)
 /Creator (Asciidoctor PDF 1.5.3, based on Prawn 2.2.2)
 /Producer (- Web Architectures \(WEB\) Curriculum -)
-/ModDate (D:20200408101514+00'00')
-/CreationDate (D:20200408101701+00'00')
+/ModDate (D:20200408102308+00'00')
+/CreationDate (D:20200408102500+00'00')
 >>
 endobj
 2 0 obj
@@ -1427,7 +1427,7 @@ endobj
 << /Border [0 0 0]
 /A << /Type /Action
 /S /URI
-/URI (advanced-curriculum_de.html)
+/URI (curriculum-web-de.html)
 >>
 /Subtype /Link
 /Rect [303.64 425.9957 329.4705 435.4957]
@@ -1438,7 +1438,7 @@ endobj
 << /Border [0 0 0]
 /A << /Type /Action
 /S /URI
-/URI (advanced-curriculum_de.pdf)
+/URI (curriculum-web-de.pdf)
 >>
 /Subtype /Link
 /Rect [415.6096 425.9957 433.0611 435.4957]
@@ -1449,7 +1449,7 @@ endobj
 << /Border [0 0 0]
 /A << /Type /Action
 /S /URI
-/URI (advanced-curriculum_en.html)
+/URI (curriculum-web-en.html)
 >>
 /Subtype /Link
 /Rect [303.64 408.5647 329.4705 418.0647]
@@ -1460,7 +1460,7 @@ endobj
 << /Border [0 0 0]
 /A << /Type /Action
 /S /URI
-/URI (advanced-curriculum_en.pdf)
+/URI (curriculum-web-en.pdf)
 >>
 /Subtype /Link
 /Rect [415.6096 408.5647 433.0611 418.0647]
@@ -1482,7 +1482,7 @@ endobj
 << /Border [0 0 0]
 /A << /Type /Action
 /S /URI
-/URI (advanced-curriculum_remarks_de.html)
+/URI (curriculum-web-remarks-de.html)
 >>
 /Subtype /Link
 /Rect [303.64 391.1337 329.4705 400.6337]
@@ -1493,7 +1493,7 @@ endobj
 << /Border [0 0 0]
 /A << /Type /Action
 /S /URI
-/URI (advanced-curriculum_remarks_de.pdf)
+/URI (curriculum-web-remarks-de.pdf)
 >>
 /Subtype /Link
 /Rect [415.6096 391.1337 433.0611 400.6337]
@@ -1504,7 +1504,7 @@ endobj
 << /Border [0 0 0]
 /A << /Type /Action
 /S /URI
-/URI (advanced-curriculum_remarks_en.html)
+/URI (curriculum-web-remarks-en.html)
 >>
 /Subtype /Link
 /Rect [303.64 373.7027 329.4705 383.2027]
@@ -1515,7 +1515,7 @@ endobj
 << /Border [0 0 0]
 /A << /Type /Action
 /S /URI
-/URI (advanced-curriculum_remarks_en.pdf)
+/URI (curriculum-web-remarks-en.pdf)
 >>
 /Subtype /Link
 /Rect [415.6096 373.7027 433.0611 383.2027]
@@ -1983,45 +1983,45 @@ xref
 0000023238 00000 n 
 0000023437 00000 n 
 0000023677 00000 n 
-0000023851 00000 n 
-0000024026 00000 n 
-0000024200 00000 n 
-0000024375 00000 n 
-0000024545 00000 n 
-0000024727 00000 n 
-0000024910 00000 n 
-0000025092 00000 n 
-0000025275 00000 n 
-0000025320 00000 n 
-0000025512 00000 n 
-0000025772 00000 n 
-0000025846 00000 n 
-0000026176 00000 n 
-0000026404 00000 n 
-0000026523 00000 n 
-0000026723 00000 n 
-0000026768 00000 n 
-0000027050 00000 n 
-0000027332 00000 n 
-0000107490 00000 n 
-0000107766 00000 n 
-0000108042 00000 n 
-0000112785 00000 n 
-0000113000 00000 n 
-0000114362 00000 n 
-0000115276 00000 n 
-0000121912 00000 n 
-0000122130 00000 n 
-0000123492 00000 n 
-0000124406 00000 n 
-0000125851 00000 n 
-0000126069 00000 n 
-0000126377 00000 n 
+0000023846 00000 n 
+0000024016 00000 n 
+0000024185 00000 n 
+0000024355 00000 n 
+0000024525 00000 n 
+0000024702 00000 n 
+0000024880 00000 n 
+0000025057 00000 n 
+0000025235 00000 n 
+0000025280 00000 n 
+0000025472 00000 n 
+0000025732 00000 n 
+0000025806 00000 n 
+0000026136 00000 n 
+0000026364 00000 n 
+0000026483 00000 n 
+0000026683 00000 n 
+0000026728 00000 n 
+0000027010 00000 n 
+0000027292 00000 n 
+0000107450 00000 n 
+0000107726 00000 n 
+0000108002 00000 n 
+0000112745 00000 n 
+0000112960 00000 n 
+0000114322 00000 n 
+0000115236 00000 n 
+0000121872 00000 n 
+0000122090 00000 n 
+0000123452 00000 n 
+0000124366 00000 n 
+0000125811 00000 n 
+0000126029 00000 n 
+0000126337 00000 n 
 trailer
 << /Size 56
 /Root 2 0 R
 /Info 1 0 R
 >>
 startxref
-127291
+127251
 %%EOF
