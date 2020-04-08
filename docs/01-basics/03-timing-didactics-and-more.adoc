@@ -29,7 +29,7 @@ Lizenzierte Schulungen zu {curriculum-short} tragen zur Zulassung zur abschließ
 // end::DE[]
 
 // tag::EN[]
-=== Duration, teaching method and further details
+=== Duration, Teaching Method and Further Details
 
 The times stated below are recommendations.
 The duration of a training course on the {curriculum-short} module should be at least {recommended-duration-in-days} days, but may be longer.

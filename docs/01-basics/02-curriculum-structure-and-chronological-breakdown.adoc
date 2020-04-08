@@ -24,7 +24,7 @@ image:01-basics/zeitaufteilung.png[pdfwidth=75%, role="text-center"]
 // end::DE[]
 
 // tag::EN[]
-=== Curriculum structure and recommended durations
+=== Curriculum Structure and Recommended Durations
 
 [cols="<,>", options="header"]
 |===
