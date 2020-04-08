@@ -4,30 +4,20 @@
 |===
 
 === Begriffe und Konzepte
-* Sicherheit, Skalierbarkeit, Web-Scale, Verfügbarkeit, Bedienbarkeit, Barrierefreiheit
+Sicherheit, Skalierbarkeit, Web-Scale, Verfügbarkeit, Bedienbarkeit, Barrierefreiheit
 
 // end::DE[]
 
 // tag::EN[]
 |===
-| Lesson duration: 120 min | Exercises: 60 min
+| Duration: 120 min | Practice time: 60 min
 |===
 
-=== Terms and concepts
-* Security, Scalability, Web scale, Availability, Operability, Accessibility
+=== Terms and Principles
+Security, scalability, web-scale, availability, operability, accessibility
 
 // end::EN[]
 
 // tag::REMARK[]
-[NOTE]
-====
-Überschrift in 00-structure.adoc ersetzen
-====
-// end::REMARK[]
 
-// tag::REMARK[]
-[NOTE]
-====
-Sinnvolle Zeiten für Dauer und Übungszeit eintragen, vernünftige Begriffe aufzählen.
-====
 // end::REMARK[]

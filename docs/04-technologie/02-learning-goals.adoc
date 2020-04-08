@@ -6,39 +6,39 @@
 
 **Was sollen die Teilnehmer können?**
 
-  * Die Teilnehmer können serverseitige Web-Anwendungen so entwerfen, dass sie die Infrastruktur effektiv einsetzen.
-  *	Die Teilnehmer können das Laufzeitverhalten eines Systems durch den gezielten Einsatz von Reverse Proxies verbessern.
-  * Die Teilnehmer können verschiedene Intermediaries benennen und ihre Auswirkungen auf die Architektur erklären.
-    ** Proxies speichern Responses für den Client, hierfür sieht das HTTP-Protokoll explizite Regeln vor.
-    ** Reverse Proxies sind Proxies auf der Server-Seite und fungieren als Caches für die Web-Applikation.
-    ** Load Balancer verteilen Anfragen auf Server-Seite auf unterschiedliche Server.
-  * Die Teilnehmer kennen verschiedene Skalierungsstrategien (horizontal sowie vertikal) und können die geeignete Skalierungsstrategie auswählen.
-    ** Vertikale Skalierung durch leistungsfähigere Hardware.
-    ** Vertikale Skalierung dadurch, dass verschiedene Komponenten – etwa Web- und Applikationsserver – auf getrennten Infrastruktur-Komponenten verteilt werden.
-    ** Vertikale Skalierung durch Cluster-Lösungen, die simulieren, dass eine Applikation nur auf einem Knoten läuft, obwohl es mehrere Server-Knoten zur Ausführung gibt.
-    ** Horizontale Skalierung dadurch, dass ein Server-System dupliziert und die Last möglichst zufällig und gleichmäßig auf die vorhandenen Server verteilt wird. Dieses Verfahren muss für horizontale Skalierung potentiell unendlich fortsetzbar sein.
+* Die Teilnehmer können serverseitige Web-Anwendungen so entwerfen, dass sie die Infrastruktur effektiv einsetzen.
+* Die Teilnehmer können das Laufzeitverhalten eines Systems durch den gezielten Einsatz von Reverse Proxies verbessern.
+* Die Teilnehmer können verschiedene Intermediaries benennen und ihre Auswirkungen auf die Architektur erklären.
+** Proxies speichern Responses für den Client, hierfür sieht das HTTP-Protokoll explizite Regeln vor.
+** Reverse Proxies sind Proxies auf der Server-Seite und fungieren als Caches für die Web-Applikation.
+** Load Balancer verteilen Anfragen auf Server-Seite auf unterschiedliche Server.
+* Die Teilnehmer kennen verschiedene Skalierungsstrategien (horizontal sowie vertikal) und können die geeignete Skalierungsstrategie auswählen.
+** Vertikale Skalierung durch leistungsfähigere Hardware.
+** Vertikale Skalierung dadurch, dass verschiedene Komponenten – etwa Web- und Applikationsserver – auf getrennten Infrastruktur-Komponenten verteilt werden.
+** Vertikale Skalierung durch Cluster-Lösungen, die simulieren, dass eine Applikation nur auf einem Knoten läuft, obwohl es mehrere Server-Knoten zur Ausführung gibt.
+** Horizontale Skalierung dadurch, dass ein Server-System dupliziert und die Last möglichst zufällig und gleichmäßig auf die vorhandenen Server verteilt wird. Dieses Verfahren muss für horizontale Skalierung potentiell unendlich fortsetzbar sein.
 
 **Was sollen die Teilnehmer verstehen?**
 
-  * Die Teilnehmer verstehen, dass Caching die Last auf den Server-Systemen reduzieren kann.
-  * Die Teilnehmer verstehen, wie Daten vieler Web-Anwendungen für wenige Benutzer (Client- oder auch Forward-Proxy) oder vieler Benutzer für wenige Web-Anwendungen (Reverse-Proxy) bereitgestellt werden können.
-  * Die Teilnehmer verstehen, wie Zugriffe auf Ressourcen durch Proxies kontrolliert werden können.
-  * Die Teilnehmer verstehen, wie mittels Reverse-Proxy Authentifizierungsschemata (beispielsweise von Form-based auf Basic-Auth.) umgeschrieben werden können.
-  * Die Teilnehmer sollten verstehen, welche Infrastruktur-Komponenten im Request-/Response-Zyklus Einfluss auf den Datendurchsatz und die Latenzzeit haben.
-  * Die Teilnehmer sollten verstehen, wie Browser-Clients Ressourcen laden und insbesondere HTML-Seiten auswerten und referenzierte Ressourcen anfragen. 
-  * Die Teilnehmer verstehen, wie das Auslagern von Ressourcen in ein Content Delivery Network (CDN) hilft, die eigene Infrastruktur zu entlasten.
-  * Die Teilnehmer verstehen, dass nicht alle Web-Browser die Standards in gleichem Umfang unterstützen.
-  * Die Teilnehmer verstehen, dass sich die verschiedenen Web-Server im Bezug auf den Ressourcenverbrauch teilweise stark unterscheiden
+* Die Teilnehmer verstehen, dass Caching die Last auf den Server-Systemen reduzieren kann.
+* Die Teilnehmer verstehen, wie Daten vieler Web-Anwendungen für wenige Benutzer (Client- oder auch Forward-Proxy) oder vieler Benutzer für wenige Web-Anwendungen (Reverse-Proxy) bereitgestellt werden können.
+* Die Teilnehmer verstehen, wie Zugriffe auf Ressourcen durch Proxies kontrolliert werden können.
+* Die Teilnehmer verstehen, wie mittels Reverse-Proxy Authentifizierungsschemata (beispielsweise von Form-based auf Basic-Auth.) umgeschrieben werden können.
+* Die Teilnehmer sollten verstehen, welche Infrastruktur-Komponenten im Request-/Response-Zyklus Einfluss auf den Datendurchsatz und die Latenzzeit haben.
+* Die Teilnehmer sollten verstehen, wie Browser-Clients Ressourcen laden und insbesondere HTML-Seiten auswerten und referenzierte Ressourcen anfragen.
+* Die Teilnehmer verstehen, wie das Auslagern von Ressourcen in ein Content Delivery Network (CDN) hilft, die eigene Infrastruktur zu entlasten.
+* Die Teilnehmer verstehen, dass nicht alle Web-Browser die Standards in gleichem Umfang unterstützen.
+* Die Teilnehmer verstehen, dass sich die verschiedenen Web-Server im Bezug auf den Ressourcenverbrauch teilweise stark unterscheiden
 
 **Was sollen die Teilnehmer kennen?**
 
-  * Die Teilnehmer kennen verschiedene Standard-Mechanismen, mit denen Web-Server um Applikationslogik erweitert werden können (CGI, Servlets, ...).
-  * Die Teilnehmer kennen verschiedene Ansätze zur Lastverteilung einer Web-Applikation (z.B. DNS-basierte Load-Balancer oder Proxies).
-  * Die Teilnehmer kennen mit Graceful Degradation und Progressive Enhancement verschiedene Strategien, die Oberfläche an die Fähigkeiten des Web-Browsers anzupassen.
-  * Die Teilnehmer kennen sowohl für CSS als auch für JavaScript Frameworks, die die Entwicklung erleichtern können.
-  * Die Teilnehmer wissen, dass unter HTML5 diverse Technologiepakete zusammengefasst werden, die neben neuen Strukturen für HTML auch neue APIs für JavaScript enthalten.
-  * Die Teilnehmer kennen die Bedeutung von unobtrusive JavaScript: Darunter werden Prinzipien und Praktiken zusammengefasst, die Inhalte und Verhalten deutlich voneinander trennen.
-  * Die Teilnehmer kennen die Funktionsweise von Web-Firewalls und wissen gegen welche Arten von Angriffen diese schützen.
+* Die Teilnehmer kennen verschiedene Standard-Mechanismen, mit denen Web-Server um Applikationslogik erweitert werden können (CGI, Servlets, ...).
+* Die Teilnehmer kennen verschiedene Ansätze zur Lastverteilung einer Web-Applikation (z.B. DNS-basierte Load-Balancer oder Proxies).
+* Die Teilnehmer kennen mit Graceful Degradation und Progressive Enhancement verschiedene Strategien, die Oberfläche an die Fähigkeiten des Web-Browsers anzupassen.
+* Die Teilnehmer kennen sowohl für CSS als auch für JavaScript Frameworks, die die Entwicklung erleichtern können.
+* Die Teilnehmer wissen, dass unter HTML5 diverse Technologiepakete zusammengefasst werden, die neben neuen Strukturen für HTML auch neue APIs für JavaScript enthalten.
+* Die Teilnehmer kennen die Bedeutung von unobtrusive JavaScript: Darunter werden Prinzipien und Praktiken zusammengefasst, die Inhalte und Verhalten deutlich voneinander trennen.
+* Die Teilnehmer kennen die Funktionsweise von Web-Firewalls und wissen gegen welche Arten von Angriffen diese schützen.
 
 // end::DE[]
 
@@ -48,45 +48,44 @@
 
 **What should participants be able to do?**
 
-  * Participants can design server side web apps so that they effectively use the infrastructure.
-  * Participants can improve the runtime behaviour of a system through the selective use of reverse proxies.
-  * Participants can name different intermediaries and explain their effects on the architecture.
-   ** Proxies save responses for the client; the HTTP protocol provides explicit rules for this.
-   ** Reverse proxies are proxies on the server side and function as caches for the web app.
-   ** Load balancers distribute requests on the server side to different servers.
-  * Participants know different scaling strategies (horizontal and vertical) and can choose the suitable scaling strategy.
-   ** Vertical scaling due to higher performance hardware.
-   ** Vertical scaling due to the fact that different components – such as the web and app server – are distributed on separate infrastructure components.
-   ** Vertical scaling through cluster solutions that simulate an application running on only one node even though there are multiple server nodes to run. 
-   ** Horizontal scaling by duplicating a server system and distributing the load as randomly and evenly as possible over the existing servers. For horizontal scaling, this method must be potentially infinite.
+* The participants can design server-side web applications so that they use the infrastructure effectively.
+* The participants can improve the runtime behavior of a system through the targeted use of reverse proxies.
+* The participants can name various intermediaries and explain their effects on the architecture.
+** Proxies store responses for the client; the HTTP protocol provides explicit rules for this.
+** Reverse proxies are proxies on the server side and act as caches for the web application.
+** Load balancers distribute queries on the server side to different servers.
+* The participants know different scaling strategies (horizontal and vertical) and can select the appropriate scaling strategy.
+** Vertical scaling due to more powerful hardware.
+** Vertical scaling due to different components – such as web and application servers – being distributed on separate infrastructure components.
+** Vertical scaling due to cluster solutions that simulate an application running on only one node even though there are multiple server nodes to run it.
+** Horizontal scaling by duplicating a server system and distributing the load as randomly and evenly as possible over the existing servers. This procedure must be potentially infinite for horizontal scaling.
+
 
 **What should participants understand?**
 
-  *	Participants understand that caching can reduce the load on server systems.
-  *	Participants understand how data from many web apps can be made available for few users (client or also forward proxy) or from many users for few web apps (reverse proxy).
-  *	Participants understand how access to resources can be controlled by proxies.
-  *	Participants understand how reverse proxy can be used to transcribe authentication schemas (for example from form-based to basic authentication).
-  *	Participants should understand which infrastructure components in the request/response cycle affect the data throughput and latency time.
-  *	Participants should understand how browser clients load resources and in particular how they evaluate HTML pages and query referenced resources. 
-  *	Participants understand how the transfer of resources to a content delivery network (CDN) helps to reduce the load on the internal infrastructure.
-  *	Participants understand that not all web browsers support the standards to the same extent.
-  *	Participants understand that the different web servers can differ greatly with respect to resource utilization.
+* The participants understand that caching can reduce the load on server systems.
+* The participants understand how data from many web applications can be made available to a few users (client or forward proxy) or many users for a few web applications (reverse proxy).
+* The participants understand how access to resources can be controlled by proxies.
+* The participants understand how reverse proxy can be used to rewrite authentication schemes (for example, from form-based to basic authentication).
+* The participants should understand which infrastructure components in the request/response cycle affect data throughput and latency.
+* The participants should understand how browser clients load resources and, in particular, evaluate HTML pages and query referenced resources.
+* The participants understand how outsourcing resources to a content delivery network (CDN) helps to reduce the load on the internal infrastructure.
+* The participants understand that not all web browsers support the standards to the same extent.
+* The participants understand that the various web servers sometimes differ greatly in terms of resource consumption
+
 
 **What should participants know?**
 
-  *	Participants know the different standard mechanisms that can be used to expand web servers with application logic (CGI, Servlets, …).
-  *	Participants know the different methods for load distribution of a web application (e. g., DNS-based load balancer or proxies).
-  *	Participants know different strategies such as graceful degradation and progressive enhancement for the design of an interface adapted to the capabilities of the web browser.
-  *	Participants know frameworks both for CSS and JavaScript that can facilitate development.
-  *	Participants know that HTML5 includes diverse technology bundles that contain not only new structures for HTML, but also new APIs for JavaScript.
-  *	Participants know the meaning of unobtrusive JavaScript: This comprises principles and practices that clearly separate content and behaviour.
-  *	Participants know the functioning principle of web firewalls and know what types of attacks they provide protection against.
+* The participants know various standard mechanisms that can be used to expand web servers with application logic (CGI, servlets, ...).
+* The participants know different approaches for load balancing a web application (e.g., DNS-based load balancer or proxies).
+* The participants know different strategies such as graceful degradation and progressive enhancement to adapt the user interface to the capabilities of the web browser.
+* The participants know frameworks for both CSS and JavaScript that can facilitate development.
+* The participants know that HTML5 includes various technology packages that contain new structures for HTML and new APIs for JavaScript.
+* The participants know the importance of unobtrusive JavaScript: this includes principles and practices that clearly separate content and behavior.
+* The participants know how web firewalls work and know what types of attacks they protect against.
 
 // end::EN[]
 
 // tag::REMARK[]
-[NOTE]
-====
-Die einzelnen Lernziele müssen nicht als einfache Aufzählungen mit Unterpunkten aufgeführt werden, sondern können auch gerne in ganzen Sätzen formuliert werden, welche die einzelnen Punkte (sofern möglich) integrieren.
-====
+
 // end::REMARK[]

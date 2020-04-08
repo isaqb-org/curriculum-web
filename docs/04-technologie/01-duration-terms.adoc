@@ -4,28 +4,18 @@
 |===
 
 === Begriffe und Konzepte
-* Client, Server, Proxy, Reverse-Proxy, Content Delivery Networks/CDN, Lastverteilung/Load Balancing, CGI
+Client, Server, Proxy, Reverse-Proxy, Content Delivery Networks/CDN, Lastverteilung/Load Balancing, CGI
 // end::DE[]
 
 // tag::EN[]
 |===
-| Lesson duration: 180 min | Exercises: 60 min
+| Duration: 180 min | Practice time: 60 min
 |===
 
-=== Terms and concepts
-* Client, Server, Proxy, Reverse proxy, Content Delivery Networks/CDN, Load balancing, CGI, …
+=== Terms and Principles
+Client, server, proxy, reverse proxy, content delivery networks/CDN, load balancing, CGI
 // end::EN[]
 
 // tag::REMARK[]
-[NOTE]
-====
-Überschrift in 00-structure.adoc ersetzen
-====
-// end::REMARK[]
 
-// tag::REMARK[]
-[NOTE]
-====
-Sinnvolle Zeiten für Dauer und Übungszeit eintragen, vernünftige Begriffe aufzählen.
-====
 // end::REMARK[]

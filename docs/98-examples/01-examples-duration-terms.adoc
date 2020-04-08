@@ -3,8 +3,6 @@
 | Dauer: 60 Min. | Übungszeit: keine
 |===
 
-Dieser Abschnitt ist nicht prüfungsrelevant.
-
 === Begriffe und Konzepte
 Innerhalb jeder akkreditierten Schulung müssen konrkete Beispiele für unterschiedliche Bereiche von Web-Architekturen vorgestellt, besprochen und bewertet werden:
 
@@ -20,26 +18,23 @@ Art und Ausprägung der vorgestellten Beispiele können von der Schulung bzw. de
 
 // tag::EN[]
 |===
-| Lesson duration: 60 min | Exercises: none
+| Duration: 60 min | Practice time: none
 |===
 
-This section is not examinable.
+=== Terms and Principles
 
-=== Terms and concepts
-Within each accredited course specific examples of different areas of web architecture must be presented, discussed and evaluated:
-  
-  * Dealing with infrastructure and especially reverse proxies.
-  * A rough pattern of a web backend application.
-  * One or more examples of single page framework features such as data binding or client side routing.
-  *	Examples of different database models.
+Specific examples of different areas of web architecture must be presented, discussed,
+and evaluated within each accredited training course:
 
-The type and character of the examples presented can depend on the course and the interests of the participants and are not prescribed by the iSAQB.
+* Dealing with infrastructure and, in particular, reverse proxies.
+* A rough design of a web backend application.
+* One or more examples of single-page framework features such as data binding or client-side routing.
+* Examples of different database models.
+
+Type and characteristics of the presented examples can depend on the training course or the interests
+of the participants and are not specified by the iSAQB.
 
 // end::EN[]
 
 // tag::REMARK[]
-[NOTE]
-====
-Sinnvolle Zeiten für Dauer und Übungszeit eintragen.
-====
 // end::REMARK[]

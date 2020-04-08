@@ -4,29 +4,19 @@
 |===
 
 === Begriffe und Konzepte
-* Representational State Transfer (REST), Stateful-BackEnd-Web-Apps, Single-Page-Applikation, Web-Components
+Representational State Transfer (REST), Stateful-BackEnd-Web-Apps, Single-Page-Applikation, Web-Components
 
 // end::DE[]
 
 // tag::EN[]
 |===
-| Lesson duration: 120 min | Exercises: 60 min
+| Duration: 120 min | Practice time: 60 min
 |===
 
-=== Terms and concepts
-* Representational State Transfer (REST), Stateful Backend Web Apps, Single-page Application, Web Components.
+=== Terms and Principles
+Representational state transfer (REST), stateful backend web apps, single-page application, web components
 // end::EN[]
 
 // tag::REMARK[]
-[NOTE]
-====
-Überschrift in 00-structure.adoc ersetzen
-====
-// end::REMARK[]
 
-// tag::REMARK[]
-[NOTE]
-====
-Sinnvolle Zeiten für Dauer und Übungszeit eintragen, vernünftige Begriffe aufzählen.
-====
 // end::REMARK[]

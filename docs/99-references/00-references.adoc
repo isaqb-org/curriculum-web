@@ -10,7 +10,7 @@ Dieser Abschnitt enthält Quellenangaben, die ganz oder teilweise im Curriculum 
 // end::DE[]
 
 // tag::EN[]
-This section contains references that are cited in the curriculum.
+This section contains sources that are referenced in the curriculum in whole or in part.
 // end::EN[]
 
 // tag::REMARK[]

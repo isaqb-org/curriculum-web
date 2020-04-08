@@ -4,36 +4,16 @@
 [cols="<,>", options="header"]
 |===
 
-| Inhalt
-| Empfohlene Mindestdauer (min)
-
-
-| 1. Grundlagen
-| 90
-
-| 2. Protokolle und Standards
-| 90
-
-| 3. Architekturstile
-| 180
-
-| 4. Technologie und Infrastruktur
-| 240
-
-| 5. Entwurf von Web-Architekturen
-| 300
-
-| 6. Qualität in Web-Architekturen
-| 180
-
-| 7. Beispielarchitekturen
-| 60
-
-|
-|
-
-| Summe
-| 1140 (19h)
+| Inhalt | Empfohlene Mindestdauer (min)
+| 1. Grundlagen | 90
+| 2. Protokolle und Standards | 90
+| 3. Architekturstile | 180
+| 4. Technologie und Infrastruktur | 240
+| 5. Entwurf von Web-Architekturen | 300
+| 6. Qualität in Web-Architekturen | 180
+| 7. Beispielarchitekturen | 60
+| |
+| Summe | 1140 (19h)
 
 |===
 
@@ -44,46 +24,26 @@ image:01-basics/zeitaufteilung.png[pdfwidth=75%, role="text-center"]
 // end::DE[]
 
 // tag::EN[]
-=== Curriculum structure and recommended durations
+=== Curriculum Structure and Recommended Durations
 
 [cols="<,>", options="header"]
 |===
 
-| Content
-| Recommended minimum duration (minutes)
-
-
-| 1. Principles
-| 90
-
-| 2. Protocols and standards 
-| 90
-
-| 3. Architecture styles
-| 180
-
-| 4. Technology and infrastructure
-| 240
-
-| 5. Design of web architectures
-| 300
-
-| 6. Quality in web architectures 
-| 180
-
-| 7. Exemplary architectures
-| 60
-
-|
-|
-
-| Sum
-| 1140 (19h)
+| Content | Recommended minimum duration (minutes)
+| 1. Fundamentals | 90
+| 2. Protocols and Standards | 90
+| 3. Architecture Styles | 180
+| 4. Technology and Infrastructure | 240
+| 5. Design of Web Architectures | 300
+| 6. Quality in Web Architectures | 180
+| 7. Example Architectures | 60
+| |
+| Total | 1140 (19h)
 
 |===
 
 [.text-center]
-.Durations
+.Allocation of time for the topic areas
 image:01-basics/chronological_breakdown.png[pdfwidth=75%, role="text-center"]
 // end::EN[]
 

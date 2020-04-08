@@ -44,42 +44,37 @@ In this chapter, technology-independent concepts from the Web environment are di
 
 **What should participants be able to do?**
 
-  *	Participants can explain the typical request/response process that takes place when an address is entered in the address line of the browser or when a form is sent.
-  *	Participants can map the request/response process onto typical components in the web environment: client, server, proxy, reverse proxy, load balancer, DNS server, framework, own application logic (servlet, PHP script, Rails controller).
-  *	Participants can explain the difference between a GET and POST request.
-  *	Participants can make a diagram of the typical client-server infrastructure of web architectures.
-  *	Participants can explain the general structure of HTTP requests: header (with host name, content type, etc.), content.
-  *	Participants can explain the general structure of HTTP responses: response with status line, header and content.
-  *	Participants can explain the structure of a URI and interpret the components in the request process that tend to be responsible for it. 
-  *	The participants can outline how a website with Ajax differs from the classic round-trip scheme without Ajax.
-  *	The participants can explain the advantages of a stateless server regarding its scalability.
-  *	The participants can split Web UIs into frontend components.
+* Participants can explain the typical request/response process that takes place when an address is entered in the address bar of the browser or when a form is submitted.
+* The participants can map the request/response process onto typical components in the web environment: client, server, proxy, reverse proxy, load balancer, DNS server, framework, own application logic (servlet, PHP script, Rails controller).
+* Participants can explain the difference between GET and POST requests.
+* Participants can draw a diagram of the typical client-server infrastructure of web architectures.
+* Participants can explain the general structure of HTTP requests: header (with hostname, content type, etc.), content.
+* Participants can explain the general structure of HTTP responses: response with status line, header and content.
+* Participants can explain the structure of a URI and interpret the components in the request process that tend to be responsible for it.
 
 **What should participants understand?**
 
-  *	Participants understand that the generic term web app can comprise fundamentally different types of IT systems with respect both to technology and content and that these systems require different architectures.
-  *	Participants understand that web apps are not restricted to use by browsers, but can also be used by other clients.
-  *	Participants understand the difference between structural and presentational characterization of content according to the Separation of Concerns.
-  *	Participants understand the general requirements of the Web Content Accessibility Guidelines (WCAG), which are summarized under the term accessibility.
-  *	Participants understand the flow of Single-Sign-On mechanisms (redirect, login, redirect with token, validation of the token), which is mostly used for web applications.
-  *	Participants understand that a resource is more than just a database entity (e. g., also a process instance or a process step).
-  *	Participants understand that hypermedia is used to connect resources to each other.
-  *	Participants understand the concept of preprocessors for translating one language into another or for embedding dependencies or detecting dead code blocks.
+* The participants understand that the generic term web application can refer to fundamentally different types of IT systems with regard to both technology and content, which require different architectures
+* The participants understand that web applications are not restricted to use by browsers, but can also be used by other clients
+* The participants understand the difference between the content-related or structural and presentational characterization of content in terms of the separation of concerns.
+* The participants understand the general requirements of the Web Content Accessibility Guidelines (WCAG), which are summarized under the term accessibility.
+* The participants understand the flow usually used for web applications with single sign-on mechanisms (redirect, login, redirect with token, validation of the token).
+* The participants understand that a resource is more than just a database entity (i.e. also a process instance or a process step).
+* The participants understand that hypermedia is used to connect resources to each other.
+* The participants understand the principle of preprocessors for translating one language into another or for embedding dependencies or detecting dead blocks of code.
 
 **What should participants know?**
 
-  *	Participants know that legal conditions can require barrier-free user interfaces. For example, the “Regulation on the creation of barrier-free information technology in accordance with the law on equal opportunities for the disabled” defines specific requirements that must be implemented by all websites of the Federal Administration of the Federal Republic of Germany.
-  *	Some of the techniques that lead to barrier-free content also ensure that this content can be processed more easily by machine.
-  *	Participants know different characteristics of web frameworks:
-   **	Component and request-response frameworks often use designs influenced by the MVC pattern.
-   **	Request-response frameworks are structurally mostly build in a relatively similar way: Actions accept the request, execute application logic and finally render the response, usually with templating (HTML) or object serialization (JSON/XML).
-  *	Participants will be familiar with the concept of pattern libraries as a way of documenting front-end components.
+  * The participants know that legal frameworks may require accessible interfaces. For example, the ‘Ordinance on the Creation of Barrier-Free Information Technology in Accordance with the Act on Equal Opportunities for Disabled Persons’ formulates specific requirements that must be implemented by all websites of the Federal Administration of the Federal Republic of Germany.
+  * The participants know some of the techniques that lead to accessible content, while, at the same time, ensuring that this content can also be processed more easily by machine.
+  * The participants know different characteristics of web frameworks:
+    ** Component and request-response frameworks often use designs influenced by the MVC pattern
+    ** Request-response frameworks generally have a relatively similar structure: actions accept the request, execute application logic, and finally render the response, usually with templating (HTML) or object serialization (JSON/XML)
+  *The participants know the principle of pattern libraries as a way of documenting frontend components.
+
 
 // end::EN[]
 
 // tag::REMARK[]
-[NOTE]
-====
-Die einzelnen Lernziele müssen nicht als einfache Aufzählungen mit Unterpunkten aufgeführt werden, sondern können auch gerne in ganzen Sätzen formuliert werden, welche die einzelnen Punkte (sofern möglich) integrieren.
-====
+
 // end::REMARK[]

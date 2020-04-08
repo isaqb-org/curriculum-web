@@ -6,41 +6,41 @@
 
 **Was sollen die Teilnehmer können?**
   
-  * Die Teilnehmer können erklären, wie sich der REST-Stil vom Stateful-Backend-Architekturstil unterscheidet.
-  * Die Teilnehmer können verschiedene Web-Architektur-Stile unterscheiden und bewusst auswählen, welcher für eine Menge von gegebenen Anforderungen und Rahmenbedingun-gen der sinnvollste ist.
-  *	Die Teilnehmer können für ein auch potentiell ihnen unbekanntes Framework bewerten, wie gut es für die Realisierung von Web-Anwendungen gemäß den Anforderungen geeignet ist.
-  * Die Teilnehmer können verschiedene Architekturstile von Web-Architekturen erläutern und entsprechende Systeme entwerfen:
-    ** REST-konforme Web-Anwendungen
-    ** Stateful-Backend-Anwendungen (beispielsweise Komponenten-Orientrierte Ansätze).
+* Die Teilnehmer können erklären, wie sich der REST-Stil vom Stateful-Backend-Architekturstil unterscheidet.
+* Die Teilnehmer können verschiedene Web-Architektur-Stile unterscheiden und bewusst auswählen, welcher für eine Menge von gegebenen Anforderungen und Rahmenbedingun-gen der sinnvollste ist.
+* Die Teilnehmer können für ein auch potentiell ihnen unbekanntes Framework bewerten, wie gut es für die Realisierung von Web-Anwendungen gemäß den Anforderungen geeignet ist.
+* Die Teilnehmer können verschiedene Architekturstile von Web-Architekturen erläutern und entsprechende Systeme entwerfen:
+** REST-konforme Web-Anwendungen
+** Stateful-Backend-Anwendungen (beispielsweise Komponenten-Orientrierte Ansätze).
 
 **Was sollen die Teilnehmer verstehen?**
   
-  * Die Teilnehmer verstehen die Einschränkungen, die der Architekturstil REST auf den Ent-wurf eines Systems mit sich bringt:
-    ** Identifizierbare Ressourcen
-    ** Uniforme Schnittstelle
-    ** Zustandslose Kommunikation
-    ** Repräsentationen
-    ** Hypermedia.
-  * Die Teilnehmer verstehen die Einschränkungen, die Stateful-Backend-Architekturen auferlegen:
-    ** Kommunikation läuft immer gegen dieselbe Server-Instanz.
-    ** Bei Komponenten-Orientierten Ansätzen enthalten die Requests in der Regel ein Kommando oder einen Diskriminator, der entscheidet, welche Komponente für die Verarbeitung zuständig ist. In der Regel sind diese Dispatch-Informationen hart kodiert oder im Hauptspeicher (in der Session) abgelegt.
-  * Die Teilnehmer verstehen, dass, gleichgültig welcher Architekturstil gewählt ist, der Kern der Fachlichkeit, also beispielsweise sicherheits- und funktionsrelevante Prüfungen oder Berechnungen, stets im Server realisiert werden muss.
-  * Die Teilnehmer verstehen, wie sich die Reaktionsfreudigkeit von Web-Applikationen über Funktionalität im Client, also über JavaScript im Client (z. B. in Verbindung mit AJAX),  verbessern lässt.  
-  * Die Teilnehmer verstehen die Standard-Features von Single-Page-Frameworks:
-    ** Databinding (Two-Way und One-Way)
-    ** Templating
-    ** Clientseitiges Routing
-    ** Komponenten-Abstraktion
-  * Die Teilnehmer verstehen, dass sich mit WebComponents (CustomElements + Shadow-DOM) stark von der Seite isolierte, eigenständige JavaScript-Komponenten entwickeln lassen, die sich per DOM instanziieren lassen.
+* Die Teilnehmer verstehen die Einschränkungen, die der Architekturstil REST auf den Ent-wurf eines Systems mit sich bringt:
+** Identifizierbare Ressourcen
+** Uniforme Schnittstelle
+** Zustandslose Kommunikation
+** Repräsentationen
+** Hypermedia.
+* Die Teilnehmer verstehen die Einschränkungen, die Stateful-Backend-Architekturen auferlegen:
+** Kommunikation läuft immer gegen dieselbe Server-Instanz.
+** Bei Komponenten-Orientierten Ansätzen enthalten die Requests in der Regel ein Kommando oder einen Diskriminator, der entscheidet, welche Komponente für die Verarbeitung zuständig ist. In der Regel sind diese Dispatch-Informationen hart kodiert oder im Hauptspeicher (in der Session) abgelegt.
+* Die Teilnehmer verstehen, dass, gleichgültig welcher Architekturstil gewählt ist, der Kern der Fachlichkeit, also beispielsweise sicherheits- und funktionsrelevante Prüfungen oder Berechnungen, stets im Server realisiert werden muss.
+* Die Teilnehmer verstehen, wie sich die Reaktionsfreudigkeit von Web-Applikationen über Funktionalität im Client, also über JavaScript im Client (z. B. in Verbindung mit AJAX),  verbessern lässt.
+* Die Teilnehmer verstehen die Standard-Features von Single-Page-Frameworks:
+** Databinding (Two-Way und One-Way)
+** Templating
+** Clientseitiges Routing
+** Komponenten-Abstraktion
+* Die Teilnehmer verstehen, dass sich mit WebComponents (CustomElements + Shadow-DOM) stark von der Seite isolierte, eigenständige JavaScript-Komponenten entwickeln lassen, die sich per DOM instanziieren lassen.
 
 **Was sollen die Teilnehmer kennen?**
 
-  * Die  Teilnehmer kennen Mechanismen langlaufende Transaktionen mit entspre-chenden Status-Codes anzunehmen und über geeignete Mechanismen das Ergebnis zu melden, sobald es vorliegt.
-  * Die Teilnehmer kennen die Auswirkungen von mobilen Clients: 
-    ** stark unterschiedliche Bandbreiten
-    ** schwankende teilweise sehr hohe Latenz.
-  * Die Teilnehmer wissen, dass mobile Clients teilweise reduzierte Leistungsfähigkeit im Bezug auf Hauptspeicher und CPU besitzen.
-  * Die Teilnehmer wissen, dass Ressourcen von mobilen Clients gerade im Hinblick auf limitierte Energiekapazitäten der Endgeräte zu schonen sind.
+* Die  Teilnehmer kennen Mechanismen langlaufende Transaktionen mit entspre-chenden Status-Codes anzunehmen und über geeignete Mechanismen das Ergebnis zu melden, sobald es vorliegt.
+* Die Teilnehmer kennen die Auswirkungen von mobilen Clients:
+** stark unterschiedliche Bandbreiten
+** schwankende teilweise sehr hohe Latenz.
+* Die Teilnehmer wissen, dass mobile Clients teilweise reduzierte Leistungsfähigkeit im Bezug auf Hauptspeicher und CPU besitzen.
+* Die Teilnehmer wissen, dass Ressourcen von mobilen Clients gerade im Hinblick auf limitierte Energiekapazitäten der Endgeräte zu schonen sind.
 // end::DE[]
 
 // tag::EN[]
@@ -49,47 +49,45 @@
 
 **What should participants be able to do?**
 
-  *	Participants can explain the difference between the REST style and the stateful backend architecture style.
-  *	Participants can differentiate web architecture styles and choose which style makes the most sense for a quantity of given requirements and conditions.
-  *	Participants can evaluate for a framework, which is also potentially unknown to them, how well it is suited for the realization of web applications according to the requirements.
-  *	Participants can explain different architecture styles of web architectures and design corresponding systems:
-   **	REST-compliant web apps
-   **	Stateful backend apps (e. g., component-oriented approaches).
+* The participants can explain how the REST style differs from the stateful backend architecture style.
+* The participants can distinguish between different web architecture styles and deliberately choose the one that makes the most sense for a set of given requirements and conditions.
+* The participants can evaluate a framework, which is also potentially unknown to them, with regard to how well-suited it is for implementing web applications according to the requirements.
+* The participants can explain different architecture styles of web architectures and design corresponding systems:
+** REST-compliant web applications
+** Stateful backend applications (for example, component-oriented approaches).
+
 
 **What should participants understand?**
 
-  *	Participants understand the constraints that the architecture style REST has on the design of a system:
-   **	Identifiable resources
-   **	Uniform interface
-   **	Stateless communication
-   **	Representations
-   **	Hypermedia.
-  *	Participants understand the limitations of stateful backend architectures:
-   **	Communication takes place always against the same server instance.
-   **	In component-oriented approaches, the requests usually contain a command or a discriminator that decides which component is responsible for processing. Usually this dispatch information is hard-coded or stored in the main memory (in the session).
-  *	Participants understand that no matter which architecture style is chosen, the core of expertise, e. g., security and function-relevant tests or calculations, must always be implemented in the server.
-  *	Participants understand how the response of web apps can be improved via functionality in the client i. e., via JavaScript in the client (e. g., in combination with AJAX)
-  *	Participants understand the standard features of single page frameworks:
-   **	Databinding (two-way and one-way)
-   **	Templating
-   **	Client-side routing
-   **	Component abstraction.
-  *	Participants understand that WebComponents (CustomElements + ShadowDOM) can be used to develop independent JavaScript components that are strongly isolated from the page and can be instantiated via DOM.
+* The participants understand the constraints that the REST architecture style places on the design of a system:
+** Identifiable resources
+** Uniform interface
+** Stateless communication
+** Representations
+** Hypermedia.
+* The participants understand the constraints imposed by stateful backend architectures:
+** Communication always takes place against the same server instance.
+** With component-oriented approaches, the requests usually contain a command or a discriminator that decides which component is responsible for processing. This dispatch information is usually hard-coded or stored in the main memory (in the session).
+* Participants understand that, regardless of the architecture style chosen, the core of the business, such as security and function-relevant tests or calculations, must always be implemented in the server.
+* The participants understand how the responsiveness of web applications can be improved via functionality in the client, i.e. via JavaScript in the client (e.g., in conjunction with AJAX).
+* The participants understand the standard features of single-page frameworks:
+** Data binding (two-way and one-way)
+** Templating
+** Client-side routing
+** Component abstraction
+* The participants understand that web components (custom elements + shadow DOM) can be used to develop independent JavaScript components that are strongly isolated from the page and can be instantiated via DOM.
+
 
 **What should participants know?**
 
-  *	Participants know mechanisms to accept long-running transactions with corresponding status codes and to report the result via appropriate mechanisms as soon as it is available.
-  *	Participants know the effects of mobile clients: 
-   **	Widely differing bandwidths
-   **	Fluctuating, partly very high latency.
-  *	Participants know that mobile clients sometimes have reduced performance with respect to main memory and CPU.
-  *	Participants know that resources of mobile clients have to be conserved especially with regard to limited energy capacities of the end devices.
+* The participants know mechanisms for accepting long-running transactions with corresponding status codes and to report the result using suitable mechanisms as soon as it is available.
+* The participants know the effects of mobile clients:
+** Greatly varying bandwidths
+** Fluctuating, partly very high latency.
+* The participants know that mobile clients sometimes have reduced performance in terms of main memory and CPU.
+* The participants know that resources of mobile clients have to be conserved, especially with regard to the limited energy capacities of devices.
 
 // end::EN[]
 
 // tag::REMARK[]
-[NOTE]
-====
-Die einzelnen Lernziele müssen nicht als einfache Aufzählungen mit Unterpunkten aufgeführt werden, sondern können auch gerne in ganzen Sätzen formuliert werden, welche die einzelnen Punkte (sofern möglich) integrieren.
-====
 // end::REMARK[]

@@ -4,30 +4,20 @@
 |===
 
 === Begriffe und Konzepte
-* Web-Browser, Web-Server, Client, Server, Proxy, Request, Response, Barrierefreiheit, Basic-Auth, Intranet vs. Internet, Redirect, TLS
+Web-Browser, Web-Server, Client, Server, Proxy, Request, Response, Barrierefreiheit, Basic-Auth, Intranet vs. Internet, Redirect, TLS, Prepocessor, Hypermedia, Statelessness, Pattern Libraries, Frontend Components
 
 // end::DE[]
 
 // tag::EN[]
 |===
-| Lesson duration: 90 min | Exercises: none
+| Duration: 90 min | Practice time: none
 |===
 
-=== Terms and concepts
-* Web browser, Web server, Client, Server, Proxy, Request, Response, Accessibility, Basic Auth, Intranet vs. Internet, Redirect, TLS, Prepocessor, Hypermedia, Statelessness, Pattern Libraries, Frontend Components, Ajax, Single-Sign-On (SSO), Separation of Concerns, Code on demand
+=== Terms and principles
+Web browser, web server, client, server, proxy, request, response, accessibility, basic-auth, intranet vs. Internet, redirect, TLS, prepocessor, hypermedia, statelessness, pattern libraries, frontend components
 // end::EN[]
 
 
 // tag::REMARK[]
-[NOTE]
-====
-Überschrift in 00-structure.adoc ersetzen
-====
-// end::REMARK[]
 
-// tag::REMARK[]
-[NOTE]
-====
-Sinnvolle Zeiten für Dauer und Übungszeit eintragen, vernünftige Begriffe aufzählen.
-====
 // end::REMARK[]
