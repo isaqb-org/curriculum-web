@@ -3,8 +3,6 @@
 | Dauer: 60 Min. | Übungszeit: keine
 |===
 
-Dieser Abschnitt ist nicht prüfungsrelevant.
-
 === Begriffe und Konzepte
 Innerhalb jeder akkreditierten Schulung müssen konrkete Beispiele für unterschiedliche Bereiche von Web-Architekturen vorgestellt, besprochen und bewertet werden:
 
@@ -22,8 +20,6 @@ Art und Ausprägung der vorgestellten Beispiele können von der Schulung bzw. de
 |===
 | Duration: 60 min | Practice time: none
 |===
-
-This section is not examinable.
 
 === Terms and Principles
 Within each accredited course specific examples of different areas of web architecture must be presented, discussed and evaluated:
