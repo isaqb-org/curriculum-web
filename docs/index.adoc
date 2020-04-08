@@ -43,3 +43,10 @@ image:https://img.shields.io/github/issues-closed/isaqb-org/curriculum-web.svg["
 | link:advanced-curriculum_remarks_en.pdf[PDF]
 
 |===
+
+== Please provide feedback
+
+Your feedback and comments are valuable to us. Please use one of the following options:
+
+* our public https://github.com/isaqb-org/curriculum-web[Github repository] - or
+* open an issue by clicking **https://github.com/isaqb-org/curriculum-web/issues/new?title=&body=%0A%0A%5BEnter%20feedback%20here%5D%0A%0A%0A[here]**
