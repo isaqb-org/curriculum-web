@@ -4,7 +4,10 @@
 |===
 
 === Begriffe und Konzepte
-Datenmodellierung, Funktionale Zerlegung, Repräsentationm, Verteiltes System, CAP-Theorem, ACID, Sicherheit von Web-Applikationen, Authentifizierung, Autorisierung, Barrierefreiheit/Accessibility, Internationalisierung/Lokalisierung, HTML, CSS, JavaScript, Trennen von Inhalt, Präsentation und Verhalten, Graceful Degradation, Progressive Enhancement, unobtrusive JavaScript.
+Datenmodellierung, Funktionale Zerlegung, Repräsentationm, Verteiltes System, CAP-Theorem, ACID,
+Sicherheit von Web-Applikationen, Authentifizierung, Autorisierung, Barrierefreiheit/Accessibility,
+Internationalisierung/Lokalisierung, HTML, CSS, JavaScript, Trennen von Inhalt, Präsentation und Verhalten,
+Graceful Degradation, Progressive Enhancement, unobtrusive JavaScript.
 
 // end::DE[]
 
