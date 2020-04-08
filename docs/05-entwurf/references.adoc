@@ -1,26 +1,8 @@
 === {references}
 
-- <<abbott>>
-- <<bitv>>
-- <<brewer>>
-- <<buschmann>>
-- <<daswani>>
-- <<ecma>>
-- <<evans>>
-- <<fowler>>
-- <<hohpe>>
-- <<html>>
-- <<htmlcss>>
-- <<htmlsse>>
-- <<nottingham>>
-- <<olsson>>
-- <<owasp>>
-- <<pritchett>>
-- <<stoneburner>>
-- <<waldo>>
-- <<wcag>>
-- <<websockets>>
-- <<wwwc>>
+<<abbott>>, <<bitv>>, <<brewer>>, <<buschmann>>, <<daswani>>, <<ecma>>, <<evans>>, <<fowler>>,
+<<hohpe>>, <<html>>, <<htmlcss>>, <<htmlsse>>, <<nottingham>>, <<olsson>>, <<owasp>>, <<pritchett>>,
+<<stoneburner>>, <<waldo>>, <<wcag>>, <<websockets>>, <<wwwc>>
 
 // tag::REMARK[]
 // end::REMARK[]

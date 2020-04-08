@@ -1,20 +1,7 @@
 === {references}
 
-- <<bitv>>
-- <<brewer>>
-- <<buschmann>>
-- <<daswani>>
-- <<esi>>
-- <<htmlsse>>
-- <<kopparapu>>
-- <<owasp>>
-- <<pritchett>>
-- <<stoneburner>>
-- <<waldo>>
-- <<wcag>>
-- <<websockets>>
-- <<wwwc>>
-
+<<bitv>>, <<brewer>>, <<buschmann>>, <<daswani>>, <<esi>>, <<htmlsse>>, <<kopparapu>>, <<owasp>>,
+<<pritchett>>, <<stoneburner>>, <<waldo>>, <<wcag>>, <<websockets>>, <<wwwc>>
 
 // tag::REMARK[]
 // end::REMARK[]
