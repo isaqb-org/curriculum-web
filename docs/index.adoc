@@ -24,23 +24,23 @@ image:https://img.shields.io/github/issues-closed/isaqb-org/curriculum-web.svg["
 
 | German
 |
-| link:advanced-curriculum_de.html[HTML]
-| link:advanced-curriculum_de.pdf[PDF]
+| link:curriculum-web-de.html[HTML]
+| link:curriculum-web-de.pdf[PDF]
 
 | English
 |
-| link:advanced-curriculum_en.html[HTML]
-| link:advanced-curriculum_en.pdf[PDF]
+| link:curriculum-web-en.html[HTML]
+| link:curriculum-web-en.pdf[PDF]
 
 | German
 | ✔️
-| link:advanced-curriculum_remarks_de.html[HTML]
-| link:advanced-curriculum_remarks_de.pdf[PDF]
+| link:curriculum-web-remarks-de.html[HTML]
+| link:curriculum-web-remarks-de.pdf[PDF]
 
 | English
 | ✔️
-| link:advanced-curriculum_remarks_en.html[HTML]
-| link:advanced-curriculum_remarks_en.pdf[PDF]
+| link:curriculum-web-remarks-en.html[HTML]
+| link:curriculum-web-remarks-en.pdf[PDF]
 
 |===
 
