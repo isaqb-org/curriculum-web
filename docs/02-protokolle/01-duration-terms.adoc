@@ -13,8 +13,8 @@
 | Duration: 90 min | Practice time: none
 |===
 
-* URI, URL, URN, HTTP/1.1, HTTP/2, HTTP/3, HTTP verbs (GET, PUT, POST, DELETE), HTTP headers, Intermediaries, Caching, Content types, Content negotiation, TLS, PKI, HTML, DOM, Web sockets, Server-sent events, CustomElements, Shadow DOM, OAuth 2, OpenID Connect., CORS, Content Security Policy.
 === Terms and Principles
+* URI, URL, URN, HTTP/1.1, HTTP/2, HTTP/3, HTTP verbs (GET, PUT, POST, DELETE), HTTP headers, intermediaries, caching, content types, content negotiation, TLS, PKI, HTML, DOM, web sockets, server-sent events, custom elements, shadow DOM, OAuth 2, OpenID Connect, CORS, Content Security Policy
 // end::EN[]
 
 // tag::REMARK[]
