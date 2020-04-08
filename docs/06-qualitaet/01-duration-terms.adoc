@@ -14,7 +14,7 @@ Sicherheit, Skalierbarkeit, Web-Scale, Verfügbarkeit, Bedienbarkeit, Barrierefr
 |===
 
 === Terms and Principles
-Security, Scalability, Web scale, Availability, Operability, Accessibility
+Security, scalability, web-scale, availability, operability, accessibility
 
 // end::EN[]
 

@@ -40,57 +40,38 @@
 [[LG-6-1]]
 //==== LG 5-1: TBD
 
-**What should participants be able to do?**
-
-  *	Participants can explain and apply the fundamentals of risk analysis and threat modelling.
-  *	Participants can apply the principles for a secure software design:
-    ** Principle of least privilege: give users and components only as many rights as they absolutely need.
-    ** Defence in depth: do not rely on other security measures – use redundant checks.
-    ** Secure by default: Rights must be granted explicitly.
-    ** Don’t trust anybody: User input and data from external sources must be validated.
-    ** Compartmentalize: Separate components that need different rights.
-    ** Fail securely: If errors occur, no security-related information must be exposed.
-  *	Participants can explain and demonstrate with examples that internationalization means more than offering content in different languages.  For example:
-    ** Formats for numbers or dates or the sequence in which words are sorted depends on the cultural environment.
-    ** Text directions can differ.
-    ** Layouts must take into account that texts in different languages need different amounts of space.
-    ** The legal requirements in different countries must be taken into account.
-    ** Cultural differences affect the choice of colours, for example.
-
 **What should participants understand?**
 
-  *	Participants understand the basics of risk analysis and threat modelling.
-  *	Participants understand the principles of secure software design:
-    ** Principle of Least Privilege: give users and components only as many rights as they absolutely need.
-    ** Defense in Depth: do not trust that other security measures have worked - use redundant checks.
-    ** Secure by Default: rights must be granted explicitly.
-    ** Don't trust anybody: user input and data from external sources must be validated.
-    ** Compartmentalize: Separate components that require different rights from each other.
-    ** Fail securely: If errors occur, no security-relevant information may be disclosed.
-  *	Participants understand that the number of accesses to the Internet can increase by leaps and bounds beyond all expected levels.
-  *	Participants understand that backend systems (such as databases or enterprise information systems) can easily become overloaded if the number of requests increases because a request frequently leads to numerous queries to the backend.
-  *	Participants understand that different persistence strategies (e. g., relational, aggregation/document-oriented, column-oriented, hierarchical, object-oriented, graph-oriented) can be used to support different utilization scenarios with varying degrees of effectiveness.
-  *	Participants understand that the quality depends both on the suitability of the chosen technology and on the specific implementation.
-  *	Participants understand that internationalization means more than just providing content in different languages. For instance:
-    ** Formats for numbers or dates or the order in which words are sorted depend on the cultural area.
-    ** Font directions may differ.
-    ** Layouts must take into account that texts in different languages take up different amounts of space.
-    ** The legal framework in different countries must be taken into account.
-    ** Cultural differences affect, for example, the choice of colors.
+* The participants understand the basics of risk analysis and threat modeling.
+* The participants understand the principles of secure software design:
+** Principle of Least Privilege: give users and components only as many rights as they absolutely need.
+** Defense in Depth: do not trust that other security measures have worked – use redundant checks.
+** Secure by Default: rights must be granted explicitly.
+** Don’t trust anybody: user input and data from external sources must be validated.
+** Compartmentalize: separate components that require different rights from each other.
+** Fail securely: if errors occur, no security-relevant information may be disclosed.
+* The participants understand that the number of accesses to the Internet can increase in leaps and bounds beyond all expected levels.
+* The participants understand that backend systems (such as databases or enterprise information systems) can easily become overloaded when the number of requests increases because one request often leads to a lot of queries to the backend.
+* The participants understand that different persistence strategies (for example, relational, aggregate/document-oriented, column-oriented, hierarchical, object-oriented, graph-oriented) can support different usage scenarios with varying degrees of success.
+* The participants understand that quality depends on both the appropriateness of the chosen technology and the specific implementation.
+* The participants understand that internationalization means more than just offering content in different languages. For example:
+** Formats for numbers or dates or the order in which words are sorted depend on the culture.
+** Text directions may differ.
+** Layouts must take into account that texts in different languages take up different amounts of space.
+** The legal framework in different countries must be taken into account.
+** Cultural differences affect, for example, the choice of colors.
+
 
 **What should participants know?**
 
-  *	Participants know the essential performance indicators that are relevant for operation of a web application:
-    ** Number of processes/threads
-    ** RAM utilization
-    ** Average resource consumption per request
-    ** Number of open connections
-    ** Average response time
+* The participants know the key figures that are relevant to the operation of a web application:
+** Number of processes/threads
+** RAM usage
+** Average resource consumption per request
+** Number of open connections
+** Average response time
+
 // end::EN[]
 
 // tag::REMARK[]
-[NOTE]
-====
-Die einzelnen Lernziele müssen nicht als einfache Aufzählungen mit Unterpunkten aufgeführt werden, sondern können auch gerne in ganzen Sätzen formuliert werden, welche die einzelnen Punkte (sofern möglich) integrieren.
-====
 // end::REMARK[]

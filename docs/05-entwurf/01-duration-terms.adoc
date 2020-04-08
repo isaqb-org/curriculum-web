@@ -14,7 +14,10 @@ Datenmodellierung, Funktionale Zerlegung, Repräsentationm, Verteiltes System, C
 |===
 
 === Terms and Principles
-Data modelling, Functional decomposition, Representation, Distributed system, CAP theorem, ACID, Security of web apps, Authentification, Authorization, Accessibility, Internationalization/Localization, HTML, CSS, JavaScript, Separation of content, presentation and behaviour, Graceful degradation, Progressive enhancement, Unobtrusive JavaScript.
+Data modeling, functional decomposition, representation, distributed system, CAP theorem, ACID,
+security of web applications, authentication, authorization, accessibility, internationalization/localization,
+HTML, CSS, JavaScript, separation of content, presentation and behavior, graceful degradation,
+progressive enhancement, unobtrusive JavaScript.
 
 // end::EN[]
 
