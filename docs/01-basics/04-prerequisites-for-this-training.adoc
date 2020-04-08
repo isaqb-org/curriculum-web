@@ -15,7 +15,7 @@ Teilnehmerinnen und Teilnehmer **sollten** folgende Kenntnisse und/oder Erfahrun
 Participants **should** have the following knowledge and/or experience:
 
 - CPSA-F and all associated requirements
-- Experience with distributed systems&mdash;ideally web apps
+- Experience with distributed systems--ideally web apps
 - Basic knowledge of web technologies HTML, CSS, JavaScript, and at least one server-side framework
 
 // end::EN[]
