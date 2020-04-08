@@ -10,6 +10,15 @@ The terminology used in the iSAQB curricula can be found as a (freely available)
 The Web Architectures (WEB) Curriculum is currently maintained and published in both English (EN) and German (DE).
 Maintainers and volunteer reviewers collaborate on GitHub to improve the curriculum.
 
+=== Status
+
+image:https://github.com/isaqb-org/curriculum-web/workflows/CI/badge.svg?branch=master["CI"]
+image:https://img.shields.io/github/last-commit/isaqb-org/curriculum-web/master.svg["Last commit"]
+image:https://img.shields.io/github/contributors/isaqb-org/curriculum-web.svg["Contributors",link="https://github.com/isaqb-org/curriculum-web/graphs/contributors"]
+image:https://img.shields.io/github/issues/isaqb-org/curriculum-web.svg["Issues",link="https://github.com/isaqb-org/curriculum-web/issues"]
+image:https://img.shields.io/github/issues-closed/isaqb-org/curriculum-web.svg["Issues closed",link="https://github.com/isaqb-org/curriculum-web/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aclosed+"]
+
+
 |===
 | Version | Comments | HTML | PDF
 
