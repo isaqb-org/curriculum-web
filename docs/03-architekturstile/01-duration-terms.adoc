@@ -4,7 +4,7 @@
 |===
 
 === Begriffe und Konzepte
-* Representational State Transfer (REST), Stateful-BackEnd-Web-Apps, Single-Page-Applikation, Web-Components
+Representational State Transfer (REST), Stateful-BackEnd-Web-Apps, Single-Page-Applikation, Web-Components
 
 // end::DE[]
 
@@ -14,7 +14,7 @@
 |===
 
 === Terms and Principles
-* Representational State Transfer (REST), Stateful Backend Web Apps, Single-page Application, Web Components.
+Representational State Transfer (REST), Stateful Backend Web Apps, Single-page Application, Web Components.
 // end::EN[]
 
 // tag::REMARK[]

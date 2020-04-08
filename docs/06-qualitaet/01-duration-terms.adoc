@@ -4,7 +4,7 @@
 |===
 
 === Begriffe und Konzepte
-* Sicherheit, Skalierbarkeit, Web-Scale, Verfügbarkeit, Bedienbarkeit, Barrierefreiheit
+Sicherheit, Skalierbarkeit, Web-Scale, Verfügbarkeit, Bedienbarkeit, Barrierefreiheit
 
 // end::DE[]
 
@@ -14,7 +14,7 @@
 |===
 
 === Terms and Principles
-* Security, Scalability, Web scale, Availability, Operability, Accessibility
+Security, Scalability, Web scale, Availability, Operability, Accessibility
 
 // end::EN[]
 

@@ -4,7 +4,7 @@
 |===
 
 === Begriffe und Konzepte
-* Client, Server, Proxy, Reverse-Proxy, Content Delivery Networks/CDN, Lastverteilung/Load Balancing, CGI
+Client, Server, Proxy, Reverse-Proxy, Content Delivery Networks/CDN, Lastverteilung/Load Balancing, CGI
 // end::DE[]
 
 // tag::EN[]
@@ -13,7 +13,7 @@
 |===
 
 === Terms and Principles
-* Client, Server, Proxy, Reverse proxy, Content Delivery Networks/CDN, Load balancing, CGI, …
+Client, Server, Proxy, Reverse proxy, Content Delivery Networks/CDN, Load balancing, CGI, …
 // end::EN[]
 
 // tag::REMARK[]

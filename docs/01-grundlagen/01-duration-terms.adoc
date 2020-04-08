@@ -4,7 +4,7 @@
 |===
 
 === Begriffe und Konzepte
-* Web-Browser, Web-Server, Client, Server, Proxy, Request, Response, Barrierefreiheit, Basic-Auth, Intranet vs. Internet, Redirect, TLS, Prepocessor, Hypermedia, Statelessness, Pattern Libraries, Frontend Components, Ajax, Single-Sign-On (SSO), Separation of Concerns, Code-on-Demand
+Web-Browser, Web-Server, Client, Server, Proxy, Request, Response, Barrierefreiheit, Basic-Auth, Intranet vs. Internet, Redirect, TLS, Prepocessor, Hypermedia, Statelessness, Pattern Libraries, Frontend Components, Ajax, Single-Sign-On (SSO), Separation of Concerns, Code-on-Demand
 
 // end::DE[]
 
@@ -14,7 +14,7 @@
 |===
 
 === Terms and principles
-* Web browser, web server, client, server, proxy, request, response, accessibility, basic-auth, intranet vs. Internet, redirect, TLS, prepocessor, hypermedia, statelessness, pattern libraries, frontend components, Ajax, single-sign-on (SSO), separation of concerns, code on demand
+Web browser, web server, client, server, proxy, request, response, accessibility, basic-auth, intranet vs. Internet, redirect, TLS, prepocessor, hypermedia, statelessness, pattern libraries, frontend components, Ajax, single-sign-on (SSO), separation of concerns, code on demand
 // end::EN[]
 
 
