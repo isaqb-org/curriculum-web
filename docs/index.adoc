@@ -1,5 +1,7 @@
-= image:images/isaqb-logo-150px.jpg[] Certified Professional for Software Architecture^(R)^ (CPSA)
-- Web Architectures (WEB) Curriculum -
+include::config/setup.adoc[]
+
+= image:isaqb-logo-150px.jpg[]Certified Professional for Software Architecture^(R)^ (CPSA)
+Curriculum {curriculum-name} [{curriculum-short}]
 
 The international Software Architecture Qualification Board (link:https://isaqb.org[iSAQB]) defines curricula on several levels for software architects.
 
@@ -24,23 +26,23 @@ image:https://img.shields.io/github/issues-closed/isaqb-org/curriculum-web.svg["
 
 | German
 |
-| link:curriculum-web-de.html[HTML]
-| link:curriculum-web-de.pdf[PDF]
+| link:{curriculumFileName}-de.html[HTML]
+| link:{curriculumFileName}-de.pdf[PDF]
 
 | English
 |
-| link:curriculum-web-en.html[HTML]
-| link:curriculum-web-en.pdf[PDF]
+| link:{curriculumFileName}-en.html[HTML]
+| link:{curriculumFileName}-en.pdf[PDF]
 
 | German
 | ✔️
-| link:curriculum-web-remarks-de.html[HTML]
-| link:curriculum-web-remarks-de.pdf[PDF]
+| link:{curriculumFileName}-remarks-de.html[HTML]
+| link:{curriculumFileName}-remarks-de.pdf[PDF]
 
 | English
 | ✔️
-| link:curriculum-web-remarks-en.html[HTML]
-| link:curriculum-web-remarks-en.pdf[PDF]
+| link:{curriculumFileName}-remarks-en.html[HTML]
+| link:{curriculumFileName}-remarks-en.pdf[PDF]
 
 |===
 
