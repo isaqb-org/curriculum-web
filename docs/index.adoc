@@ -22,27 +22,15 @@ image:https://img.shields.io/github/issues-closed/isaqb-org/curriculum-web.svg["
 
 
 |===
-| Version | Comments | HTML | PDF
+| Version | HTML | PDF
 
 | German
-|
 | link:{curriculumFileName}-de.html[HTML]
 | link:{curriculumFileName}-de.pdf[PDF]
 
 | English
-|
 | link:{curriculumFileName}-en.html[HTML]
 | link:{curriculumFileName}-en.pdf[PDF]
-
-| German
-| ✔️
-| link:{curriculumFileName}-remarks-de.html[HTML]
-| link:{curriculumFileName}-remarks-de.pdf[PDF]
-
-| English
-| ✔️
-| link:{curriculumFileName}-remarks-en.html[HTML]
-| link:{curriculumFileName}-remarks-en.pdf[PDF]
 
 |===
 

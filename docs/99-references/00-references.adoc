@@ -10,7 +10,7 @@ Dieser Abschnitt enthält Quellenangaben, die ganz oder teilweise im Curriculum 
 // end::DE[]
 
 // tag::EN[]
-This section contains sources that are referenced in the curriculum in whole or in part.
+This section contains references that are cited in the curriculum.
 // end::EN[]
 
 // tag::REMARK[]
@@ -20,8 +20,7 @@ Aufbau eines Eintrags-Ankers:
 ```
 - [[[label,Text der erscheint]]]
 ```
-ACHTUNG: Die Labels dürfen nur Buchstaben beinhalten, keine Zahlen oder Sonderzeichen. Zudem darf
-zwischen Label und Text _NUR_ das Komma, aber kein Leerzeichen stehen.
+ACHTUNG: Die Labels dürfen nur Buchstaben beinhalten, keine Zahlen oder Sonderzeichen
 
 = = =
 
@@ -29,7 +28,7 @@ Structure of an anchor:
 ```
 - [[[label,text that will be shown]]]
 ```
-ATTENTION: labels have to be non-numeric. There must be _NO_ space between label, komma and text.
+ATTENTION: labels have to be non-numeric.
 ====
 // end::REMARK[]
 
