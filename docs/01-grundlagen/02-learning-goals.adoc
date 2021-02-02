@@ -1,79 +1,176 @@
 === {learning-goals}
 
 // tag::DE[]
-[[LZ-1-1]]
-//==== LZ 1-1: Dies ist das erste Lernziel, in Kategorie xy
 In diesem Abschnitt sollen technologieunabhängig Konzepte aus dem Web-Umfeld behandelt werden.
+// end::DE[]
 
-**Was sollen die Teilnehmer können?**
+// tag::EN[]
+In this chapter, technology-independent concepts from the Web environment are discussed.
+// end::EN[]
 
-  * Die Teilnehmer können den typischen Request-/Response-Verlauf erläutern, der bei der Eingabe einer Adresse in der Adresszeile des Browsers bzw. beim Absenden eines Formulars abläuft.
-  * Teilnehmer können den Request-/Response-Verlauf auf typische Komponenten im Web-Umfeld abbilden: Client, Server, Proxy, Reverse Proxy, Load-Balancer, DNS-Server, Framework, eigene Applikationslogik (Servlet, PHP-Script, Rails-Controller).
-  * Die Teilnehmer können den Unterschied zwischen GET und POST-Request erläutern.
-  * Die Teilnehmer können schematisch die typische Client-Server-Infrastruktur von Web-Architekturen skizzieren.
-  * Teilnehmer können den allgemeinen Aufbau von HTTP-Requests erläutern: Header (mit Hostname, Content-Type usw.), Content.
-  * Teilnehmer können den allgemeinen Aufbau von HTTP-Responses erläutern: Response mit Statuszeile, Header und Content.
-  * Die Teilnehmer können den Aufbau einer URI erläutern und die Komponenten in der Request-Verarbeitung, die tendenziell dafür zuständig sind, sie zu interpretieren. 
 
-**Was sollen die Teilnehmer verstehen?**
 
-  * Die Teilnehmer verstehen, dass sich hinter dem Oberbegriff Web-Applikation sowohl technisch als auch fachlich grundlegend verschiedene Arten von IT-Systemen verbergen können, die verschiedene Architekturen erfordern
-  * Die Teilnehmer verstehen, dass Web-Applikationen nicht auf die Verwendung durch Browser beschränkt sind, sondern können auch durch andere Clients genutzt werden
-  * Die Teilnehmer verstehen den Unterschied zwischen inhaltlicher bzw. struktureller und darstellungsspezifischer Auszeichnung von Inhalten im Sinne der Separation of Concerns.
-  * Die  Teilnehmer verstehen die allgemeinen Anforderungen der Web Content Accessibility Guidelines (WCAG), die unter dem Begriff Barrierefreiheit zusammengefasst sind.
-  * Die  Teilnehmer verstehen den meist für Web-Anwendungen angewandten Flow bei Single Sign On Mechanismen (Redirect, Login, Redirect mit Token, Validierung des Tokens).
+// tag::DE[]
+[[LZ-1-1]]
+==== LZ 1-1: Ressourcen und Links
   * Die Teilnehmer verstehen, dass eine Ressource mehr als eine Datenbank-Entität ist (also z.B. auch eine Prozess-Instanz oder ein Prozessschritt).
   * Die Teilnehmer verstehen, dass Hypermedia dazu dient Ressourcen miteinander in Verbindung zu setzten.
-  * Die Teilnehmer verstehen das Konzept von Präprozessoren zur Übersetzung einer Sprache in eine andere bzw. zur Einbettung von Abhängigkeiten oder zur Erkennung toter Code-Blöcke.
-
-**Was sollen die Teilnehmer kennen?**
-
-  * Die Teilnehmer wissen, dass rechtliche Rahmenbedingungen barrierefreie Oberflächen verlangen können. Z. B. formuliert die „Verordnung zur Schaffung barrierefreier Informationstechnik nach dem Behindertengleichstellungsgesetz“ etwa konkrete Anforderungen, die von allen Web-Seiten der Bundesverwaltung der Bundesrepublik Deutschland umgesetzt werden müssen.
-  * Die Teilnehmer kennen einige  der Techniken, die zu barrierefreien Inhalten führen, sorgen gleichzeitig dafür, dass diese Inhalte auch leichter maschinell verarbeitet werden können.
-  * Die Teilnehmer kennen verschiedene Charakteristika von Web-Frameworks:
-    ** Komponenten- sowie Request-Response-Frameworks nutzen häufig vom MVC-Muster beeinflusste Designs
-    ** Request-Response-Frameworks sind strukturell meist relativ gleich aufgebaut: Actions nehmen den Request entgegen, führen Applikationslogik aus und rendern zum Schluss die Response meist mit Templating (HTML) oder Objekt-Serialisierung (JSON/XML)
-  * Die Teilnehmer kennen mit dem Konzept von Pattern-Libraries eine Möglichkeit Frontend-Komponenten zu dokumentieren.
-
 // end::DE[]
 
 // tag::EN[]
 [[LG-1-1]]
-//==== LG 1-1: The is the first learning goal, in category xy
-In this chapter, technology-independent concepts from the Web environment are discussed.
-
-**What should participants be able to do?**
-
-* Participants can explain the typical request/response process that takes place when an address is entered in the address bar of the browser or when a form is submitted.
-* The participants can map the request/response process onto typical components in the web environment: client, server, proxy, reverse proxy, load balancer, DNS server, framework, own application logic (servlet, PHP script, Rails controller).
-* Participants can explain the difference between GET and POST requests.
-* Participants can draw a diagram of the typical client-server infrastructure of web architectures.
-* Participants can explain the general structure of HTTP requests: header (with hostname, content type, etc.), content.
-* Participants can explain the general structure of HTTP responses: response with status line, header and content.
-* Participants can explain the structure of a URI and interpret the components in the request process that tend to be responsible for it.
-
-**What should participants understand?**
-
-* The participants understand that the generic term web application can refer to fundamentally different types of IT systems with regard to both technology and content, which require different architectures
-* The participants understand that web applications are not restricted to use by browsers, but can also be used by other clients
-* The participants understand the difference between the content-related or structural and presentational characterization of content in terms of the separation of concerns.
-* The participants understand the general requirements of the Web Content Accessibility Guidelines (WCAG), which are summarized under the term accessibility.
-* The participants understand the flow usually used for web applications with single sign-on mechanisms (redirect, login, redirect with token, validation of the token).
+==== LG 1-1: Ressources and links
 * The participants understand that a resource is more than just a database entity (i.e. also a process instance or a process step).
 * The participants understand that hypermedia is used to connect resources to each other.
-* The participants understand the principle of preprocessors for translating one language into another or for embedding dependencies or detecting dead blocks of code.
+// end::EN[]
 
-**What should participants know?**
 
-  * The participants know that legal frameworks may require accessible interfaces. For example, the ‘Ordinance on the Creation of Barrier-Free Information Technology in Accordance with the Act on Equal Opportunities for Disabled Persons’ formulates specific requirements that must be implemented by all websites of the Federal Administration of the Federal Republic of Germany.
-  * The participants know some of the techniques that lead to accessible content, while, at the same time, ensuring that this content can also be processed more easily by machine.
+
+// tag::DE[]
+[[LZ-1-2]]
+==== LZ 1-2: URI
+  * Die Teilnehmer können den Aufbau einer URI erläutern und die Komponenten in der Request-Verarbeitung, die tendenziell dafür zuständig sind, sie zu interpretieren. 
+// end::DE[]
+
+// tag::EN[]
+[[LG-1-2]]
+==== LG 1-2: URI
+  * Participants can explain the structure of a URI and interpret the components in the request process that tend to be responsible for it.
+// end::EN[]
+
+
+
+// tag::DE[]
+[[LZ-1-3]]
+==== LZ 1-3: HTTP
+  * Die Teilnehmer können den typischen Request-/Response-Verlauf erläutern, der bei der Eingabe einer Adresse in der Adresszeile des Browsers bzw. beim Absenden eines Formulars abläuft.
+  * Die Teilnehmer können den Unterschied zwischen GET und POST-Request erläutern.
+  * Teilnehmer können den allgemeinen Aufbau von HTTP-Requests erläutern: Header (mit Hostname, Content-Type usw.), Content.
+  * Teilnehmer können den allgemeinen Aufbau von HTTP-Responses erläutern: Response mit Statuszeile, Header und Content.
+// end::DE[]
+
+// tag::EN[]
+[[LG-1-3]]
+==== LG 1-3: HTTP
+  * Participants can explain the typical request/response process that takes place when an address is entered in the address bar of the browser or when a form is submitted.
+ * Participants can explain the difference between GET and POST requests.
+ * Participants can explain the general structure of HTTP requests: header (with hostname, content type, etc.), content.
+ * Participants can explain the general structure of HTTP responses: response with status line, header and content.
+// end::EN[]
+
+
+
+// tag::DE[]
+[[LZ-1-4]]
+==== LZ 1-4: Web-Applikationen
+  * Teilnehmer können den Request-/Response-Verlauf auf typische Komponenten im Web-Umfeld abbilden: Client, Server, Proxy, Reverse Proxy, Load-Balancer, DNS-Server, Framework, eigene Applikationslogik (Servlet, PHP-Script, Rails-Controller).
+  * Die Teilnehmer können schematisch die typische Client-Server-Infrastruktur von Web-Architekturen skizzieren.
+  * Die Teilnehmer verstehen, dass sich hinter dem Oberbegriff Web-Applikation sowohl technisch als auch fachlich grundlegend verschiedene Arten von IT-Systemen verbergen können, die verschiedene Architekturen erfordern
+  * Die Teilnehmer verstehen, dass Web-Applikationen nicht auf die Verwendung durch Browser beschränkt sind, sondern können auch durch andere Clients genutzt werden
+// end::DE[]
+
+// tag::EN[]
+[[LG-1-4]]
+==== LG 1-4: Web applications
+  * The participants can map the request/response process onto typical components in the web environment: client, server, proxy, reverse proxy, load balancer, DNS server, framework, own application logic (servlet, PHP script, Rails controller).
+  * Participants can draw a diagram of the typical client-server infrastructure of web architectures.
+  * The participants understand that the generic term web application can refer to fundamentally different types of IT systems with regard to both technology and content, which require different architectures
+  * The participants understand that web applications are not restricted to use by browsers, but can also be used by other clients
+// end::EN[]
+
+
+
+// tag::DE[]
+[[LZ-1-5]]
+==== LZ 1-5: Web-Framework Muster
+  * Die Teilnehmer kennen verschiedene Charakteristika von Web-Frameworks:
+    ** Komponenten- sowie Request-Response-Frameworks nutzen häufig vom MVC-Muster beeinflusste Designs
+    ** Request-Response-Frameworks sind strukturell meist relativ gleich aufgebaut: Actions nehmen den Request entgegen, führen Applikationslogik aus und rendern zum Schluss die Response meist mit Templating (HTML) oder Objekt-Serialisierung (JSON/XML)
+// end::DE[]
+
+// tag::EN[]
+[[LG-1-5]]
+==== LG 1-5: Web frameworks patterns
   * The participants know different characteristics of web frameworks:
     ** Component and request-response frameworks often use designs influenced by the MVC pattern
     ** Request-response frameworks generally have a relatively similar structure: actions accept the request, execute application logic, and finally render the response, usually with templating (HTML) or object serialization (JSON/XML)
-  *The participants know the principle of pattern libraries as a way of documenting frontend components.
-
-
 // end::EN[]
+
+
+
+// tag::DE[]
+[[LZ-1-6]]
+==== LZ 1-6: Separation of Concerns
+  * Die Teilnehmer verstehen den Unterschied zwischen inhaltlicher bzw. struktureller und darstellungsspezifischer Auszeichnung von Inhalten im Sinne der Separation of Concerns.
+// end::DE[]
+
+// tag::EN[]
+[[LG-1-6]]
+==== LG 1-6: Separation of concerns
+  * The participants understand the difference between the content-related or structural and presentational characterization of content in terms of the separation of concerns.
+// end::EN[]
+
+
+
+// tag::DE[]
+[[LZ-1-7]]
+==== LZ 1-7: Barrierefreiheit
+  * Die  Teilnehmer verstehen die allgemeinen Anforderungen der Web Content Accessibility Guidelines (WCAG), die unter dem Begriff Barrierefreiheit zusammengefasst sind.
+  * Die Teilnehmer wissen, dass rechtliche Rahmenbedingungen barrierefreie Oberflächen verlangen können. Z. B. formuliert die „Verordnung zur Schaffung barrierefreier Informationstechnik nach dem Behindertengleichstellungsgesetz“ etwa konkrete Anforderungen, die von allen Web-Seiten der Bundesverwaltung der Bundesrepublik Deutschland umgesetzt werden müssen.
+  * Die Teilnehmer kennen einige  der Techniken, die zu barrierefreien Inhalten führen, sorgen gleichzeitig dafür, dass diese Inhalte auch leichter maschinell verarbeitet werden können.
+// end::DE[]
+
+// tag::EN[]
+[[LG-1-7]]
+==== LG 1-7: Accessibility
+  * The participants understand the general requirements of the Web Content Accessibility Guidelines (WCAG), which are summarized under the term accessibility.
+  * The participants know that legal frameworks may require accessible interfaces. For example, the ‘Ordinance on the Creation of Barrier-Free Information Technology in Accordance with the Act on Equal Opportunities for Disabled Persons’ formulates specific requirements that must be implemented by all websites of the Federal Administration of the Federal Republic of Germany.
+  * The participants know some of the techniques that lead to accessible content, while, at the same time, ensuring that this content can also be processed more easily by machine.
+// end::EN[]
+
+
+
+// tag::DE[]
+[[LZ-1-8]]
+==== LZ 1-8: Single sign on
+  * Die  Teilnehmer verstehen den meist für Web-Anwendungen angewandten Flow bei Single Sign On Mechanismen (Redirect, Login, Redirect mit Token, Validierung des Tokens).
+// end::DE[]
+
+// tag::EN[]
+[[LG-1-8]]
+==== LG 1-8: Single sign on
+  * The participants understand the flow usually used for web applications with single sign-on mechanisms (redirect, login, redirect with token, validation of the token).
+// end::EN[]
+
+
+
+// tag::DE[]
+[[LZ-1-9]]
+==== LZ 1-9 Pattern Libraries
+  * Die Teilnehmer kennen mit dem Konzept von Pattern-Libraries eine Möglichkeit Frontend-Komponenten zu dokumentieren.
+// end::DE[]
+
+// tag::EN[]
+[[LG-1-9]]
+==== LG 1-9: Pattern libraries
+  * The participants know the principle of pattern libraries as a way of documenting frontend components.
+// end::EN[]
+
+
+
+// tag::DE[]
+[[LZ-1-10]]
+==== LZ 1-10: Präprozessoren
+  * Die Teilnehmer verstehen das Konzept von Präprozessoren zur Übersetzung einer Sprache in eine andere bzw. zur Einbettung von Abhängigkeiten oder zur Erkennung toter Code-Blöcke.
+// end::DE[]
+
+// tag::EN[]
+[[LG-1-10]]
+==== LG 1-10: Preprocessors
+  * The participants understand the principle of preprocessors for translating one language into another or for embedding dependencies or detecting dead blocks of code.
+// end::EN[]
+
+
 
 // tag::REMARK[]
 
