@@ -14,7 +14,7 @@ In this chapter, technology-independent concepts from the Web environment are di
 [[LZ-1-1]]
 ==== LZ 1-1: Ressourcen und Links
   * Die Teilnehmer verstehen, dass eine Ressource mehr als eine Datenbank-Entität ist (also z.B. auch eine Prozess-Instanz oder ein Prozessschritt).
-  * Die Teilnehmer verstehen, dass Hypermedia dazu dient Ressourcen miteinander in Verbindung zu setzten.
+  * Die Teilnehmer verstehen, dass Hypermedia dazu dient Ressourcen miteinander in Verbindung zu setzen.
 // end::DE[]
 
 // tag::EN[]
