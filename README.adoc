@@ -12,7 +12,7 @@ ifdef::env-github[]
 endif::[]
 
 == Status
-image:https://github.com/isaqb-org/curriculum-web/workflows/CI%20-%20Releases%20and%20Main/badge.svg?branch=main["CI"]
+image:https://github.com/isaqb-org/curriculum-web/workflows/CI%20-%20Releases%20and%20Main/badge.svg?branch=main["CI - Releases and Main"]
 image:https://img.shields.io/github/last-commit/isaqb-org/curriculum-web/main["Last commit"]
 image:https://img.shields.io/github/contributors/isaqb-org/curriculum-web.svg["Contributors",link="https://github.com/isaqb-org/advanced-template/graphs/contributors"]
 image:https://img.shields.io/github/issues/isaqb-org/curriculum-web.svg["Issues",link="https://github.com/isaqb-org/advanced-template/issues"]
