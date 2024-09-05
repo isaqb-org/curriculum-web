@@ -17,5 +17,3 @@ URI, URL, URN, HTTP/1.1, HTTP/2, HTTP/3, HTTP-Verben (GET, PUT, POST, DELETE), H
 URI, URL, URN, HTTP/1.1, HTTP/2, HTTP/3, HTTP verbs (GET, PUT, POST, DELETE), HTTP headers, intermediaries, caching, content types, content negotiation, TLS, PKI, HTML, DOM, web sockets, server-sent events, custom elements, shadow DOM, OAuth 2, OpenID Connect, CORS, Content Security Policy
 // end::EN[]
 
-// tag::REMARK[]
-// end::REMARK[]

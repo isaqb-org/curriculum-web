@@ -18,6 +18,4 @@ Web browser, web server, client, server, proxy, request, response, accessibility
 // end::EN[]
 
 
-// tag::REMARK[]
 
-// end::REMARK[]

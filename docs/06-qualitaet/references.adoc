@@ -3,5 +3,3 @@
 - Reference 1
 - Reference 2
 
-// tag::REMARK[]
-// end::REMARK[]

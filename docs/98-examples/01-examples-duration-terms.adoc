@@ -36,5 +36,3 @@ of the participants and are not specified by the iSAQB.
 
 // end::EN[]
 
-// tag::REMARK[]
-// end::REMARK[]

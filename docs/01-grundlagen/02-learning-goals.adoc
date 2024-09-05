@@ -13,7 +13,7 @@ In diesem Abschnitt sollen technologieunabhängig Konzepte aus dem Web-Umfeld be
   * Die Teilnehmer können schematisch die typische Client-Server-Infrastruktur von Web-Architekturen skizzieren.
   * Teilnehmer können den allgemeinen Aufbau von HTTP-Requests erläutern: Header (mit Hostname, Content-Type usw.), Content.
   * Teilnehmer können den allgemeinen Aufbau von HTTP-Responses erläutern: Response mit Statuszeile, Header und Content.
-  * Die Teilnehmer können den Aufbau einer URI erläutern und die Komponenten in der Request-Verarbeitung, die tendenziell dafür zuständig sind, sie zu interpretieren. 
+  * Die Teilnehmer können den Aufbau einer URI erläutern und die Komponenten in der Request-Verarbeitung, die tendenziell dafür zuständig sind, sie zu interpretieren.
 
 **Was sollen die Teilnehmer verstehen?**
 
@@ -75,6 +75,4 @@ In this chapter, technology-independent concepts from the Web environment are di
 
 // end::EN[]
 
-// tag::REMARK[]
 
-// end::REMARK[]

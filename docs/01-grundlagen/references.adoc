@@ -10,5 +10,3 @@
 // end::EN[]
 
 
-// tag::REMARK[]
-// end::REMARK[]

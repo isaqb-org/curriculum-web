@@ -3,5 +3,3 @@
 <<ecma>>, <<fielding>>, <<htmlcss>>, <<jacobs>>, <<rfctls>>, <<rfchttp>>, <<rfcuri>>, <<rfciri>>,
 <<rfchttpstate>>, <<tilkov>>, <<wsi>>
 
-// tag::REMARK[]
-// end::REMARK[]

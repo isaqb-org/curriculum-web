@@ -20,9 +20,9 @@
   * Die Teilnehmer verstehen, welche Auswirkungen die Cache-Control-Header auf Intermediaries haben.
   * Die Teilnehmer verstehen die wesentlichen Eigenschaften des HTTP-Protokolls und können diese erklären.
     ** Das HTTP-Protokoll ist ein zustandsloses Request-Response Applikationsprotokoll.
-    ** HTTP /1.1 ist ein textbasiertes serielles Applikationsprotokoll 
+    ** HTTP /1.1 ist ein textbasiertes serielles Applikationsprotokoll
     ** HTTP/2 multiplexed viele Requests/Responses gleichzeitig über eine TCP-Verbindung.
-    ** HTTP/3 tauscht TCP gegen UDP und ergänzt die fehlende zuverlässige Verbindung in Form vom QUIC auf der Applikationsprotokollebene. 
+    ** HTTP/3 tauscht TCP gegen UDP und ergänzt die fehlende zuverlässige Verbindung in Form vom QUIC auf der Applikationsprotokollebene.
     ** Die Teilnehmer wissen, dass HTTP/3, HTTP/2 und HTTP/1.1 weitestgehend dieselbe Semantik auf Grundlage unterschiedlicher Leitungsprotokolle implementie-ren.
     ** Das HTTP-Protokoll sieht dazwischengeschaltete Verarbeitungsprozesse (Inter-mediaries)  ausdrücklich vor.
     ** Der Client identifiziert gegenüber dem Server eine Ressource über einen URI mit dem Schema http oder https. HTTP-Verben legen dabei die Art des Zugriffs fest, die Verben besitzen Semantik.
@@ -49,7 +49,7 @@
   * Die Teilnehmer verstehen, was HTTPS bedeutet und wie es funktioniert.
   * Die Teilnehmer verstehen, welche Auswirkung es hat, eine TLS-Verbindung zu terminieren.
   * Die Teilnehmer wissen, dass bei HTTP Basic-Authentication Benutzername und Passwort im Klartext übertragen werden.
-  * Die Teilnehmer wissen, dass vertrauliche Informationen im Web-Umfeld am besten auf dem Transportweg verschlüsselt übertragen werden sollten. Die Verschlüsselung auf dem Transportweg erfolgt über Transport Level Security (TLS). 
+  * Die Teilnehmer wissen, dass vertrauliche Informationen im Web-Umfeld am besten auf dem Transportweg verschlüsselt übertragen werden sollten. Die Verschlüsselung auf dem Transportweg erfolgt über Transport Level Security (TLS).
   * Die Teilnehmer verstehen die Auswirkungen von TLS für das Caching.
 
 **Was sollen die Teilnehmer kennen?**
@@ -155,6 +155,4 @@
 
 // end::EN[]
 
-// tag::REMARK[]
 
-// end::REMARK[]

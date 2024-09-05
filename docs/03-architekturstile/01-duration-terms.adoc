@@ -17,6 +17,4 @@ Representational State Transfer (REST), Stateful-BackEnd-Web-Apps, Single-Page-A
 Representational state transfer (REST), stateful backend web apps, single-page application, web components
 // end::EN[]
 
-// tag::REMARK[]
 
-// end::REMARK[]

@@ -18,6 +18,4 @@ Security, scalability, web-scale, availability, operability, accessibility
 
 // end::EN[]
 
-// tag::REMARK[]
 
-// end::REMARK[]

@@ -19,10 +19,3 @@ Participants **should** have the following knowledge and/or experience:
 - Basic knowledge of web technologies HTML, CSS, JavaScript, and at least one server-side framework
 
 // end::EN[]
-
-// tag::REMARK[]
-[NOTE]
-====
-Kenntnisgruppen sowie Voraussetzungen bitte entsprechend ausformulieren!
-====
-// end::REMARK[]

@@ -4,5 +4,3 @@
 <<hohpe>>, <<html>>, <<htmlcss>>, <<htmlsse>>, <<nottingham>>, <<olsson>>, <<owasp>>, <<pritchett>>,
 <<stoneburner>>, <<waldo>>, <<wcag>>, <<websockets>>, <<wwwc>>
 
-// tag::REMARK[]
-// end::REMARK[]

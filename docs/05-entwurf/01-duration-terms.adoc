@@ -24,6 +24,4 @@ progressive enhancement, unobtrusive JavaScript.
 
 // end::EN[]
 
-// tag::REMARK[]
 
-// end::REMARK[]

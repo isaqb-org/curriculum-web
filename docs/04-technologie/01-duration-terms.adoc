@@ -16,6 +16,4 @@ Client, Server, Proxy, Reverse-Proxy, Content Delivery Networks/CDN, Lastverteil
 Client, server, proxy, reverse proxy, content delivery networks/CDN, load balancing, CGI
 // end::EN[]
 
-// tag::REMARK[]
 
-// end::REMARK[]
