@@ -15,7 +15,7 @@ This section contains references that are cited in the curriculum.
 
 **A**
 
-- [[[abbot,Abbot+2010]]] Abbott, M. L., M. T. Fisher: The Art of Scalability, Addison-Wesley 2010
+- [[[abbott,Abbott+2010]]] Abbott, M. L., M. T. Fisher: The Art of Scalability, Addison-Wesley 2010
 
 
 **B**
@@ -50,7 +50,7 @@ This section contains references that are cited in the curriculum.
 - [[[hohpe,Hohpe+2003]]] Hohpe, G, Woolf, B: Enterprise Integration Patterns, Addison-Wesley 2003
 - [[[html,HTML5]]] Web Hypertext Application Technology Working Group (WHATWG): HTML - Living Standard. http://www.whatwg.org/specs/web-apps/current-work/multipage/
 - [[[htmlcss,HTML-CSS]]] W3C Standards für das Webdesign – http://www.w3.org/standards/webdesign/htmlcss
-- [[[htmlsse,HTML5-SSE]]] Server-Sent Events. – http://www.whatwg.org/specs/web-apps/current-work/multipage/comms.html#server-sent-events
+- [[[htmlsse,HTML5-SSE]]] Server-sent events. – http://www.whatwg.org/specs/web-apps/current-work/multipage/comms.html#server-sent-events
 
 **J**
 
@@ -96,5 +96,5 @@ This section contains references that are cited in the curriculum.
 - [[[wwwc,W3C-Int]]] W3C Internationalization Activity - http://www.w3.org/International/
 - [[[waldo,Waldo+1994]]] Waldo, J., G. Wyant, A. Wollrath, S. Kendall: A Note on Distributed Computing. Sun Microsystems 1994 –  http://labs.oracle.com/techrep/1994/smli_tr-94-29.pdf
 - [[[wcag,WCAG 2008]]] Web Content Accessibility Guidelines Working Group: Web Content Accessibility Guidelines.  W3C 2008 – http://www.w3.org/WAI/intro/wcag
-- [[[websockets,Websockets]]] Web sockets - http://www.whatwg.org/specs/web-apps/current-work/multipage/network.html#network
+- [[[websockets,WebSockets]]] WebSockets - http://www.whatwg.org/specs/web-apps/current-work/multipage/network.html#network
 - [[[wsi,WS-I]]] WS-I Profiles - http://ws-i.org/deliverables/Default.aspx
