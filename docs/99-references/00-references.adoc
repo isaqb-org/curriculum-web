@@ -80,6 +80,7 @@ This section contains references that are cited in the curriculum.
 - [[[rfcuri,RFC3986]]] Berners-Lee, T., R. Fielding, L. Masinter: RFC 3986, Uniform Resource Identifier (URI): Generic Syntax.  http://tools.ietf.org/html/rfc3986
 - [[[rfciri,RFC3987]]] Duerst, M., M. Suignard: RFC 3987, Internationalized Resource Identifiers.  http://tools.ietf.org/html/rfc3987
 - [[[rfchttpstate,RFC6265]]] Barth, A.: RFC 6265, HTTP State Management Mechanism.  http://tools.ietf.org/html/rfc6265
+- [[[rfchttpcachegroups,RFC9875]]]  Nottingham, M.: RFC9875, HTTP Cache Groups . https://datatracker.ietf.org/doc/rfc9875/
 
 **S**
 
