@@ -84,6 +84,7 @@ This section contains references that are cited in the curriculum.
 
 **S**
 
+- [[[schulte-coerne, Schulte-Coerne 2025]]] Schulte-Coerne, T., van Lessen, T.: Web Frontend Integration Patterns. In Proceedings of the 30th European Conference on Pattern Languages of Programs, People, and Practices (EuroPLoP 2025), Irsee, Germany, July 2025
 - [[[stoneburner,Stoneburner+2004]]] Stoneburner, G., C. Hayden, A. Feringa: Engineering Principles for Information Technology Security (A Baseline for Achieving Security), Revision A. NIST Special Publication 800-27 Rev A 2004 –  http://csrc.nist.gov/publications/nistpubs/800-27A/SP800-27-RevA.pdf
 
 **T**
