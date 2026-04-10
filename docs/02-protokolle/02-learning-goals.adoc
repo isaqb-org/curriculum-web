@@ -31,18 +31,18 @@
     ** Diverse HTTP-Header legen gemeinsam fest, ob Responses gecachet werden dür-fen.
     ** Verschiedene Repräsentationen der gleichen Ressource werden über Medientypen (Content-Types) identifiziert und können zwischen Client und Server über Con-tent-Negotiation ausgehandelt werden.
     ** Kompression der Response-Daten kann (und sollte) ebenfalls über einen analogen Mechanismus ausgehandelt werden.
-    ** Das HTTP-Protokoll bietet Raum für unterschiedliche Verfahren zur Authentifizie-rung des Clients gegenüber dem Server (z.B. Basic-Authentifizierung).
+    ** Das HTTP-Protokoll bietet Raum für unterschiedliche Verfahren zur Authentisie-rung des Clients gegenüber dem Server (z.B. Basic-Authentication).
     ** Cookies erweitern das Protokoll um einen Mechanismus zur Annotierung der Browser-Sitzung mit beliebigen Informationen.
     ** Auf Cookies aufbauend kann das an sich zustandslose Protokoll mittels Serverseiti-gen Sessions statusbehaftet verwendet werden.
     ** Teilnehmer verstehen die interne Struktur von HTTP-Requests und -Responses.
     ** Die Teilnehmer verstehen, dass das Protokoll TLS auf der Transport-Ebene ver-schlüsselt, bei der eine symmetrische Verschlüsselung erfolgt.
     ** Der Schlüssel wird asymmetrisch z.B. mit Zertifikaten für den Server und den Cli-ent ausgehandelt.
-    ** Zertifikate des Clients können zur Authentifizierung genutzt werden.
+    ** Zertifikate des Clients können zur Authentisierung genutzt werden.
     ** Zertifikate werden mittels Public-Key Infrastrukturen (PKI) gemanaget.
-  * Die Teilnehmer verstehen, dass es für unterschiedliche Anforderungen unter-schiedliche Authentifizierungsmechanismen gibt.
+  * Die Teilnehmer verstehen, dass es für unterschiedliche Anforderungen unter-schiedliche Authentisierungsmechanismen gibt.
   * Die Teilnehmer verstehen, dass man Struktur der Informationen von deren Darstellung trennen sollte.
   * Die Teilnehmer verstehen, wie ein Redirect verarbeitet wird.
-  * Die Teilnehmer verstehen den Begriff Idempotenz.
+  * Die Teilnehmer verstehen den Begriff Idempotenz (speziell im Kontext von PUT vs. POST).
   * Die Teilnehmer verstehen die Eigenschaft Safety. Sie wissen, dass ein HTTP-GET safe ist und daher die Response des Servers auf ein GET prinzipiell gecachet werden darf.
   * Die Teilnehmer verstehen, warum ein Browser beim „Erneut Laden“ bei HTTP-POST eine separate Bestätigung verlangt.
   * Die Teilnehmer verstehen, wie Web-Anwendungen realisiert sein müssen, um solche Rück-fragen des Browsers weitgeh end zu vermeiden.
@@ -50,10 +50,10 @@
   * Die Teilnehmer verstehen, welche Auswirkung es hat, eine TLS-Verbindung zu terminieren.
   * Die Teilnehmer wissen, dass bei HTTP Basic-Authentication Benutzername und Passwort im Klartext übertragen werden.
   * Die Teilnehmer wissen, dass vertrauliche Informationen im Web-Umfeld am besten auf dem Transportweg verschlüsselt übertragen werden sollten. Die Verschlüsselung auf dem Transportweg erfolgt über Transport Level Security (TLS).
-  * Die Teilnehmer verstehen die Auswirkungen von TLS für das Caching.
+  * Die Teilnehmer verstehen die Auswirkungen von TLS für das Caching in Intermediaries.
 
 **Was sollen die Teilnehmer kennen?**
-
+  
   * Die Teilnehmer kennen die gängigen HTTP-Status-Codes und wissen, welche Ursache un-terstellt und welche Reaktion darauf üblicherweise erwartet wird.
   * Die Teilnehmer verstehen die Verantwortung und Aufgaben der Protokolle und Komponen-ten im Web-Umfeld:
     ** URIs identifizieren Ressourcen, URLs lokalisieren sie zusätzlich bei einer Authori-ty,
@@ -61,13 +61,19 @@
     ** Das HTTP-Protokoll ist ein generisches Protokoll zum Zugriff auf Ressourcen und stellt Lösungen für einige nicht-fachliche Anforderungen zur Verfügung,
     ** Für verschiedene Arten von Daten stehen standardisierte Formate zur Verfügung,
     ** HTTP sieht vor, dass Clients und Server das verwendete Format miteinander aus-handeln, wenn mehrere Alternativen existieren.
-  * Die Teilnehmer kennen das Browser-intern verwendete Document Object Model wissen, dass es durch JavaScript und CSS verändert werden kann.
+  * Die Teilnehmer kennen den Unterschied zwischen Browser-Requests zur der Origin einer Webseite, also der Authority der in der Adresszeile stehenden URL, und zu anderen URLs (Cross-Domain Requests).
+    ** Die Teilnehmer wissen, dass diese Unterschiedliche Behandlung in Form der Same-Origin Policy (SOP) umgesetzt wird. 
+  * Die Teilnehmer kennen das Browser-intern verwendete Document Object Model (DOM) wissen, dass es durch JavaScript verändert werden kann.
+  * Die Teilnehmer kennen die Aufgabe von CSS, welches die Darstellung der im DOM vorhandenen Strukturen und Daten beeinflusst.
   * Die Teilnehmer kennen verschiedene Datenformate für die Repräsentation von Informati-onen (HTML, XML, JSON, …).
   * Die Teilnehmer wissen, wie Cookies zwischen Client und Server ausgetauscht und verwaltet werden.
-  * Die Teilnehmer kennen das XML Http Request-Object (kurz XHR) sowie die HTML5-fetch API als Grundlage von AJAX-basierten Anwendungen.
-  * Die Teilnehmer kennen die Möglichkeiten, die sich durch Server-Side-Events ergeben.
+    ** 3rd Party Cookies nennt man Cookies, die von einer anderen Quelle als der origin gesetzt wurden.
+    ** Das SameSite Cookie Attribut schützt Cookies, dass sie aus Sicherheitsgründen nicht 3rd Party werden können.
+    ** Browser Tracking Prevention entscheidet, ob ein 3rd Party Cookie überhaupt gesendet wird.
+  * Die Teilnehmer kennen die fetch API als Grundlage von AJAX-basierten Anwendungen.
   * Die Teilnehmer kennen Mechanismen, die die Verwendung der Browser-Buttons Back und Forward erlauben, ohne unerwünschte Nebeneffekte auszulösen.
   * Die Teilnehmer kennen die relevanten Standardisierungsgremien wie IETF, IANA, W3C und deren Aufgabenbereiche im Bezug auf Web-Architektur.
+  * Die Teilnehmer kennen die Möglichkeiten, die sich durch Server-Sent-Events ergeben.
   * Die Teilnehmer kennen WebSockets.
   * Die Teilnehmer kennen OAuth 2 als ein System zur Zugangsdelegation an Dritte.
   * Die Teilnehmer kennen OpenID Connect als ein auf OAuth 2 basierendes System für Single Sign on
@@ -120,7 +126,7 @@
 * The participants understand that there are different authentication mechanisms for different requirements.
 * The participants understand that the structure of the information should be separated from its representation.
 * The participants understand how a redirect is processed.
-* The participants understand the term idempotence.
+* The participants understand the term idempotence (especially in the context of PUT vs. POST).
 * The participants understand the property of safety. They know that an HTTP GET is safe and that the server response to a GET can therefore fundamentally be cached.
 * The participants understand why a browser requires a separate confirmation when “reloading” with HTTP POST.
 * The participants understand how web applications must be implemented to largely prevent such browser queries.
@@ -128,7 +134,7 @@
 * The participants understand the effect of terminating a TLS connection.
 * The participants know that username and password are transmitted in plain text with HTTP basic authentication.
 * Participants know that confidential information in the web environment should ideally be transferred in an encrypted form during transport. Transport level security (TLS) is used for encryption while in transit.
-* The participants understand the effects of TLS on caching.
+* The participants understand the effects of TLS on caching in intermediaries.
 
 
 **What should participants know?**
@@ -140,13 +146,19 @@
   ** The HTTP protocol is a generic protocol for accessing resources and provides solutions for several non-technical requirements,
   ** Standardized formats are available for different types of data,
   ** HTTP allows clients and servers to negotiate the format used if there are several alternatives.
-* The participants know the Document Object Model used internally in browsers and know that it can be modified by JavaScript and CSS.
+* The participants understand the difference between browser requests to the origin of a website, i.e., the authority of the URL shown in the address bar and requests to other URLs (cross-domain requests).
+  ** The participants know that this different handling is implemented through the Same-Origin Policy (SOP).
+* The participants know the Document Object Model (DOM) used internally in browsers and know that it can be modified by JavaScript.
+* The participants know the role of CSS which influences the presentation of the DOM's structures and data. 
 * The participants know different data formats for the representation of information (HTML, XML, JSON, ...)
 * The participants know how cookies are exchanged and managed between the client and server.
-* The participants know the XMLHttpRequest object (XHR for short) as well as the HTML5-fetch API as the basis of AJAX-based applications.
-* The participants know the possibilities that result from server-side events.
+  ** Third-party cookies are cookies that are set by a source other than the origin.
+  ** The SameSite cookie attribute prevents cookies from becoming third-party cookies for security reasons.
+  ** Browser tracking prevention determines whether a third-party cookie is sent at all.
+* The participants know the fetch API as the basis of AJAX-based applications.
 * The participants know mechanisms that allow the use of the Back and Forward browser buttons without triggering unwanted side effects.
 * The participants know the relevant standardization bodies such as IETF, IANA, W3C and their areas of responsibility with regard to web architecture.
+* The participants know the possibilities that result from Server-sent events.
 * The participants know WebSockets.
 * The participants know OAuth 2 as a system for delegating access to third parties.
 * The participants know OpenID Connect as an OAuth 2-based system for single sign-on
@@ -154,5 +166,3 @@
 * The participants know the Content Security Policy as a mechanism to hamper cross-site scripting
 
 // end::EN[]
-
-

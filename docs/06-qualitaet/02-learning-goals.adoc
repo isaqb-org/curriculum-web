@@ -18,12 +18,6 @@
 * Die Teilnehmer verstehen, dass Backend-Systeme (wie z.B. Datenbanken oder Enterprise Informationssysteme) leicht unter Last geraten, wenn die Anzahl der Requests steigt, weil häufig ein Request zu einer Menge von Anfragen ans Backend führt.
 * Die Teilnehmer verstehen, dass sich mit verschiedenen Persistenzstrategien (z.B. Relational, Aggregat/Dokumenten-orientiert, Spalten-orientiert, Hierarchisch, Objektorientiert, Graphenorientiert) verschiedene Nutzungsszenarien unterschiedlich gut unterstützen lassen.
 * Die Teilnehmer verstehen, dass die Qualität sowohl von der Angemessenheit der ausgewählten Technologie als auch von der konkreten Implementierung abhängen.
-* Die Teilnehmer verstehen, dass Internationalisierung mehr bedeutet, als Inhalte in verschiedenen Sprachen anzubieten.  Etwa
-** Formate für Zahlen oder Datumsangaben oder die Reihenfolge, in der Worte sortiert werden, hängen vom Kulturkreis ab.
-** Schriftrichtungen können sich unterscheiden.
-** Layouts müssen berücksichtigen, dass Texte in verschiedenen Sprachen unterschiedlich viel Platz beanspruchen.
-** Die rechtlichen Rahmenbedingungen in unterschiedlichen Staaten müssen berücksichtigt werden.
-** Kulturelle Unterschiede wirken sich beispielsweise auf die Wahl von Farben aus.
 
 **Was sollen die Teilnehmer kennen?**
 
@@ -54,13 +48,6 @@
 * The participants understand that backend systems (such as databases or enterprise information systems) can easily become overloaded when the number of requests increases because one request often leads to a lot of queries to the backend.
 * The participants understand that different persistence strategies (for example, relational, aggregate/document-oriented, column-oriented, hierarchical, object-oriented, graph-oriented) can support different usage scenarios with varying degrees of success.
 * The participants understand that quality depends on both the appropriateness of the chosen technology and the specific implementation.
-* The participants understand that internationalization means more than just offering content in different languages. For example:
-** Formats for numbers or dates or the order in which words are sorted depend on the culture.
-** Text directions may differ.
-** Layouts must take into account that texts in different languages take up different amounts of space.
-** The legal framework in different countries must be taken into account.
-** Cultural differences affect, for example, the choice of colors.
-
 
 **What should participants know?**
 
