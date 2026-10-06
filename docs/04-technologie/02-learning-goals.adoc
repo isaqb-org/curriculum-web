@@ -10,7 +10,12 @@
 * Die Teilnehmer können das Laufzeitverhalten eines Systems durch den gezielten Einsatz von Reverse Proxies verbessern.
 * Die Teilnehmer können verschiedene Intermediaries benennen und ihre Auswirkungen auf die Architektur erklären.
 ** Proxies speichern Responses für den Client, hierfür sieht das HTTP-Protokoll explizite Regeln vor.
-** Reverse Proxies sind Proxies auf der Server-Seite und fungieren als Caches für die Web-Applikation.
+** Reverse Proxies sind Proxies auf der Server-Seite und können unterschiedliche Aufgaben wahnehmen:
+*** Terminierung der TLS Verbindung,
+*** Caching der Inhalte der dahinter liegenden Web-Applikationen - zum teil auch aktiv gemanaget (Purge, Cache-Groups),
+*** Authentisierung, Autorisierung und andere Security Features (letzteres oft in Form einer Web Application Firewall),
+*** Routing, Load Balancing, Throttling, Billing - oft auch in Form eines API-Gateway Produkts.
+** Backend for Frontends (BFF) sind keine Reverse Proxies. Es handelt sich um eine serverseitig laufende Komponente, die konzeptionell zur frontendseitigen Anwendung gehört und speziell auf deren Anforderungen zugeschnitten ist.
 ** Load Balancer verteilen Anfragen auf Server-Seite auf unterschiedliche Server.
 * Die Teilnehmer kennen verschiedene Skalierungsstrategien (horizontal sowie vertikal) und können die geeignete Skalierungsstrategie auswählen.
 ** Vertikale Skalierung durch leistungsfähigere Hardware.
@@ -23,7 +28,7 @@
 * Die Teilnehmer verstehen, dass Caching die Last auf den Server-Systemen reduzieren kann.
 * Die Teilnehmer verstehen, wie Daten vieler Web-Anwendungen für wenige Benutzer (Client- oder auch Forward-Proxy) oder vieler Benutzer für wenige Web-Anwendungen (Reverse-Proxy) bereitgestellt werden können.
 * Die Teilnehmer verstehen, wie Zugriffe auf Ressourcen durch Proxies kontrolliert werden können.
-* Die Teilnehmer verstehen, wie mittels Reverse-Proxy Authentifizierungsschemata (beispielsweise von Form-based auf Basic-Auth.) umgeschrieben werden können.
+* Die Teilnehmer verstehen, wie mittels Reverse-Proxy die Aufgabe der Authentisierungsschemata (beispielsweise von Form-based auf Basic-Auth.) umgeschrieben werden können.
 * Die Teilnehmer sollten verstehen, welche Infrastruktur-Komponenten im Request-/Response-Zyklus Einfluss auf den Datendurchsatz und die Latenzzeit haben.
 * Die Teilnehmer sollten verstehen, wie Browser-Clients Ressourcen laden und insbesondere HTML-Seiten auswerten und referenzierte Ressourcen anfragen.
 * Die Teilnehmer verstehen, wie das Auslagern von Ressourcen in ein Content Delivery Network (CDN) hilft, die eigene Infrastruktur zu entlasten.
@@ -52,7 +57,12 @@
 * The participants can improve the runtime behavior of a system through the targeted use of reverse proxies.
 * The participants can name various intermediaries and explain their effects on the architecture.
 ** Proxies store responses for the client; the HTTP protocol provides explicit rules for this.
-** Reverse proxies are proxies on the server side and act as caches for the web application.
+** Reverse proxies are proxies on the server side and can fulfill various tasks:
+*** Termination of the TLS connection,
+*** Caching of the content of the underlying web applications — in some cases actively managed (purge, Cache Groups),
+*** Authentication, authorization, and other security features (the latter often implemented in the form of a Web Application Firewall),
+*** Routing, load balancing, throttling, billing — often provided as part of an API gateway product.
+** Backend for Frontends (BFFs) are not reverse proxies. They are server-side components that conceptually belong to the frontend application and are tailored to its specific requirements.
 ** Load balancers distribute queries on the server side to different servers.
 * The participants know different scaling strategies (horizontal and vertical) and can select the appropriate scaling strategy.
 ** Vertical scaling due to more powerful hardware.

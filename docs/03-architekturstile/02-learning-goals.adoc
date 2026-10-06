@@ -29,13 +29,14 @@
 * Die Teilnehmer verstehen die Standard-Features von Single-Page-Frameworks:
 ** Databinding (Two-Way und One-Way)
 ** Templating
+** State Management
 ** Clientseitiges Routing
 ** Komponenten-Abstraktion
 * Die Teilnehmer verstehen, dass sich mit WebComponents (CustomElements + Shadow-DOM) stark von der Seite isolierte, eigenständige JavaScript-Komponenten entwickeln lassen, die sich per DOM instanziieren lassen.
 
 **Was sollen die Teilnehmer kennen?**
 
-* Die  Teilnehmer kennen Mechanismen langlaufende Transaktionen mit entspre-chenden Status-Codes anzunehmen und über geeignete Mechanismen das Ergebnis zu melden, sobald es vorliegt.
+* Die Teilnehmer kennen Mechanismen langlaufende Transaktionen mit entspre-chenden Status-Codes anzunehmen und über geeignete Mechanismen das Ergebnis zu melden, sobald es vorliegt.
 * Die Teilnehmer kennen die Auswirkungen von mobilen Clients:
 ** stark unterschiedliche Bandbreiten
 ** schwankende teilweise sehr hohe Latenz.
@@ -73,6 +74,7 @@
 * The participants understand the standard features of single-page frameworks:
 ** Data binding (two-way and one-way)
 ** Templating
+** State management
 ** Client-side routing
 ** Component abstraction
 * The participants understand that web components (custom elements + shadow DOM) can be used to develop independent JavaScript components that are strongly isolated from the page and can be instantiated via DOM.

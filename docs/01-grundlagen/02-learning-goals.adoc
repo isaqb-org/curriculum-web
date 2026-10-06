@@ -9,7 +9,7 @@ In diesem Abschnitt sollen technologieunabhängig Konzepte aus dem Web-Umfeld be
 
   * Die Teilnehmer können den typischen Request-/Response-Verlauf erläutern, der bei der Eingabe einer Adresse in der Adresszeile des Browsers bzw. beim Absenden eines Formulars abläuft.
   * Teilnehmer können den Request-/Response-Verlauf auf typische Komponenten im Web-Umfeld abbilden: Client, Server, Proxy, Reverse Proxy, Load-Balancer, DNS-Server, Framework, eigene Applikationslogik (Servlet, PHP-Script, Rails-Controller).
-  * Die Teilnehmer können den Unterschied zwischen GET und POST-Request erläutern.
+  * Die Teilnehmer können den Unterschied zwischen GET, PUT, POST, PATCH und DELETE-Requests erläutern.
   * Die Teilnehmer können schematisch die typische Client-Server-Infrastruktur von Web-Architekturen skizzieren.
   * Teilnehmer können den allgemeinen Aufbau von HTTP-Requests erläutern: Header (mit Hostname, Content-Type usw.), Content.
   * Teilnehmer können den allgemeinen Aufbau von HTTP-Responses erläutern: Response mit Statuszeile, Header und Content.
@@ -20,7 +20,6 @@ In diesem Abschnitt sollen technologieunabhängig Konzepte aus dem Web-Umfeld be
   * Die Teilnehmer verstehen, dass sich hinter dem Oberbegriff Web-Applikation sowohl technisch als auch fachlich grundlegend verschiedene Arten von IT-Systemen verbergen können, die verschiedene Architekturen erfordern
   * Die Teilnehmer verstehen, dass Web-Applikationen nicht auf die Verwendung durch Browser beschränkt sind, sondern können auch durch andere Clients genutzt werden
   * Die Teilnehmer verstehen den Unterschied zwischen inhaltlicher bzw. struktureller und darstellungsspezifischer Auszeichnung von Inhalten im Sinne der Separation of Concerns.
-  * Die  Teilnehmer verstehen die allgemeinen Anforderungen der Web Content Accessibility Guidelines (WCAG), die unter dem Begriff Barrierefreiheit zusammengefasst sind.
   * Die  Teilnehmer verstehen den meist für Web-Anwendungen angewandten Flow bei Single Sign On Mechanismen (Redirect, Login, Redirect mit Token, Validierung des Tokens).
   * Die Teilnehmer verstehen, dass eine Ressource mehr als eine Datenbank-Entität ist (also z.B. auch eine Prozess-Instanz oder ein Prozessschritt).
   * Die Teilnehmer verstehen, dass Hypermedia dazu dient Ressourcen miteinander in Verbindung zu setzten.
@@ -28,6 +27,7 @@ In diesem Abschnitt sollen technologieunabhängig Konzepte aus dem Web-Umfeld be
 
 **Was sollen die Teilnehmer kennen?**
 
+  * Die  Teilnehmer kennen die allgemeinen Anforderungen der Web Content Accessibility Guidelines (WCAG), die unter dem Begriff Barrierefreiheit zusammengefasst sind.
   * Die Teilnehmer wissen, dass rechtliche Rahmenbedingungen barrierefreie Oberflächen verlangen können. Z. B. formuliert die „Verordnung zur Schaffung barrierefreier Informationstechnik nach dem Behindertengleichstellungsgesetz“ etwa konkrete Anforderungen, die von allen Web-Seiten der Bundesverwaltung der Bundesrepublik Deutschland umgesetzt werden müssen.
   * Die Teilnehmer kennen einige  der Techniken, die zu barrierefreien Inhalten führen, sorgen gleichzeitig dafür, dass diese Inhalte auch leichter maschinell verarbeitet werden können.
   * Die Teilnehmer kennen verschiedene Charakteristika von Web-Frameworks:
@@ -46,7 +46,7 @@ In this chapter, technology-independent concepts from the Web environment are di
 
 * Participants can explain the typical request/response process that takes place when an address is entered in the address bar of the browser or when a form is submitted.
 * The participants can map the request/response process onto typical components in the web environment: client, server, proxy, reverse proxy, load balancer, DNS server, framework, own application logic (servlet, PHP script, Rails controller).
-* Participants can explain the difference between GET and POST requests.
+* Participants can explain the difference between GET, PUT, POST, PATCH and DELETE requests.
 * Participants can draw a diagram of the typical client-server infrastructure of web architectures.
 * Participants can explain the general structure of HTTP requests: header (with hostname, content type, etc.), content.
 * Participants can explain the general structure of HTTP responses: response with status line, header and content.
@@ -57,7 +57,6 @@ In this chapter, technology-independent concepts from the Web environment are di
 * The participants understand that the generic term web application can refer to fundamentally different types of IT systems with regard to both technology and content, which require different architectures
 * The participants understand that web applications are not restricted to use by browsers, but can also be used by other clients
 * The participants understand the difference between the content-related or structural and presentational characterization of content in terms of the separation of concerns.
-* The participants understand the general requirements of the Web Content Accessibility Guidelines (WCAG), which are summarized under the term accessibility.
 * The participants understand the flow usually used for web applications with single sign-on mechanisms (redirect, login, redirect with token, validation of the token).
 * The participants understand that a resource is more than just a database entity (i.e. also a process instance or a process step).
 * The participants understand that hypermedia is used to connect resources to each other.
@@ -65,6 +64,7 @@ In this chapter, technology-independent concepts from the Web environment are di
 
 **What should participants know?**
 
+* The participants know the general requirements of the Web Content Accessibility Guidelines (WCAG), which are summarized under the term accessibility.
   * The participants know that legal frameworks may require accessible interfaces. For example, the ‘Ordinance on the Creation of Barrier-Free Information Technology in Accordance with the Act on Equal Opportunities for Disabled Persons’ formulates specific requirements that must be implemented by all websites of the Federal Administration of the Federal Republic of Germany.
   * The participants know some of the techniques that lead to accessible content, while, at the same time, ensuring that this content can also be processed more easily by machine.
   * The participants know different characteristics of web frameworks:
