@@ -3,3 +3,9 @@
 <<bitv>>, <<brewer>>, <<buschmann>>, <<daswani>>, <<esi>>, <<htmlsse>>, <<kopparapu>>, <<owasp>>,
 <<pritchett>>, <<stoneburner>>, <<waldo>>, <<wcag>>, <<websockets>>, <<wwwc>>,<<rfchttpcachegroups>>
 
+// tag::DE[]
+// silence asciidoctor warnings
+// end::DE[]
+// tag::EN[]
+// silence asciidoctor warnings
+// end::EN[]

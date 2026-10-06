@@ -4,3 +4,9 @@
 <<hohpe>>, <<html>>, <<htmlcss>>, <<htmlsse>>, <<nottingham>>, <<olsson>>, <<owasp>>, <<pritchett>>,
 <<stoneburner>>, <<waldo>>, <<wcag>>, <<websockets>>, <<wwwc>>,<<schulte-coerne>>
 
+// tag::DE[]
+// silence asciidoctor warnings
+// end::DE[]
+// tag::EN[]
+// silence asciidoctor warnings
+// end::EN[]
